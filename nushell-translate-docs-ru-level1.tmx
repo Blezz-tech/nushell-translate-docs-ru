@@ -106,9 +106,9 @@
 - Solving problems as a modern programming language that works with the structure of your data
 - Giving clear error messages and clean IDE support</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T191723Z" creationid="jenya" creationdate="20240127T191723Z">
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T200921Z" creationid="jenya" creationdate="20240127T191723Z">
         <seg>- Быть гибкой кроссплатформенной оболочкой с современным дизайном
-- Решение проблем как современный язык программирования, который работает со структурой ваших данных
+- Решение проблем с помощью современного языка программирования, который работает со структурой ваших данных
 - Четкие сообщения об ошибках и чистая поддержка IDE</seg>
       </tuv>
     </tu>
@@ -117,8 +117,8 @@
         <seg>- Nushell has its own line editor which [has its own repository](https://github.com/nushell/reedline)
 - [`nu_scripts`](https://github.com/nushell/nu_scripts) is a place to share scripts and modules with other users until we have some sort of package manager.</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T193703Z" creationid="jenya" creationdate="20240127T193703Z">
-        <seg>-Nushell имеет свой собственный редактор строк, [который имеет свой собственный репозиторий](https://github.com/nushell/reedline)
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T201142Z" creationid="jenya" creationdate="20240127T193703Z">
+        <seg>- Nushell имеет свой собственный редактор строк, [имеющий свой собственный репозиторий](https://github.com/nushell/reedline)
 - [`nu_scripts`](https://github.com/nushell/nu_scripts) это место для обмена скриптами и модулями с другими пользователями, пока у нас не появится какой-нибудь менеджер пакетов.</seg>
       </tuv>
     </tu>
@@ -216,8 +216,8 @@
       <tuv lang="en-US">
         <seg>- [Request for Comment (RFC)](https://github.com/nushell/rfcs) serves as a place to propose and discuss major design changes.</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T194215Z" creationid="jenya" creationdate="20240127T194209Z">
-        <seg>- [Запрос на комментарии (RFC)](https://github.com/nushell/rfcs) служит местом для предложения и обсуждения серьезных изменений в дизайне.</seg>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T201938Z" creationid="jenya" creationdate="20240127T194209Z">
+        <seg>- [Запрос на комментарии (RFC)](https://github.com/nushell/rfcs) служит местом для предложений и обсуждений серьезных изменений в дизайне.</seg>
       </tuv>
     </tu>
     <tu>
@@ -326,8 +326,8 @@ features:</seg>
       <tuv lang="en-US">
         <seg>Discovering bugs with reproduction steps and filing GitHub issues for them is a valuable help, too!</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T194720Z" creationid="jenya" creationdate="20240127T194720Z">
-        <seg>Обнаружение ошибок с помощью шагов воспроизведения и создание проблем на GitHub для них - это тоже ценная помощь!</seg>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T202555Z" creationid="jenya" creationdate="20240127T194720Z">
+        <seg>Обнаружение ошибок с помощью шагов воспроизведения и создание запросов в GitHub об этих ошибках является ценной помощью!</seg>
       </tuv>
     </tu>
     <tu>
@@ -486,8 +486,8 @@ features:</seg>
       <tuv lang="en-US">
         <seg>Stop parsing strings and start solving problems.</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T185233Z" creationid="jenya" creationdate="20240127T185233Z">
-        <seg>Перестаньте разбирать строки и начните решать проблемы.</seg>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T195735Z" creationid="jenya" creationdate="20240127T185233Z">
+        <seg>Перестаньте парсить строки и начните решать проблемы.</seg>
       </tuv>
     </tu>
     <tu>
@@ -510,8 +510,8 @@ features:</seg>
       <tuv lang="en-US">
         <seg>The goal of this project is to take the Unix philosophy of shells, where pipes connect simple commands together, and bring it to the modern style of development.</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T191524Z" creationid="jenya" creationdate="20240127T191524Z">
-        <seg>Цель этого проекта - взять философию оболочек Unix, где pipes соединяет простые команды вместе, и перенести ее на современный стиль разработки.</seg>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T200646Z" creationid="jenya" creationdate="20240127T191524Z">
+        <seg>Цель этого проекта - взять философию оболочек Unix, где простые команды соединяются с помощью конвейеров, и адаптировать ее к современному стилю разработки.</seg>
       </tuv>
     </tu>
     <tu>
