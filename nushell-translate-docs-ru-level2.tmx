@@ -1,251 +1,251 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE tmx SYSTEM "tmx11.dtd">
-<tmx version="1.1">
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
   <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="6.0.0_0_1bf1729c" segtype="sentence" srclang="en-US"/>
   <body>
 <!-- Default translations -->
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg># How to configure 3rd party prompts</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T184820Z" creationid="jenya" creationdate="20240127T184820Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T184820Z" creationid="jenya" creationdate="20240127T184820Z">
         <seg># How to configure 3rd party prompts</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg># Introduction</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T191449Z" creationid="jenya" creationdate="20240127T184825Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T191449Z" creationid="jenya" creationdate="20240127T184825Z">
         <seg># Введение</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg># Working with lists</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T191350Z" creationid="jenya" creationdate="20240127T191350Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T191350Z" creationid="jenya" creationdate="20240127T191350Z">
         <seg># Working with lists</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>## Community</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T190458Z" creationid="jenya" creationdate="20240127T190458Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T190458Z" creationid="jenya" creationdate="20240127T190458Z">
         <seg>## Сообщество</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>## Contributing</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T194347Z" creationid="jenya" creationdate="20240127T194347Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T194347Z" creationid="jenya" creationdate="20240127T194347Z">
         <seg>## Вклад</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>## Get Nu</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T190058Z" creationid="jenya" creationdate="20240127T190058Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T190058Z" creationid="jenya" creationdate="20240127T190058Z">
         <seg>## Получить Nu</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>## The Many Parts of Nushell</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T193142Z" creationid="jenya" creationdate="20240127T193142Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T193142Z" creationid="jenya" creationdate="20240127T193142Z">
         <seg>## Множество частей Nushell</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>## This Book</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T191740Z" creationid="jenya" creationdate="20240127T191740Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T191740Z" creationid="jenya" creationdate="20240127T191740Z">
         <seg>## Эта книга</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>### Nu has great error messages</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T185919Z" creationid="jenya" creationdate="20240127T185553Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T185919Z" creationid="jenya" creationdate="20240127T185553Z">
         <seg>### Nu имеет отличные сообщения об ошибках</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>### Nu works with existing data</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T185325Z" creationid="jenya" creationdate="20240127T185325Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T185325Z" creationid="jenya" creationdate="20240127T185325Z">
         <seg>### Nu работает с существующими данными</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>#### Windows:</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T190444Z" creationid="jenya" creationdate="20240127T190444Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T190444Z" creationid="jenya" creationdate="20240127T190444Z">
         <seg>#### Windows:</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>#### macOS / Linux:</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T190426Z" creationid="jenya" creationdate="20240127T190426Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T190426Z" creationid="jenya" creationdate="20240127T190426Z">
         <seg>#### macOS / Linux:</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>- Being a flexible cross-platform shell with a modern feel
 - Solving problems as a modern programming language that works with the structure of your data
 - Giving clear error messages and clean IDE support</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T191723Z" creationid="jenya" creationdate="20240127T191723Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T191723Z" creationid="jenya" creationdate="20240127T191723Z">
         <seg>- Быть гибкой кроссплатформенной оболочкой с современным дизайном
 - Решение проблем как современный язык программирования, который работает со структурой ваших данных
 - Четкие сообщения об ошибках и чистая поддержка IDE</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>- Nushell has its own line editor which [has its own repository](https://github.com/nushell/reedline)
 - [`nu_scripts`](https://github.com/nushell/nu_scripts) is a place to share scripts and modules with other users until we have some sort of package manager.</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T193703Z" creationid="jenya" creationdate="20240127T193703Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T193703Z" creationid="jenya" creationdate="20240127T193703Z">
         <seg>-Nushell имеет свой собственный редактор строк, [который имеет свой собственный репозиторий](https://github.com/nushell/reedline)
 - [`nu_scripts`](https://github.com/nushell/nu_scripts) это место для обмена скриптами и модулями с другими пользователями, пока у нас не появится какой-нибудь менеджер пакетов.</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>- The main Nushell repository can be found [here](https://github.com/nushell/nushell).</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T193352Z" creationid="jenya" creationdate="20240127T193352Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T193352Z" creationid="jenya" creationdate="20240127T193352Z">
         <seg>- Основной репозиторий Nushell можно найти [здесь](https://github.com/nushell/nushell).</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>- The repository of our [nushell.sh](https://www.nushell.sh) page, including this book, can be found [here](https://github.com/nushell/nushell.github.io).</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T193453Z" creationid="jenya" creationdate="20240127T193453Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T193453Z" creationid="jenya" creationdate="20240127T193453Z">
         <seg>- Репозиторий нашей страницы [nushell.sh](https://www.nushell.sh), включая эту книгу, можно найти [здесь](https://github.com/nushell/nushell.github.io).</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>- [(Not So) Advanced](advanced.md) includes some more advanced topics (they are not _so_ advanced, make sure to check them out, too!).</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T193106Z" creationid="jenya" creationdate="20240127T192717Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T193106Z" creationid="jenya" creationdate="20240127T192717Z">
         <seg>- [(Не очень) Продвинутый](advanced.md) включает в себя несколько более продвинутых тем (они не такие _уж_ и продвинутые, обязательно ознакомьтесь и с ними!).</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>- [Awesome Nu](https://github.com/nushell/awesome-nu) contains a list of tools that work with the Nushell ecosystem: plugins, scripts, editor extension, 3rd party integrations, etc.
 - [Nu Showcase](https://github.com/nushell/showcase) is a place to share works about Nushell, be it blogs, artwork or something else.</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T194138Z" creationid="jenya" creationdate="20240127T193947Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T194138Z" creationid="jenya" creationdate="20240127T193947Z">
         <seg>- [Awesome Nu](https://github.com/nushell/awesome-nu) содержит список инструментов, которые работают с экосистемой Nushell: плагины, скрипты, расширения редактора, сторонние интеграции и т.д.
 - [Nu Showcase](https://github.com/nushell/showcase) это место для обмена работами о Nushell, будь то блоги, иллюстрации или что-то еще.</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>- [Coming to Nu](coming_to_nu.md) is intended to give a quick start for users coming from other shells or languages.</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T192634Z" creationid="jenya" creationdate="20240127T192634Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T192634Z" creationid="jenya" creationdate="20240127T192634Z">
         <seg>- [Переход в Nu](coming_to_nu.md) предназначен для быстрого старта пользователей, перешедших с других оболочек или языков.</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>- [Design Notes](design_notes.md) has in-depth explanation of some of the Nushell's design choices.</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T192701Z" creationid="jenya" creationdate="20240127T192701Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T192701Z" creationid="jenya" creationdate="20240127T192701Z">
         <seg>- [Примечания к дизайну](design_notes.md) подробно объясняет некоторые конструктивные решения Nushell.</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>- [Getting Started](getting_started.md) teaches you how to install Nushell and shows you the ropes.</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T191838Z" creationid="jenya" creationdate="20240127T191838Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T191838Z" creationid="jenya" creationdate="20240127T191838Z">
         <seg>- [Начало работы](getting_started.md) научит вас, как установить Nushell, и покажет вам, что к чему.</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>- [Nana](https://github.com/nushell/nana) is an experimental effort to explore graphical user interface for Nushell.</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T193753Z" creationid="jenya" creationdate="20240127T193747Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T193753Z" creationid="jenya" creationdate="20240127T193747Z">
         <seg>- [Nana](https://github.com/nushell/nana) это экспериментальная попытка исследовать графический пользовательский интерфейс для Nushell.</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>- [Nu Fundamentals](nu_fundamentals.md) explains basic concepts of the Nushell language.</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T192334Z" creationid="jenya" creationdate="20240127T192334Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T192334Z" creationid="jenya" creationdate="20240127T192334Z">
         <seg>- [Основы Nu](nu_fundamentals.md) объясняет основные понятия языка Nushell.</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>- [Nu as a Shell](nu_as_a_shell.md) focuses on the shell features, most notably the configuration and environment.</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T192437Z" creationid="jenya" creationdate="20240127T192424Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T192437Z" creationid="jenya" creationdate="20240127T192424Z">
         <seg>- [Nu как оболочка](nu_as_a_shell.md) В центре внимания - возможности оболочки, в первую очередь конфигурация и окружение.</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>- [Programming in Nu](programming_in_nu.md) dives more deeply into the language features and shows several ways how to organize and structure your code.</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T192514Z" creationid="jenya" creationdate="20240127T192358Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T192514Z" creationid="jenya" creationdate="20240127T192358Z">
         <seg>- [Программирование в Nu](programming_in_nu.md) более глубоко погружает в особенности языка и показывает несколько способов организации и структурирования вашего кода.</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>- [Request for Comment (RFC)](https://github.com/nushell/rfcs) serves as a place to propose and discuss major design changes.</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T194215Z" creationid="jenya" creationdate="20240127T194209Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T194215Z" creationid="jenya" creationdate="20240127T194209Z">
         <seg>- [Запрос на комментарии (RFC)](https://github.com/nushell/rfcs) служит местом для предложения и обсуждения серьезных изменений в дизайне.</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>- title: Everything is data</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T185140Z" creationid="jenya" creationdate="20240127T185140Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T185140Z" creationid="jenya" creationdate="20240127T185140Z">
         <seg>- title: Все есть данные</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>- title: Pipelines to control any OS</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T185105Z" creationid="jenya" creationdate="20240127T185105Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T185105Z" creationid="jenya" creationdate="20240127T185105Z">
         <seg>- title: Конвейеры для управления любой ОС</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>- title: Powerful plugins</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T185242Z" creationid="jenya" creationdate="20240127T185242Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T185242Z" creationid="jenya" creationdate="20240127T185242Z">
         <seg>- title: Мощные плагины</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>---
 home: true
 heroImage: null
@@ -255,7 +255,7 @@ actionText: Get Started →
 actionLink: /book/
 features:</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T185044Z" creationid="jenya" creationdate="20240127T184823Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T185044Z" creationid="jenya" creationdate="20240127T184823Z">
         <seg>---
 home: true
 heroImage: null
@@ -267,386 +267,386 @@ features:</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>&lt;img src="https://www.nushell.sh/frontpage/fetch-example.png" alt="Screenshot showing fetch with a web API" class="hero"/&gt;</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T185552Z" creationid="jenya" creationdate="20240127T185552Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T185552Z" creationid="jenya" creationdate="20240127T185552Z">
         <seg>&lt;img src="https://www.nushell.sh/frontpage/fetch-example.png" alt="Снимок экрана, показывающий выборку с помощью веб-API" class="hero"/&gt;</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>&lt;img src="https://www.nushell.sh/frontpage/ls-example.png" alt="Screenshot showing using the ls command" class="hero"/&gt;</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T185308Z" creationid="jenya" creationdate="20240127T185308Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T185308Z" creationid="jenya" creationdate="20240127T185308Z">
         <seg>&lt;img src="https://www.nushell.sh/frontpage/ls-example.png" alt="Снимок экрана, показывающий использование команды ls" class="hero"/&gt;</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>&lt;img src="https://www.nushell.sh/frontpage/miette-example.png" alt="Screenshot showing Nu catching a type error" class="hero"/&gt;</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T190046Z" creationid="jenya" creationdate="20240127T190046Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T190046Z" creationid="jenya" creationdate="20240127T190046Z">
         <seg>&lt;img src="https://www.nushell.sh/frontpage/miette-example.png" alt="Снимок экрана, показывающий, как Nu ловит ошибку типа" class="hero"/&gt;</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>After installing, launch Nu by typing `nu`.</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T190452Z" creationid="jenya" creationdate="20240127T190452Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T190452Z" creationid="jenya" creationdate="20240127T190452Z">
         <seg>После установки запустите Nu, набрав `nu`.</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>And when things break, Nu tells you exactly where and why:</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T190029Z" creationid="jenya" creationdate="20240127T190029Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T190029Z" creationid="jenya" creationdate="20240127T190029Z">
         <seg>А когда что-то ломается, Nu точно сообщает, где и почему:</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>But rather than trying to be a jack of all trades, Nu focuses its energy on doing a few things well:</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T191702Z" creationid="jenya" creationdate="20240127T191702Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T191702Z" creationid="jenya" creationdate="20240127T191702Z">
         <seg>Но вместо того, чтобы пытаться быть универсальным специалистом, Nu сосредоточила свою энергию на том, чтобы делать несколько вещей хорошо:</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>Contributing to this book does not require any special skills aside from a basic familiarity with Markdown.</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T194801Z" creationid="jenya" creationdate="20240127T194801Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T194801Z" creationid="jenya" creationdate="20240127T194801Z">
         <seg>Работа над этой книгой не требует никаких специальных навыков, кроме базового знакомства с Markdown.</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>Discovering bugs with reproduction steps and filing GitHub issues for them is a valuable help, too!</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T194720Z" creationid="jenya" creationdate="20240127T194720Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T194720Z" creationid="jenya" creationdate="20240127T194720Z">
         <seg>Обнаружение ошибок с помощью шагов воспроизведения и создание проблем на GitHub для них - это тоже ценная помощь!</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>Finally, you can use the GitHub discussions or file GitHub issues.</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T195115Z" creationid="jenya" creationdate="20240127T195115Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T195115Z" creationid="jenya" creationdate="20240127T195115Z">
         <seg>Наконец, вы можете воспользоваться обсуждениями на GitHub или создать проблемы на GitHub.</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>Furthermore, you can consider translating parts of it to your language.</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T194806Z" creationid="jenya" creationdate="20240127T194806Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T194806Z" creationid="jenya" creationdate="20240127T194806Z">
         <seg>Кроме того, вы можете перевести некоторые его части на свой язык.</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>Hello, and welcome to the Nushell project.</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T191457Z" creationid="jenya" creationdate="20240127T191457Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T191457Z" creationid="jenya" creationdate="20240127T191457Z">
         <seg>Здравствуйте, добро пожаловать в проект Nushell.</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>However, you do not have to be a Rust programmer to help.</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T194545Z" creationid="jenya" creationdate="20240127T194545Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T194545Z" creationid="jenya" creationdate="20240127T194545Z">
         <seg>Однако вам не обязательно быть программистом Rust, чтобы помочь.</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>If you know some web development, you can contribute to improving this website or the Nana project.</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T194555Z" creationid="jenya" creationdate="20240127T194555Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T194555Z" creationid="jenya" creationdate="20240127T194555Z">
         <seg>Если вы разбираетесь в веб-разработке, вы можете внести свой вклад в улучшение этого сайта или проекта Nana.</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>If you wrote a cool script, plugin or integrated Nushell somewhere, we'd welcome your contribution to `nu_scripts` or Awesome Nu.</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T194653Z" creationid="jenya" creationdate="20240127T194653Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T194653Z" creationid="jenya" creationdate="20240127T194653Z">
         <seg>Если вы написали крутой скрипт, плагин или интегрировали Nushell куда-то, мы будем рады вашему вкладу в `nu_scripts` или Awesome Nu.</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>It also explains some of the design principles where Nushell differs from typical shells, such as bash.</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T191909Z" creationid="jenya" creationdate="20240127T191909Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T191909Z" creationid="jenya" creationdate="20240127T191909Z">
         <seg>В ней также объясняются некоторые принципы проектирования, по которым Nushell отличается от типичных оболочек, таких как bash.</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>It is broken into multiple crates that can be used as independent libraries in your own project, if you wish so.</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T193412Z" creationid="jenya" creationdate="20240127T193412Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T193412Z" creationid="jenya" creationdate="20240127T193412Z">
         <seg>Он разбит на несколько ящиков, которые при желании можно использовать в качестве независимых библиотек в собственном проекте.</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>It's easy to bring data into a Nu pipeline whether it's in a file, a database, or a web API:</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T185510Z" creationid="jenya" creationdate="20240127T185510Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T185510Z" creationid="jenya" creationdate="20240127T185510Z">
         <seg>В конвейер Nu легко внести данные, будь они в файле, базе данных или веб-API:</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>Join us [on Discord](https://discord.gg/NtAbbGn) if you have any questions about Nu!</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T190533Z" creationid="jenya" creationdate="20240127T190533Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T190533Z" creationid="jenya" creationdate="20240127T190533Z">
         <seg>Присоединяйтесь к нам [в Discord](https://discord.gg/NtAbbGn), если у вас есть вопросы о Nu!</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>Learn it once, then use it anywhere.</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T185125Z" creationid="jenya" creationdate="20240127T185125Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T185125Z" creationid="jenya" creationdate="20240127T185125Z">
         <seg>Выучите его один раз, а затем используйте везде.</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>Most repositories contain `CONTRIBUTING.md` file with tips and details that should help you get started (if not, consider contributing a fix!).</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T194521Z" creationid="jenya" creationdate="20240127T194521Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T194521Z" creationid="jenya" creationdate="20240127T194521Z">
         <seg>Большинство репозиториев содержат файл `CONTRIBUTING.md` с советами и подробностями, которые должны помочь вам начать работу (если нет, подумайте о внесении исправления!).</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>Nu operates on typed data, so it catches bugs that other shells don't.</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T190017Z" creationid="jenya" creationdate="20240127T190017Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T190017Z" creationid="jenya" creationdate="20240127T190017Z">
         <seg>Nu оперирует типизированными данными, поэтому отлавливает ошибки, которые  другие оболочки не могут.</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>Nu speaks [JSON, YAML, SQLite, Excel, and more](/book/loading_data.html) out of the box.</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T185407Z" creationid="jenya" creationdate="20240127T185407Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T185407Z" creationid="jenya" creationdate="20240127T185407Z">
         <seg>Nu говорит на языках [JSON, YAML, SQLite, Excel, и других](/book/loading_data.html) из коробки.</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>Nu takes cues from a lot of familiar territory: traditional shells like bash, object based shells like PowerShell, gradually typed languages like TypeScript, functional programming, systems programming, and more.</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T191642Z" creationid="jenya" creationdate="20240127T191642Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T191642Z" creationid="jenya" creationdate="20240127T191642Z">
         <seg>Nu берет пример со многих знакомых мест: традиционные оболочки, такие как bash, объектно-ориентированные оболочки, такие как PowerShell, постепенно типизируемые языки, такие как TypeScript, функциональное программирование, системное программирование и многое другое.</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>Nushell is available as [downloadable binaries](https://github.com/nushell/nushell/releases), [via your favourite package manager](https://repology.org/project/nushell/versions), in [a GitHub Action](https://github.com/marketplace/actions/setup-nu), and as [source code](https://github.com/nushell/nushell).</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T190359Z" creationid="jenya" creationdate="20240127T190359Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T190359Z" creationid="jenya" creationdate="20240127T190359Z">
         <seg>Nushell доступен в виде [загружаемых двоичных файлов](https://github.com/nushell/nushell/releases), [через ваш любимый менеджер пакетов](https://repology.org/project/nushell/versions), в [Действие GitHub](https://github.com/marketplace/actions/setup-nu), а также в виде [исходного кода](https://github.com/nushell/nushell).</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>Nushell itself is written in [Rust](https://www.rust-lang.org).</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T194535Z" creationid="jenya" creationdate="20240127T194535Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T194535Z" creationid="jenya" creationdate="20240127T194535Z">
         <seg>Сам Nushell написан на языке [Rust](https://www.rust-lang.org).</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>Read [the detailed installation instructions](/book/installation.html) or dive right in:</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T190423Z" creationid="jenya" creationdate="20240127T190416Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T190423Z" creationid="jenya" creationdate="20240127T190416Z">
         <seg>Прочитайте [подробные инструкции по установке](/book/installation.html) или сразу приступайте к работе:</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>Since Nushell evolves fast, this book is in a constant need of updating.</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T194753Z" creationid="jenya" creationdate="20240127T194753Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T194753Z" creationid="jenya" creationdate="20240127T194753Z">
         <seg>Поскольку Nushell быстро развивается, эта книга постоянно нуждается в обновлении.</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>Stop parsing strings and start solving problems.</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T185233Z" creationid="jenya" creationdate="20240127T185233Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T185233Z" creationid="jenya" creationdate="20240127T185233Z">
         <seg>Перестаньте разбирать строки и начните решать проблемы.</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>The Nushell project consists of multiple different repositories and subprojects.</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T193159Z" creationid="jenya" creationdate="20240127T193159Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T193159Z" creationid="jenya" creationdate="20240127T193159Z">
         <seg>Проект Nushell состоит из множества различных репозиториев и подпроектов.</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>The book is split into chapters which are further broken down into sections.</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T191750Z" creationid="jenya" creationdate="20240127T191750Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T191750Z" creationid="jenya" creationdate="20240127T191750Z">
         <seg>Книга разделена на главы, которые далее разбиты на разделы.</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>The goal of this project is to take the Unix philosophy of shells, where pipes connect simple commands together, and bring it to the modern style of development.</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T191524Z" creationid="jenya" creationdate="20240127T191524Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T191524Z" creationid="jenya" creationdate="20240127T191524Z">
         <seg>Цель этого проекта - взять философию оболочек Unix, где pipes соединяет простые команды вместе, и перенести ее на современный стиль разработки.</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>The main place to discuss anything Nushell is our [Discord](https://discord.com/invite/NtAbbGn).</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T194828Z" creationid="jenya" creationdate="20240127T194828Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T194828Z" creationid="jenya" creationdate="20240127T194828Z">
         <seg>Основным местом для обсуждения всего, что связано с Nushell, является наш  [Discord](https://discord.com/invite/NtAbbGn).</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>Thus, rather than being either a shell, or a programming language, Nushell connects both by bringing a rich programming language and a full-featured shell together into one package.</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T191611Z" creationid="jenya" creationdate="20240127T191611Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T191611Z" creationid="jenya" creationdate="20240127T191611Z">
         <seg>Таким образом, Nushell не является ни оболочкой, ни языком программирования, а соединяет в себе и то, и другое, объединяя в одном пакете богатый язык программирования и полнофункциональную оболочку.</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>We welcome contributions!</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T194434Z" creationid="jenya" creationdate="20240127T194434Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T194434Z" creationid="jenya" creationdate="20240127T194434Z">
         <seg>Мы приветствуем вклад в развитие!</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>While currently under-utilized, we expect to use it more as we get closer to and beyond 1.0.</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T194308Z" creationid="jenya" creationdate="20240127T194305Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T194308Z" creationid="jenya" creationdate="20240127T194305Z">
         <seg>Хотя в настоящее время он недостаточно используется, мы ожидаем увеличения его использования по мере приближения и превышения версии 1.0.</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>You can also follow us on [Twitter](https://twitter.com/nu_shell) for news and updates.</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T195110Z" creationid="jenya" creationdate="20240127T195110Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T195110Z" creationid="jenya" creationdate="20240127T195110Z">
         <seg>Вы также можете следить за нашими новостями и обновлениями в [Twitter](https://twitter.com/nu_shell).</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>You can click on the chapter headers to get more information about it.</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T191802Z" creationid="jenya" creationdate="20240127T191802Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T191802Z" creationid="jenya" creationdate="20240127T191802Z">
         <seg>Вы можете нажать на заголовки глав, чтобы получить более подробную информацию о них.</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>You can contribute to Nushell just by using Nushell!</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T194736Z" creationid="jenya" creationdate="20240127T194727Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T194736Z" creationid="jenya" creationdate="20240127T194727Z">
         <seg>Вы можете внести свой вклад в развитие Nushell, просто используя Nushell!</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>You can find all of them under [our organization on GitHub](https://github.com/nushell).</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T193332Z" creationid="jenya" creationdate="20240127T193332Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T193332Z" creationid="jenya" creationdate="20240127T193332Z">
         <seg>Вы можете найти их в разделе [Наша организация на GitHub](https://github.com/nushell).</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>You can help improve this site by [giving us feedback](https://github.com/nushell/nushell.github.io/issues) or [sending a PR](https://github.com/nushell/nushell.github.io/pulls).</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T190653Z" creationid="jenya" creationdate="20240127T190653Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T190653Z" creationid="jenya" creationdate="20240127T190653Z">
         <seg>Вы можете помочь улучшить этот сайт, [оставив отзыв](https://github.com/nushell/nushell.github.io/issues) или [отправив PR](https://github.com/nushell/nushell.github.io/pulls).</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>[As you can see](#the-many-parts-of-nushell), there are a lot of places to contribute to.</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T194503Z" creationid="jenya" creationdate="20240127T194500Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T194503Z" creationid="jenya" creationdate="20240127T194500Z">
         <seg>[Как видите](#the-many-parts-of-nushell), есть много мест, куда можно внести свой вклад.</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>[Dataframes](dataframes.md) can use your data processing expertise.</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T194631Z" creationid="jenya" creationdate="20240127T194631Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T194631Z" creationid="jenya" creationdate="20240127T194631Z">
         <seg>[Dataframes](dataframes.md) может использовать ваш опыт обработки данных.</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>```shell
 $ brew install nushell
 ```</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T190435Z" creationid="jenya" creationdate="20240127T190435Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T190435Z" creationid="jenya" creationdate="20240127T190435Z">
         <seg>```shell
 $ brew install nushell
 ```</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>```shell
 $ winget install nushell
 ```</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T190446Z" creationid="jenya" creationdate="20240127T190446Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T190446Z" creationid="jenya" creationdate="20240127T190446Z">
         <seg>```shell
 $ winget install nushell
 ```</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>details: It's easy to extend Nu using a powerful plugin system.</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T185256Z" creationid="jenya" creationdate="20240127T185256Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T185256Z" creationid="jenya" creationdate="20240127T185256Z">
         <seg>details: Nu легко расширяется с помощью мощной системы плагинов.</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>details: Nu pipelines use structured data so you can safely select, filter, and sort the same way every time.</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T185221Z" creationid="jenya" creationdate="20240127T185221Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T185221Z" creationid="jenya" creationdate="20240127T185221Z">
         <seg>details: Конвейеры Nu используют структурированные данные, поэтому вы можете спокойно выбирать, фильтровать и сортировать их каждый раз одним и тем же способом.</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv lang="en-US">
+      <tuv xml:lang="en-US">
         <seg>details: Nu works on Linux, macOS, BSD, and Windows.</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T185117Z" creationid="jenya" creationdate="20240127T185117Z">
+      <tuv xml:lang="ru-RU" changeid="jenya" changedate="20240127T185117Z" creationid="jenya" creationdate="20240127T185117Z">
         <seg>details: Nu работает на Linux, macOS, BSD и Windows.</seg>
       </tuv>
     </tu>
