@@ -1,1 +1,5 @@
 target
+*.bak
+omegat/project_stats.txt
+omegat/last_entry.properties
+omegat/project_stats.txt
