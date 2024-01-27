@@ -4,6 +4,276 @@
   <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="6.0.0_0_1bf1729c" segtype="sentence" srclang="en-US"/>
   <body>
 <!-- Default translations -->
+    <tu>
+      <tuv lang="en-US">
+        <seg># How to configure 3rd party prompts</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T184820Z" creationid="jenya" creationdate="20240127T184820Z">
+        <seg># How to configure 3rd party prompts</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg># Introduction</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T184825Z" creationid="jenya" creationdate="20240127T184825Z">
+        <seg># Introduction</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>## Community</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T190458Z" creationid="jenya" creationdate="20240127T190458Z">
+        <seg>## Сообщество</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>## Get Nu</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T190058Z" creationid="jenya" creationdate="20240127T190058Z">
+        <seg>## Получить Nu</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>### Nu has great error messages</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T185919Z" creationid="jenya" creationdate="20240127T185553Z">
+        <seg>### Nu имеет отличные сообщения об ошибках</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>### Nu works with existing data</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T185325Z" creationid="jenya" creationdate="20240127T185325Z">
+        <seg>### Nu работает с существующими данными</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>#### Windows:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T190444Z" creationid="jenya" creationdate="20240127T190444Z">
+        <seg>#### Windows:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>#### macOS / Linux:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T190426Z" creationid="jenya" creationdate="20240127T190426Z">
+        <seg>#### macOS / Linux:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>- title: Everything is data</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T185140Z" creationid="jenya" creationdate="20240127T185140Z">
+        <seg>- title: Все есть данные</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>- title: Pipelines to control any OS</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T185105Z" creationid="jenya" creationdate="20240127T185105Z">
+        <seg>- title: Конвейеры для управления любой ОС</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>- title: Powerful plugins</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T185242Z" creationid="jenya" creationdate="20240127T185242Z">
+        <seg>- title: Мощные плагины</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>---
+home: true
+heroImage: null
+heroText: Nushell
+tagline: A new type of shell
+actionText: Get Started →
+actionLink: /book/
+features:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T185044Z" creationid="jenya" creationdate="20240127T184823Z">
+        <seg>---
+home: true
+heroImage: null
+heroText: Nushell
+tagline: Новый тип оболочки
+actionText: Начать →
+actionLink: /book/
+features:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>&lt;img src="https://www.nushell.sh/frontpage/fetch-example.png" alt="Screenshot showing fetch with a web API" class="hero"/&gt;</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T185552Z" creationid="jenya" creationdate="20240127T185552Z">
+        <seg>&lt;img src="https://www.nushell.sh/frontpage/fetch-example.png" alt="Снимок экрана, показывающий выборку с помощью веб-API" class="hero"/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>&lt;img src="https://www.nushell.sh/frontpage/ls-example.png" alt="Screenshot showing using the ls command" class="hero"/&gt;</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T185308Z" creationid="jenya" creationdate="20240127T185308Z">
+        <seg>&lt;img src="https://www.nushell.sh/frontpage/ls-example.png" alt="Снимок экрана, показывающий использование команды ls" class="hero"/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>&lt;img src="https://www.nushell.sh/frontpage/miette-example.png" alt="Screenshot showing Nu catching a type error" class="hero"/&gt;</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T190046Z" creationid="jenya" creationdate="20240127T190046Z">
+        <seg>&lt;img src="https://www.nushell.sh/frontpage/miette-example.png" alt="Снимок экрана, показывающий, как Nu ловит ошибку типа" class="hero"/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>After installing, launch Nu by typing `nu`.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T190452Z" creationid="jenya" creationdate="20240127T190452Z">
+        <seg>После установки запустите Nu, набрав `nu`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>And when things break, Nu tells you exactly where and why:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T190029Z" creationid="jenya" creationdate="20240127T190029Z">
+        <seg>А когда что-то ломается, Nu точно сообщает, где и почему:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It's easy to bring data into a Nu pipeline whether it's in a file, a database, or a web API:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T185510Z" creationid="jenya" creationdate="20240127T185510Z">
+        <seg>В конвейер Nu легко внести данные, будь они в файле, базе данных или веб-API:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Join us [on Discord](https://discord.gg/NtAbbGn) if you have any questions about Nu!</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T190533Z" creationid="jenya" creationdate="20240127T190533Z">
+        <seg>Присоединяйтесь к нам [в Discord](https://discord.gg/NtAbbGn), если у вас есть вопросы о Nu!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Learn it once, then use it anywhere.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T185125Z" creationid="jenya" creationdate="20240127T185125Z">
+        <seg>Выучите его один раз, а затем используйте везде.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Nu operates on typed data, so it catches bugs that other shells don't.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T190017Z" creationid="jenya" creationdate="20240127T190017Z">
+        <seg>Nu оперирует типизированными данными, поэтому отлавливает ошибки, которые  другие оболочки не могут.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Nu speaks [JSON, YAML, SQLite, Excel, and more](/book/loading_data.html) out of the box.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T185407Z" creationid="jenya" creationdate="20240127T185407Z">
+        <seg>Nu говорит на языках [JSON, YAML, SQLite, Excel, и других](/book/loading_data.html) из коробки.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Nushell is available as [downloadable binaries](https://github.com/nushell/nushell/releases), [via your favourite package manager](https://repology.org/project/nushell/versions), in [a GitHub Action](https://github.com/marketplace/actions/setup-nu), and as [source code](https://github.com/nushell/nushell).</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T190359Z" creationid="jenya" creationdate="20240127T190359Z">
+        <seg>Nushell доступен в виде [загружаемых двоичных файлов](https://github.com/nushell/nushell/releases), [через ваш любимый менеджер пакетов](https://repology.org/project/nushell/versions), в [Действие GitHub](https://github.com/marketplace/actions/setup-nu), а также в виде [исходного кода](https://github.com/nushell/nushell).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Read [the detailed installation instructions](/book/installation.html) or dive right in:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T190423Z" creationid="jenya" creationdate="20240127T190416Z">
+        <seg>Прочитайте [подробные инструкции по установке](/book/installation.html) или сразу приступайте к работе:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Stop parsing strings and start solving problems.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T185233Z" creationid="jenya" creationdate="20240127T185233Z">
+        <seg>Перестаньте разбирать строки и начните решать проблемы.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can help improve this site by [giving us feedback](https://github.com/nushell/nushell.github.io/issues) or [sending a PR](https://github.com/nushell/nushell.github.io/pulls).</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T190653Z" creationid="jenya" creationdate="20240127T190653Z">
+        <seg>Вы можете помочь улучшить этот сайт, [оставив отзыв](https://github.com/nushell/nushell.github.io/issues) или [отправив PR](https://github.com/nushell/nushell.github.io/pulls).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```shell
+$ brew install nushell
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T190435Z" creationid="jenya" creationdate="20240127T190435Z">
+        <seg>```shell
+$ brew install nushell
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```shell
+$ winget install nushell
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T190446Z" creationid="jenya" creationdate="20240127T190446Z">
+        <seg>```shell
+$ winget install nushell
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>details: It's easy to extend Nu using a powerful plugin system.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T185256Z" creationid="jenya" creationdate="20240127T185256Z">
+        <seg>details: Nu легко расширяется с помощью мощной системы плагинов.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>details: Nu pipelines use structured data so you can safely select, filter, and sort the same way every time.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T185221Z" creationid="jenya" creationdate="20240127T185221Z">
+        <seg>details: Конвейеры Nu используют структурированные данные, поэтому вы можете спокойно выбирать, фильтровать и сортировать их каждый раз одним и тем же способом.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>details: Nu works on Linux, macOS, BSD, and Windows.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T185117Z" creationid="jenya" creationdate="20240127T185117Z">
+        <seg>details: Nu работает на Linux, macOS, BSD и Windows.</seg>
+      </tuv>
+    </tu>
 <!-- Alternative translations -->
   </body>
 </tmx>
