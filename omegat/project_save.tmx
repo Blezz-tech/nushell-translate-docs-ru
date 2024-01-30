@@ -6,6 +6,38 @@
 <!-- Default translations -->
     <tu>
       <tuv lang="en-US">
+        <seg># Custom completions</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T102259Z" creationid="jenya" creationdate="20240130T102259Z">
+        <seg># Custom completions</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg># Default shell</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T102300Z" creationid="jenya" creationdate="20240130T102300Z">
+        <seg># Default shell</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg># Design Notes</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T102259Z" creationid="jenya" creationdate="20240130T102259Z">
+        <seg># Design Notes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg># Environment</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T102303Z" creationid="jenya" creationdate="20240130T102303Z">
+        <seg># Environment</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg># How to configure 3rd party prompts</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240127T184820Z" creationid="jenya" creationdate="20240127T184820Z">
@@ -26,6 +58,122 @@
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240127T191350Z" creationid="jenya" creationdate="20240127T191350Z">
         <seg># Working with lists</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg># Working with tables</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T085302Z" creationid="jenya" creationdate="20240130T085302Z">
+        <seg># Работа с таблицами</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg># │ a │ b
+───┼───┼───</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T102346Z" creationid="jenya" creationdate="20240130T102346Z">
+        <seg># │ a │ b
+───┼───┼───</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg># │ a │ b  │ c
+───┼───┼────┼────</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T102602Z" creationid="jenya" creationdate="20240130T102602Z">
+        <seg># │ a │ b  │ c
+───┼───┼────┼────</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg># │ a │ b │ c │ d
+───┼───┼───┼───┼───</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T102631Z" creationid="jenya" creationdate="20240130T102631Z">
+        <seg># │ a │ b │ c │ d
+───┼───┼───┼───┼───</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg># │ a │ b │ c │ d │ e │ f
+───┼───┼───┼───┼───┼───┼───</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T102646Z" creationid="jenya" creationdate="20240130T102646Z">
+        <seg># │ a │ b │ c │ d │ e │ f
+───┼───┼───┼───┼───┼───┼───</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg># │ edition │ next_edition
+───┼─────────┼──────────────</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T103709Z" creationid="jenya" creationdate="20240130T103709Z">
+        <seg># │ edition │ next_edition
+───┼─────────┼──────────────</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg># │ name
+───┼───────────────</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T101828Z" creationid="jenya" creationdate="20240130T101828Z">
+        <seg># │ name
+───┼───────────────</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg># │ name          │ size
+───┼───────────────┼─────────</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T100854Z" creationid="jenya" creationdate="20240130T100854Z">
+        <seg># │ name          │ size
+───┼───────────────┼─────────</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg># │ name          │ type │ size    │ modified
+───┼───────────────┼──────┼─────────┼────────────</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T085509Z" creationid="jenya" creationdate="20240130T085509Z">
+        <seg># │ name          │ type │ size    │ modified
+───┼───────────────┼──────┼─────────┼────────────</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg># │ name         │ type │ size   │ modified
+───┼──────────────┼──────┼────────┼────────────</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T100948Z" creationid="jenya" creationdate="20240130T100948Z">
+        <seg># │ name         │ type │ size   │ modified
+───┼──────────────┼──────┼────────┼────────────</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg># │ name      │ type │ size   │ modified
+───┼───────────┼──────┼────────┼────────────</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T101127Z" creationid="jenya" creationdate="20240130T101127Z">
+        <seg># │ name      │ type │ size   │ modified
+───┼───────────┼──────┼────────┼────────────</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>## Changing data in a table</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T102052Z" creationid="jenya" creationdate="20240130T102052Z">
+        <seg>## Изменение данных в таблице</seg>
       </tuv>
     </tu>
     <tu>
@@ -54,6 +202,30 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>## Getting data out of a table</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T101259Z" creationid="jenya" creationdate="20240130T101259Z">
+        <seg>## Получение данных из таблицы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>## Selecting the data you want</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T090052Z" creationid="jenya" creationdate="20240130T090052Z">
+        <seg>## Выборка нужных данных</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>## Sorting the data</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T085706Z" creationid="jenya" creationdate="20240130T085706Z">
+        <seg>## Сортировка данных</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>## The Many Parts of Nushell</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240127T193142Z" creationid="jenya" creationdate="20240127T193142Z">
@@ -70,6 +242,38 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>### Adding a new column</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T102702Z" creationid="jenya" creationdate="20240130T102702Z">
+        <seg>### Добавление нового столбца</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>### Concatenating Tables</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T102331Z" creationid="jenya" creationdate="20240130T102331Z">
+        <seg>### Конкатенация таблиц</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>### Merging Tables</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T102622Z" creationid="jenya" creationdate="20240130T102622Z">
+        <seg>### Объединение таблиц</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>### Moving columns</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T104829Z" creationid="jenya" creationdate="20240130T104829Z">
+        <seg>### Перемещение столбцов</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>### Nu has great error messages</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240127T185919Z" creationid="jenya" creationdate="20240127T185553Z">
@@ -82,6 +286,30 @@
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240127T185325Z" creationid="jenya" creationdate="20240127T185325Z">
         <seg>### Nu работает с существующими данными</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>### Rejecting/Deleting columns</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T104938Z" creationid="jenya" creationdate="20240130T104938Z">
+        <seg>### Отклонение/удаление столбцов</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>### Renaming columns</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T104906Z" creationid="jenya" creationdate="20240130T104906Z">
+        <seg>### Переименование столбцов</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>### Updating a column</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T104122Z" creationid="jenya" creationdate="20240130T104122Z">
+        <seg>### Обновление столбца</seg>
       </tuv>
     </tu>
     <tu>
@@ -222,6 +450,16 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>- [`select`](/commands/docs/select.md) - creates a new table which includes only the columns specified
+- [`get`](/commands/docs/get.md) - returns the values inside the column specified as a list</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T101913Z" creationid="jenya" creationdate="20240130T101913Z">
+        <seg>- [`select`](/commands/docs/select.md) - создает новую таблицу, включающую только указанные столбцы
+- [`get`](/commands/docs/get.md) - возвращает значения в указанном столбце в виде списка</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>- title: Everything is data</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240127T185140Z" creationid="jenya" creationdate="20240127T185140Z">
@@ -268,6 +506,460 @@ features:</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>0 │    2018 │         2021</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T103709Z" creationid="jenya" creationdate="20240130T103709Z">
+        <seg>0 │    2018 │         2021</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>0 │ 1 │  2 │ ❎</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T102602Z" creationid="jenya" creationdate="20240130T102602Z">
+        <seg>0 │ 1 │  2 │ ❎</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>0 │ 1 │ 2</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T102346Z" creationid="jenya" creationdate="20240130T102346Z">
+        <seg>0 │ 1 │ 2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>0 │ 1 │ 2 │ 3 │ 4
+───┴───┴───┴───┴───
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T102632Z" creationid="jenya" creationdate="20240130T102632Z">
+        <seg>0 │ 1 │ 2 │ 3 │ 4
+───┴───┴───┴───┴───
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>0 │ 1 │ 2 │ 3 │ 4 │ 5 │ 6
+───┴───┴───┴───┴───┴───┴───
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T102646Z" creationid="jenya" creationdate="20240130T102646Z">
+        <seg>0 │ 1 │ 2 │ 3 │ 4 │ 5 │ 6
+───┴───┴───┴───┴───┴───┴───
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>0 │ files.rs</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T101712Z" creationid="jenya" creationdate="20240130T101712Z">
+        <seg>0 │ files.rs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>0 │ files.rs      │  4.6 KB</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T100855Z" creationid="jenya" creationdate="20240130T100855Z">
+        <seg>0 │ files.rs      │  4.6 KB</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>0 │ files.rs      │ File │  4.6 KB │ 5 days ago</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T085455Z" creationid="jenya" creationdate="20240130T085455Z">
+        <seg>0 │ files.rs      │ File │  4.6 KB │ 5 days ago</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>0 │ lib.rs        │ File │   330 B │ 5 days ago</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T085754Z" creationid="jenya" creationdate="20240130T085754Z">
+        <seg>0 │ lib.rs        │ File │   330 B │ 5 days ago</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>0 │ lib.rs       │ File │  330 B │ 5 days ago</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T100948Z" creationid="jenya" creationdate="20240130T100948Z">
+        <seg>0 │ lib.rs       │ File │  330 B │ 5 days ago</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>0 │ path.rs   │ File │ 2.1 KB │ 5 days ago</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T101127Z" creationid="jenya" creationdate="20240130T101127Z">
+        <seg>0 │ path.rs   │ File │ 2.1 KB │ 5 days ago</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>0 │ shapes.rs     │ File │  4.7 KB │ 5 days ago
+───┴───────────────┴──────┴─────────┴────────────
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T101247Z" creationid="jenya" creationdate="20240130T101247Z">
+        <seg>0 │ shapes.rs     │ File │  4.7 KB │ 5 days ago
+───┴───────────────┴──────┴─────────┴────────────
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>1 │    2021 │         2024
+───┴─────────┴──────────────</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T103710Z" creationid="jenya" creationdate="20240130T103710Z">
+        <seg>1 │    2021 │         2024
+───┴─────────┴──────────────</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>1 │ 3 │  4 │ ❎</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T102603Z" creationid="jenya" creationdate="20240130T102603Z">
+        <seg>1 │ 3 │  4 │ ❎</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>1 │ 3 │ 4
+───┴───┴───
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T102347Z" creationid="jenya" creationdate="20240130T102347Z">
+        <seg>1 │ 3 │ 4
+───┴───┴───
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>1 │ files.rs  │ File │ 4.6 KB │ 5 days ago</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T101127Z" creationid="jenya" creationdate="20240130T101127Z">
+        <seg>1 │ files.rs  │ File │ 4.6 KB │ 5 days ago</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>1 │ lib.rs</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T101712Z" creationid="jenya" creationdate="20240130T101712Z">
+        <seg>1 │ lib.rs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>1 │ lib.rs        │   330 B</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T100856Z" creationid="jenya" creationdate="20240130T100856Z">
+        <seg>1 │ lib.rs        │   330 B</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>1 │ lib.rs        │ File │   330 B │ 5 days ago</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T085510Z" creationid="jenya" creationdate="20240130T085510Z">
+        <seg>1 │ lib.rs        │ File │   330 B │ 5 days ago</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>1 │ signature.rs  │ File │  1.2 KB │ 5 days ago</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T085755Z" creationid="jenya" creationdate="20240130T085755Z">
+        <seg>1 │ signature.rs  │ File │  1.2 KB │ 5 days ago</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>1 │ signature.rs │ File │ 1.2 KB │ 5 days ago</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T100949Z" creationid="jenya" creationdate="20240130T100949Z">
+        <seg>1 │ signature.rs │ File │ 1.2 KB │ 5 days ago</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>2 │ 3 │ ❎ │  4
+───┴───┴────┴───
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T102617Z" creationid="jenya" creationdate="20240130T102617Z">
+        <seg>2 │ 3 │ ❎ │  4
+───┴───┴────┴───
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>2 │ 3 │ ❎ │  4
+───┴───┴────┴────
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T102603Z" creationid="jenya" creationdate="20240130T102603Z">
+        <seg>2 │ 3 │ ❎ │  4
+───┴───┴────┴────
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>2 │ lite_parse.rs</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T101712Z" creationid="jenya" creationdate="20240130T101712Z">
+        <seg>2 │ lite_parse.rs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>2 │ lite_parse.rs │  6.3 KB</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T100857Z" creationid="jenya" creationdate="20240130T100857Z">
+        <seg>2 │ lite_parse.rs │  6.3 KB</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>2 │ lite_parse.rs │ File │  6.3 KB │ 5 days ago</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T085511Z" creationid="jenya" creationdate="20240130T085511Z">
+        <seg>2 │ lite_parse.rs │ File │  6.3 KB │ 5 days ago</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>2 │ path.rs       │ File │  2.1 KB │ 5 days ago</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T085756Z" creationid="jenya" creationdate="20240130T085756Z">
+        <seg>2 │ path.rs       │ File │  2.1 KB │ 5 days ago</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>2 │ path.rs      │ File │ 2.1 KB │ 5 days ago</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T100949Z" creationid="jenya" creationdate="20240130T100949Z">
+        <seg>2 │ path.rs      │ File │ 2.1 KB │ 5 days ago</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>2 │ shapes.rs │ File │ 4.7 KB │ 5 days ago
+───┴───────────┴──────┴────────┴────────────
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T101128Z" creationid="jenya" creationdate="20240130T101128Z">
+        <seg>2 │ shapes.rs │ File │ 4.7 KB │ 5 days ago
+───┴───────────┴──────┴────────┴────────────
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>3 │ files.rs      │ File │  4.6 KB │ 5 days ago</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T085757Z" creationid="jenya" creationdate="20240130T085757Z">
+        <seg>3 │ files.rs      │ File │  4.6 KB │ 5 days ago</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>3 │ files.rs     │ File │ 4.6 KB │ 5 days ago</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T100949Z" creationid="jenya" creationdate="20240130T100949Z">
+        <seg>3 │ files.rs     │ File │ 4.6 KB │ 5 days ago</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>3 │ parse.rs</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T101712Z" creationid="jenya" creationdate="20240130T101712Z">
+        <seg>3 │ parse.rs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>3 │ parse.rs      │ 49.8 KB</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T100858Z" creationid="jenya" creationdate="20240130T100858Z">
+        <seg>3 │ parse.rs      │ 49.8 KB</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>3 │ parse.rs      │ File │ 49.8 KB │ 1 day ago</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T085512Z" creationid="jenya" creationdate="20240130T085512Z">
+        <seg>3 │ parse.rs      │ File │ 49.8 KB │ 1 day ago</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>4 │ path.rs</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T101712Z" creationid="jenya" creationdate="20240130T101712Z">
+        <seg>4 │ path.rs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>4 │ path.rs       │  2.1 KB</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T100859Z" creationid="jenya" creationdate="20240130T100859Z">
+        <seg>4 │ path.rs       │  2.1 KB</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>4 │ path.rs       │ File │  2.1 KB │ 5 days ago</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T085513Z" creationid="jenya" creationdate="20240130T085513Z">
+        <seg>4 │ path.rs       │ File │  2.1 KB │ 5 days ago</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>4 │ shapes.rs     │ File │  4.7 KB │ 5 days ago</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T085757Z" creationid="jenya" creationdate="20240130T085757Z">
+        <seg>4 │ shapes.rs     │ File │  4.7 KB │ 5 days ago</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>4 │ shapes.rs    │ File │ 4.7 KB │ 5 days ago
+───┴──────────────┴──────┴────────┴────────────
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T100950Z" creationid="jenya" creationdate="20240130T100950Z">
+        <seg>4 │ shapes.rs    │ File │ 4.7 KB │ 5 days ago
+───┴──────────────┴──────┴────────┴────────────
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>5 │ lite_parse.rs │ File │  6.3 KB │ 5 days ago</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T085758Z" creationid="jenya" creationdate="20240130T085758Z">
+        <seg>5 │ lite_parse.rs │ File │  6.3 KB │ 5 days ago</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>5 │ shapes.rs</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T101713Z" creationid="jenya" creationdate="20240130T101713Z">
+        <seg>5 │ shapes.rs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>5 │ shapes.rs     │  4.7 KB</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T100900Z" creationid="jenya" creationdate="20240130T100900Z">
+        <seg>5 │ shapes.rs     │  4.7 KB</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>5 │ shapes.rs     │ File │  4.7 KB │ 5 days ago</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T085514Z" creationid="jenya" creationdate="20240130T085514Z">
+        <seg>5 │ shapes.rs     │ File │  4.7 KB │ 5 days ago</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>6 │ parse.rs      │ File │ 49.8 KB │ 1 day ago
+───┴───────────────┴──────┴─────────┴────────────
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T085801Z" creationid="jenya" creationdate="20240130T085801Z">
+        <seg>6 │ parse.rs      │ File │ 49.8 KB │ 1 day ago
+───┴───────────────┴──────┴─────────┴────────────
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>6 │ signature.rs
+───┴───────────────
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T101713Z" creationid="jenya" creationdate="20240130T101713Z">
+        <seg>6 │ signature.rs
+───┴───────────────
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>6 │ signature.rs  │  1.2 KB
+───┴───────────────┴─────────
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T100900Z" creationid="jenya" creationdate="20240130T100900Z">
+        <seg>6 │ signature.rs  │  1.2 KB
+───┴───────────────┴─────────
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>6 │ signature.rs  │ File │  1.2 KB │ 5 days ago
+───┴───────────────┴──────┴─────────┴────────────</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T101245Z" creationid="jenya" creationdate="20240130T101245Z">
+        <seg>6 │ signature.rs  │ File │  1.2 KB │ 5 days ago
+───┴───────────────┴──────┴─────────┴────────────</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>6 │ signature.rs  │ File │  1.2 KB │ 5 days ago
+───┴───────────────┴──────┴─────────┴────────────
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T085516Z" creationid="jenya" creationdate="20240130T085516Z">
+        <seg>6 │ signature.rs  │ File │  1.2 KB │ 5 days ago
+───┴───────────────┴──────┴─────────┴────────────
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>:::</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T085658Z" creationid="jenya" creationdate="20240130T085658Z">
+        <seg>:::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>::: tip Changing how tables are displayed
+Nu will try to expands all table's structure by default.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T085603Z" creationid="jenya" creationdate="20240130T085603Z">
+        <seg>::: tip Изменение способа отображения таблиц
+По умолчанию Nu попытается расширить структуру всех таблиц.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>&lt;img src="https://www.nushell.sh/frontpage/fetch-example.png" alt="Screenshot showing fetch with a web API" class="hero"/&gt;</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240127T185552Z" creationid="jenya" creationdate="20240127T185552Z">
@@ -292,10 +984,28 @@ features:</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>&gt; ls | sort-by name | select 5
+───┬───────────────┬──────┬─────────┬────────────</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T101246Z" creationid="jenya" creationdate="20240130T101246Z">
+        <seg>&gt; ls | sort-by name | select 5
+───┬───────────────┬──────┬─────────┬────────────</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>After installing, launch Nu by typing `nu`.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240127T190452Z" creationid="jenya" creationdate="20240127T190452Z">
         <seg>После установки запустите Nu, набрав `nu`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>And now, let's update the edition to point at the next edition we hope to support:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T104206Z" creationid="jenya" creationdate="20240130T104206Z">
+        <seg>А теперь давайте обновим `edition`, чтобы оно указывало на следующее издание, которое мы надеемся поддерживать:</seg>
       </tuv>
     </tu>
     <tu>
@@ -312,6 +1022,14 @@ features:</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240127T191702Z" creationid="jenya" creationdate="20240127T191702Z">
         <seg>Но вместо того, чтобы пытаться быть универсальным специалистом, Nu сосредоточила свою энергию на том, чтобы делать несколько вещей хорошо:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Changes in Nu are functional changes, meaning that they work on values themselves rather than trying to cause a permanent change.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T103942Z" creationid="jenya" creationdate="20240130T103730Z">
+        <seg>Изменения в Ню - это функциональные изменения, то есть они работают над самими значениями, а не пытаются вызвать необратимые изменения.</seg>
       </tuv>
     </tu>
     <tu>
@@ -340,6 +1058,30 @@ features:</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>For example, if we wanted to move the "name" column from [`ls`](/commands/docs/ls.md) after the "size" column, we could do:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T104853Z" creationid="jenya" creationdate="20240130T104848Z">
+        <seg>Например, если мы хотим переместить колонку "name" из [`ls`](/commands/docs/ls.md) после колонки "size", мы можем сделать это:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For example, we could also have sorted the above using the "name", "accessed", or "modified" columns.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T090036Z" creationid="jenya" creationdate="20240130T090031Z">
+        <seg>Например, мы могли бы отсортировать все вышеперечисленное по столбцам  "name", "accessed" или "modified".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For this, we use the [`get`](/commands/docs/get.md) command:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T101708Z" creationid="jenya" creationdate="20240130T101708Z">
+        <seg>Для этого мы используем команду [`get`](/commands/docs/get.md):</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Furthermore, you can consider translating parts of it to your language.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240127T194806Z" creationid="jenya" creationdate="20240127T194806Z">
@@ -356,10 +1098,50 @@ features:</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Here we could write out the result using the [`save`](/commands/docs/save.md) command:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T104114Z" creationid="jenya" creationdate="20240130T104106Z">
+        <seg>Здесь мы могли бы сохранить результат с помощью команды [`save`](/commands/docs/save.md):</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>However, you do not have to be a Rust programmer to help.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240127T194545Z" creationid="jenya" creationdate="20240127T194545Z">
         <seg>Однако вам не обязательно быть программистом Rust, чтобы помочь.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If it still is confusing, note that appending one more row will make the table render as expected:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T103507Z" creationid="jenya" creationdate="20240130T103507Z">
+        <seg>Если это все еще вызывает недоумение, обратите внимание, что добавление еще одной строки приведет к тому, что таблица будет отображаться как положено:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If the column names are not identical then additionally columns and values will be created as necessary:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T102353Z" creationid="jenya" creationdate="20240130T102353Z">
+        <seg>Если имена столбцов не совпадают, то при необходимости будут созданы дополнительные столбцы и значения:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If we wanted to run [`ls`](/commands/docs/ls.md) and delete the columns, we can use this example:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T104952Z" creationid="jenya" creationdate="20240130T104952Z">
+        <seg>Если мы хотим запустить [`ls`](/commands/docs/ls.md) и удалить колонки, мы можем использовать этот пример:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If we wanted to run [`ls`](/commands/docs/ls.md) and rename the columns, we can use this example:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T104926Z" creationid="jenya" creationdate="20240130T104926Z">
+        <seg>Если мы хотим запустить [`ls`](/commands/docs/ls.md) и переименовать столбцы, мы можем использовать этот пример:</seg>
       </tuv>
     </tu>
     <tu>
@@ -376,6 +1158,38 @@ features:</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240127T194653Z" creationid="jenya" creationdate="20240127T194653Z">
         <seg>Если вы написали крутой скрипт, плагин или интегрировали Nushell куда-то, мы будем рады вашему вкладу в `nu_scripts` или Awesome Nu.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In Nu, rather than editing in place, each of the commands in the section will return a new table in the pipeline.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T102121Z" creationid="jenya" creationdate="20240130T102121Z">
+        <seg>В Nu, вместо того чтобы редактировать на месте, каждая из команд в этом разделе будет возвращать новую таблицу в конвейер.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In a similar way to the [`insert`](/commands/docs/insert.md) command, we can also use the [`update`](/commands/docs/update.md) command to change the contents of a column to a new value.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T104130Z" creationid="jenya" creationdate="20240130T104130Z">
+        <seg>Аналогично команде [`insert`](/commands/docs/insert.md), мы также можем использовать команду [`update`](/commands/docs/update.md), чтобы изменить содержимое столбца на новое значение.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In addition to selecting data from a table, we can also update what the table has.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T102106Z" creationid="jenya" creationdate="20240130T102106Z">
+        <seg>Помимо выборки данных из таблицы, мы также можем обновлять данные в таблице.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In this case, remember: rows have numbers, columns have names.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T103454Z" creationid="jenya" creationdate="20240130T103454Z">
+        <seg>В этом случае помните: строки имеют номера, столбцы - имена.</seg>
       </tuv>
     </tu>
     <tu>
@@ -420,10 +1234,114 @@ features:</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Let's [`select`](/commands/docs/select.md) a few columns from our table to use:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T100852Z" creationid="jenya" creationdate="20240130T100852Z">
+        <seg>Давайте сделаем выборку из нашей таблицы с помощью команды [`select`](/commands/docs/select.md):</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Let's add a column called "next_edition" with the value 2021:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T102839Z" creationid="jenya" creationdate="20240130T102839Z">
+        <seg>Добавим столбец "next_edition" со значением 2021:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Let's add a third table:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T102637Z" creationid="jenya" creationdate="20240130T102637Z">
+        <seg>Добавим третью таблицу:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Let's look at a few other commands for selecting data.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T101152Z" creationid="jenya" creationdate="20240130T101142Z">
+        <seg>Рассмотрим несколько других команд для выборки данных.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Let's look at an example:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T102822Z" creationid="jenya" creationdate="20240130T102822Z">
+        <seg>Давайте рассмотрим пример:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Let's say we wanted to sort our table by the size of the file:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T085747Z" creationid="jenya" creationdate="20240130T085747Z">
+        <seg>Допустим, мы хотим отсортировать нашу таблицу по размеру файла:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Let's say, for example, we wanted to only get a list of the names of the files.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T101656Z" creationid="jenya" creationdate="20240130T101656Z">
+        <seg>Допустим, мы хотим получить только список имен файлов.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Let's see if we can spell out the difference between these two commands to make it clear:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T101857Z" creationid="jenya" creationdate="20240130T101857Z">
+        <seg>Давайте попробуем объяснить разницу между этими двумя командами, чтобы все стало понятно:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Let's skip the first two of the 5 rows we returned above:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T101115Z" creationid="jenya" creationdate="20240130T101115Z">
+        <seg>Давайте пропустим первые две из 5 строк, которые мы вернули выше:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Let's sort our table by the file name and then pick one of the rows with the [`select`](/commands/docs/select.md) command using its row number:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T101242Z" creationid="jenya" creationdate="20240130T101242Z">
+        <seg>Давайте отсортируем нашу таблицу по имени файла, а затем выберем одну из строк с помощью команды [`select`](/commands/docs/select.md), используя номер ее строки:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Most repositories contain `CONTRIBUTING.md` file with tips and details that should help you get started (if not, consider contributing a fix!).</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240127T194521Z" creationid="jenya" creationdate="20240127T194521Z">
         <seg>Большинство репозиториев содержат файл `CONTRIBUTING.md` с советами и подробностями, которые должны помочь вам начать работу (если нет, подумайте о внесении исправления!).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Next, let's say we want to only look at the 5 smallest files in this directory:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T100946Z" creationid="jenya" creationdate="20240130T100946Z">
+        <seg>Далее, допустим, мы хотим просмотреть только 5 самых маленьких файлов в этой директории:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Notice that if we open the original file, the contents have stayed the same:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T103717Z" creationid="jenya" creationdate="20240130T103717Z">
+        <seg>Обратите внимание, что если мы откроем исходный файл, то его содержимое останется неизменным:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Nu comes with a number of commands for working with tables to make it convenient to find what you're looking for, and for narrowing down the data to just what you need.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T085441Z" creationid="jenya" creationdate="20240130T085441Z">
+        <seg>В Nu входит ряд команд для работы с таблицами, позволяющих легко найти то, что вы ищете, и сузить круг данных до нужных вам.</seg>
       </tuv>
     </tu>
     <tu>
@@ -454,8 +1372,8 @@ features:</seg>
       <tuv lang="en-US">
         <seg>Nushell is available as [downloadable binaries](https://github.com/nushell/nushell/releases), [via your favourite package manager](https://repology.org/project/nushell/versions), in [a GitHub Action](https://github.com/marketplace/actions/setup-nu), and as [source code](https://github.com/nushell/nushell).</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T190359Z" creationid="jenya" creationdate="20240127T190359Z">
-        <seg>Nushell доступен в виде [загружаемых двоичных файлов](https://github.com/nushell/nushell/releases), [через ваш любимый менеджер пакетов](https://repology.org/project/nushell/versions), в [Действие GitHub](https://github.com/marketplace/actions/setup-nu), а также в виде [исходного кода](https://github.com/nushell/nushell).</seg>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T085146Z" creationid="jenya" creationdate="20240127T190359Z">
+        <seg>Nushell доступен в виде [загружаемых двоичных файлов](https://github.com/nushell/nushell/releases), [через ваш любимый менеджер пакетов](https://repology.org/project/nushell/versions), в [Действия GitHub](https://github.com/marketplace/actions/setup-nu), а также в виде [исходного кода](https://github.com/nushell/nushell).</seg>
       </tuv>
     </tu>
     <tu>
@@ -468,6 +1386,22 @@ features:</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>One of the common ways of seeing data in Nu is through a table.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T085309Z" creationid="jenya" creationdate="20240130T085309Z">
+        <seg>Один из распространенных способов представления данных в Nu - это таблица.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Or we could use the [`reduce`](/commands/docs/reduce.md) command to dynamically merge all tables:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T102657Z" creationid="jenya" creationdate="20240130T102657Z">
+        <seg>Или мы можем использовать команду [`reduce`](/commands/docs/reduce.md) для динамического слияния всех таблиц:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Read [the detailed installation instructions](/book/installation.html) or dive right in:</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240127T190423Z" creationid="jenya" creationdate="20240127T190416Z">
@@ -476,10 +1410,34 @@ features:</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>See [hooks](/book/hooks.md#changing-how-output-is-displayed) for more information.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T085657Z" creationid="jenya" creationdate="20240130T085645Z">
+        <seg>Дополнительные сведения см. в разделе [хуки](/book/hooks.md#changing-how-output-is-displayed).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Since Nushell evolves fast, this book is in a constant need of updating.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240127T194753Z" creationid="jenya" creationdate="20240127T194753Z">
         <seg>Поскольку Nushell быстро развивается, эта книга постоянно нуждается в обновлении.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>So far, we've worked with tables by trimming the table down to only what we need.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T101632Z" creationid="jenya" creationdate="20240130T101632Z">
+        <seg>До сих пор мы работали с таблицами, обрезая их только до того, что нам нужно.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sometimes we may want to go a step further and only look at the values in the cells themselves rather than taking a whole column.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T101648Z" creationid="jenya" creationdate="20240130T101648Z">
+        <seg>Иногда мы можем захотеть пойти дальше и просмотреть только значения в самих ячейках, а не брать весь столбец.</seg>
       </tuv>
     </tu>
     <tu>
@@ -496,6 +1454,14 @@ features:</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240127T193159Z" creationid="jenya" creationdate="20240127T193159Z">
         <seg>Проект Nushell состоит из множества различных репозиториев и подпроектов.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The [`get`](/commands/docs/get.md) command can go one step further and take a path to data deeper in the table.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T101949Z" creationid="jenya" creationdate="20240130T101949Z">
+        <seg>Команда [`get`](/commands/docs/get.md) может пойти на шаг дальше и проложить путь к данным, расположенным глубже в таблице.</seg>
       </tuv>
     </tu>
     <tu>
@@ -524,10 +1490,162 @@ features:</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The one way to tell these apart looking at the table is that the column names are missing, which lets us know that this is going to be a list of values we can work with.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T101924Z" creationid="jenya" creationdate="20240130T101924Z">
+        <seg>Единственный способ отличить их друг от друга, глядя на таблицу, - это отсутствие имен столбцов, что дает нам понять, что это будет список значений, с которыми мы можем работать.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>These look very similar!</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T101850Z" creationid="jenya" creationdate="20240130T101850Z">
+        <seg>Они очень похожи!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This acts as a handy way to get to a single row.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T101216Z" creationid="jenya" creationdate="20240130T101149Z">
+        <seg>Это удобный способ перехода к одному ряду.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This helps to create a table that's more focused on what we need.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T100933Z" creationid="jenya" creationdate="20240130T100933Z">
+        <seg>Это помогает создать таблицу, которая в большей степени ориентирована на то, что нам нужно.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This lets us do many different types of work in our pipeline until we're ready to write out the result with any changes we'd like if we choose to.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T103954Z" creationid="jenya" creationdate="20240130T103954Z">
+        <seg>Это позволяет нам выполнять множество различных видов работ в нашем конвейере до тех пор, пока мы не будем готовы написать результат с любыми изменениями, которые мы захотим, если захотим.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This might look like the [`select`](/commands/docs/select.md) command we saw earlier, so let's put that here as well to compare the two:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T101820Z" creationid="jenya" creationdate="20240130T101820Z">
+        <seg>Это может быть похоже на команду [`select`](/commands/docs/select.md), которую мы видели ранее, поэтому давайте поместим ее сюда, чтобы сравнить два варианта:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This simplifies working with more complex data, like the structures you might find in a .json file.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T102048Z" creationid="jenya" creationdate="20240130T102048Z">
+        <seg>Это упрощает работу с более сложными данными, такими как структуры, которые можно найти в файле .json.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This visual may be slightly confusing, because it looks like what we've just done is add a row.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T102848Z" creationid="jenya" creationdate="20240130T102848Z">
+        <seg>Это изображение может немного смутить, потому что кажется, что мы только что добавили строку.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Thus, rather than being either a shell, or a programming language, Nushell connects both by bringing a rich programming language and a full-featured shell together into one package.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240127T191611Z" creationid="jenya" creationdate="20240127T191611Z">
         <seg>Таким образом, Nushell не является ни оболочкой, ни языком программирования, а соединяет в себе и то, и другое, объединяя в одном пакете богатый язык программирования и полнофункциональную оболочку.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>To see it in action let's open the same file:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T104137Z" creationid="jenya" creationdate="20240130T104137Z">
+        <seg>Чтобы увидеть его в действии, откроем тот же файл:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>To start off, let's get a table that we can use:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T085453Z" creationid="jenya" creationdate="20240130T085453Z">
+        <seg>Для начала давайте создадим таблицу, которую мы сможем использовать:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>We can concatenate tables using [`append`](/commands/docs/append.md):</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T102343Z" creationid="jenya" creationdate="20240130T102343Z">
+        <seg>Мы можем объединить таблицы с помощью комманды [`append`](/commands/docs/append.md):</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>We can select data from a table by choosing to select specific columns or specific rows.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T090043Z" creationid="jenya" creationdate="20240130T090043Z">
+        <seg>Мы можем выбирать данные из таблицы, выбирая конкретные столбцы или конкретные строки.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>We can sort a table by any column that can be compared.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T085811Z" creationid="jenya" creationdate="20240130T085811Z">
+        <seg>Мы можем отсортировать таблицу по любому столбцу, который можно сравнить.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>We can sort a table by calling the [`sort-by`](/commands/docs/sort-by.md) command and telling it which columns we want to use in the sort.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T085742Z" creationid="jenya" creationdate="20240130T085742Z">
+        <seg>Мы можем отсортировать таблицу, вызвав команду [`sort-by`](/commands/docs/sort-by.md) и указав ей, какие столбцы мы хотим использовать при сортировке.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>We can use the [`insert`](/commands/docs/insert.md) command to add a new column to the table.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T102814Z" creationid="jenya" creationdate="20240130T102814Z">
+        <seg>Мы можем использовать команду [`insert`](/commands/docs/insert.md), чтобы добавить новый столбец в таблицу.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>We can use the [`merge`](/commands/docs/merge.md) command to merge two (or more) tables together</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T102628Z" creationid="jenya" creationdate="20240130T102628Z">
+        <seg>Мы можем использовать команду [`merge`](/commands/docs/merge.md), чтобы объединить две (или более) таблицы вместе</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>We could join all three tables together like this:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T102645Z" creationid="jenya" creationdate="20240130T102645Z">
+        <seg>Мы можем объединить все три таблицы следующим образом:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>We may want to combine tables, add new columns, or edit the contents of a cell.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T102115Z" creationid="jenya" creationdate="20240130T102115Z">
+        <seg>Мы можем захотеть объединить таблицы, добавить новые столбцы или изменить содержимое ячейки.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>We now have the values for each of the filenames.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T101735Z" creationid="jenya" creationdate="20240130T101714Z">
+        <seg>Теперь у нас есть значения для каждого из имен файлов.</seg>
       </tuv>
     </tu>
     <tu>
@@ -540,6 +1658,14 @@ features:</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>We've narrowed it to three rows we care about.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T101136Z" creationid="jenya" creationdate="20240130T101136Z">
+        <seg>Мы сузили круг до трех рядов, которые нас волнуют.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>While currently under-utilized, we expect to use it more as we get closer to and beyond 1.0.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240127T194308Z" creationid="jenya" creationdate="20240127T194305Z">
@@ -548,10 +1674,58 @@ features:</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You can also [`reject`](/commands/docs/reject.md) columns in a table by passing it through the reject command.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T104944Z" creationid="jenya" creationdate="20240130T104944Z">
+        <seg>Вы также можете [`отклонить`](/commands/docs/reject.md) столбцы в таблице, передав их через команду reject.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can also [`rename`](/commands/docs/rename.md) columns in a table by passing it through the rename command.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T104916Z" creationid="jenya" creationdate="20240130T104916Z">
+        <seg>Вы также можете [`переименовать`] (/commands/docs/rename.md) столбцы в таблице, передав их через команду rename.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can also [`skip`](/commands/docs/skip.md) rows that you don't want.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T101050Z" creationid="jenya" creationdate="20240130T101050Z">
+        <seg>Вы также можете [`пропустить`](/commands/docs/skip.md) строки, которые вам не нужны.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You can also follow us on [Twitter](https://twitter.com/nu_shell) for news and updates.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240127T195110Z" creationid="jenya" creationdate="20240127T195110Z">
         <seg>Вы также можете следить за нашими новостями и обновлениями в [Twitter](https://twitter.com/nu_shell).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can also use the [`upsert`](/commands/docs/upsert.md) command to insert or update depending on whether the column already exists.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T104403Z" creationid="jenya" creationdate="20240130T104215Z">
+        <seg>Вы также можете использовать команду [`upsert`](/commands/docs/upsert.md) для вставки или обновления в зависимости от того, существует ли уже данный столбец.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can also use the `++` operator as an inline replacement for `append`:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T102615Z" creationid="jenya" creationdate="20240130T102615Z">
+        <seg>Вы также можете использовать оператор `++` в качестве встроенной замены для `append`:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can change this behavior by changing the `display_output` hook.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T085617Z" creationid="jenya" creationdate="20240130T085617Z">
+        <seg>Вы можете изменить это поведение, изменив хук `display_output`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -588,6 +1762,30 @@ features:</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You can use [`move`](/commands/docs/move.md) to move columns in the table.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T104835Z" creationid="jenya" creationdate="20240130T104835Z">
+        <seg>Вы можете использовать [`move`](/commands/docs/move.md) для перемещения столбцов в таблице.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You may have wondered why the rows of the table are numbers.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T101210Z" creationid="jenya" creationdate="20240130T101210Z">
+        <seg>Возможно, вы задались вопросом, почему в строках таблицы стоят числа.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You'll notice we first sort the table by size to get to the smallest file, and then we use the `first 5` to return the first 5 rows of the table.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T101023Z" creationid="jenya" creationdate="20240130T101023Z">
+        <seg>Вы заметите, что сначала мы сортируем таблицу по размеру, чтобы найти самый маленький файл, а затем используем `first 5`, чтобы вернуть первые 5 строк таблицы.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>[As you can see](#the-many-parts-of-nushell), there are a lot of places to contribute to.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240127T194503Z" creationid="jenya" creationdate="20240127T194500Z">
@@ -600,6 +1798,366 @@ features:</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240127T194631Z" creationid="jenya" creationdate="20240127T194631Z">
         <seg>[Dataframes](dataframes.md) может использовать ваш опыт обработки данных.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T103710Z" creationid="jenya" creationdate="20240130T103710Z">
+        <seg>```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+$first ++ $second ++ $third
+───┬───┬────┬────</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T102616Z" creationid="jenya" creationdate="20240130T102616Z">
+        <seg>```nu
+$first ++ $second ++ $third
+───┬───┬────┬────</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+&gt; $first | merge $second  | merge $third
+───┬───┬───┬───┬───┬───┬───</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T102645Z" creationid="jenya" creationdate="20240130T102645Z">
+        <seg>```nu
+&gt; $first | merge $second  | merge $third
+───┬───┬───┬───┬───┬───┬───</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+&gt; [$first $second $third] | reduce {|it, acc| $acc | merge $it }
+───┬───┬───┬───┬───┬───┬───</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T102657Z" creationid="jenya" creationdate="20240130T102657Z">
+        <seg>```nu
+&gt; [$first $second $third] | reduce {|it, acc| $acc | merge $it }
+───┬───┬───┬───┬───┬───┬───</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+&gt; let third = [[e f]; [5 6]]
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T102637Z" creationid="jenya" creationdate="20240130T102637Z">
+        <seg>```nu
+&gt; let third = [[e f]; [5 6]]
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+&gt; ls
+───┬───────────────┬──────┬─────────┬────────────</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T085459Z" creationid="jenya" creationdate="20240130T085459Z">
+        <seg>```nu
+&gt; ls
+───┬───────────────┬──────┬─────────┬────────────</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+&gt; ls -l / |reject readonly num_links inode created accessed modified
+╭────┬────────┬─────────┬─────────┬───────────┬──────┬───────┬────────╮
+│  # │  name  │  type   │ target  │   mode    │ uid  │ group │  size  │
+├────┼────────┼─────────┼─────────┼───────────┼──────┼───────┼────────┤
+│  0 │ /bin   │ symlink │ usr/bin │ rwxrwxrwx │ root │ root  │    7 B │
+│  1 │ /boot  │ dir     │         │ rwxr-xr-x │ root │ root  │ 1.0 KB │
+│  2 │ /dev   │ dir     │         │ rwxr-xr-x │ root │ root  │ 4.1 KB │
+│  3 │ /etc   │ dir     │         │ rwxr-xr-x │ root │ root  │ 3.6 KB │
+│  4 │ /home  │ dir     │         │ rwxr-xr-x │ root │ root  │   12 B │
+│  5 │ /lib   │ symlink │ usr/lib │ rwxrwxrwx │ root │ root  │    7 B │
+│  6 │ /lib64 │ symlink │ usr/lib │ rwxrwxrwx │ root │ root  │    7 B │
+│  7 │ /mnt   │ dir     │         │ rwxr-xr-x │ root │ root  │    0 B │
+...
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T104957Z" creationid="jenya" creationdate="20240130T104957Z">
+        <seg>```nu
+&gt; ls -l / |reject readonly num_links inode created accessed modified
+╭────┬────────┬─────────┬─────────┬───────────┬──────┬───────┬────────╮
+│  # │  name  │  type   │ target  │   mode    │ uid  │ group │  size  │
+├────┼────────┼─────────┼─────────┼───────────┼──────┼───────┼────────┤
+│  0 │ /bin   │ symlink │ usr/bin │ rwxrwxrwx │ root │ root  │    7 B │
+│  1 │ /boot  │ dir     │         │ rwxr-xr-x │ root │ root  │ 1.0 KB │
+│  2 │ /dev   │ dir     │         │ rwxr-xr-x │ root │ root  │ 4.1 KB │
+│  3 │ /etc   │ dir     │         │ rwxr-xr-x │ root │ root  │ 3.6 KB │
+│  4 │ /home  │ dir     │         │ rwxr-xr-x │ root │ root  │   12 B │
+│  5 │ /lib   │ symlink │ usr/lib │ rwxrwxrwx │ root │ root  │    7 B │
+│  6 │ /lib64 │ symlink │ usr/lib │ rwxrwxrwx │ root │ root  │    7 B │
+│  7 │ /mnt   │ dir     │         │ rwxr-xr-x │ root │ root  │    0 B │
+...
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+&gt; ls | get name
+───┬───────────────</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T101711Z" creationid="jenya" creationdate="20240130T101711Z">
+        <seg>```nu
+&gt; ls | get name
+───┬───────────────</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+&gt; ls | move name --after size
+╭────┬──────┬─────────┬───────────────────┬──────────────╮
+│ #  │ type │  size   │       name        │   modified   │
+├────┼──────┼─────────┼───────────────────┼──────────────┤
+│  0 │ dir  │   256 B │ Applications      │ 3 days ago   │
+│  1 │ dir  │   256 B │ Data              │ 2 weeks ago  │
+│  2 │ dir  │   448 B │ Desktop           │ 2 hours ago  │
+│  3 │ dir  │   192 B │ Disks             │ a week ago   │
+│  4 │ dir  │   416 B │ Documents         │ 4 days ago   │
+...
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T104901Z" creationid="jenya" creationdate="20240130T104901Z">
+        <seg>```nu
+&gt; ls | move name --after size
+╭────┬──────┬─────────┬───────────────────┬──────────────╮
+│ #  │ type │  size   │       name        │   modified   │
+├────┼──────┼─────────┼───────────────────┼──────────────┤
+│  0 │ dir  │   256 B │ Applications      │ 3 days ago   │
+│  1 │ dir  │   256 B │ Data              │ 2 weeks ago  │
+│  2 │ dir  │   448 B │ Desktop           │ 2 hours ago  │
+│  3 │ dir  │   192 B │ Disks             │ a week ago   │
+│  4 │ dir  │   416 B │ Documents         │ 4 days ago   │
+...
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+&gt; ls | rename filename filetype filesize date
+╭────┬───────────────────┬──────────┬──────────┬──────────────╮
+│ #  │     filename      │ filetype │ filesize │     date     │
+├────┼───────────────────┼──────────┼──────────┼──────────────┤
+│  0 │ Applications      │ dir      │    256 B │ 3 days ago   │
+│  1 │ Data              │ dir      │    256 B │ 2 weeks ago  │
+│  2 │ Desktop           │ dir      │    448 B │ 2 hours ago  │
+│  3 │ Disks             │ dir      │    192 B │ a week ago   │
+│  4 │ Documents         │ dir      │    416 B │ 4 days ago   │
+...
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T104926Z" creationid="jenya" creationdate="20240130T104926Z">
+        <seg>```nu
+&gt; ls | rename filename filetype filesize date
+╭────┬───────────────────┬──────────┬──────────┬──────────────╮
+│ #  │     filename      │ filetype │ filesize │     date     │
+├────┼───────────────────┼──────────┼──────────┼──────────────┤
+│  0 │ Applications      │ dir      │    256 B │ 3 days ago   │
+│  1 │ Data              │ dir      │    256 B │ 2 weeks ago  │
+│  2 │ Desktop           │ dir      │    448 B │ 2 hours ago  │
+│  3 │ Disks             │ dir      │    192 B │ a week ago   │
+│  4 │ Documents         │ dir      │    416 B │ 4 days ago   │
+...
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+&gt; ls | select name
+───┬───────────────</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T101827Z" creationid="jenya" creationdate="20240130T101827Z">
+        <seg>```nu
+&gt; ls | select name
+───┬───────────────</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+&gt; ls | select name size
+───┬───────────────┬─────────</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T100853Z" creationid="jenya" creationdate="20240130T100853Z">
+        <seg>```nu
+&gt; ls | select name size
+───┬───────────────┬─────────</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+&gt; ls | sort-by name
+───┬───────────────┬──────┬─────────┬────────────</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T101242Z" creationid="jenya" creationdate="20240130T101242Z">
+        <seg>```nu
+&gt; ls | sort-by name
+───┬───────────────┬──────┬─────────┬────────────</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+&gt; ls | sort-by size
+───┬───────────────┬──────┬─────────┬────────────</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T085750Z" creationid="jenya" creationdate="20240130T085750Z">
+        <seg>```nu
+&gt; ls | sort-by size
+───┬───────────────┬──────┬─────────┬────────────</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+&gt; ls | sort-by size | first 5
+───┬──────────────┬──────┬────────┬────────────</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T100947Z" creationid="jenya" creationdate="20240130T100947Z">
+        <seg>```nu
+&gt; ls | sort-by size | first 5
+───┬──────────────┬──────┬────────┬────────────</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+&gt; ls | sort-by size | first 5 | skip 2
+───┬───────────┬──────┬────────┬────────────</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T101122Z" creationid="jenya" creationdate="20240130T101122Z">
+        <seg>```nu
+&gt; ls | sort-by size | first 5 | skip 2
+───┬───────────┬──────┬────────┬────────────</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+&gt; open rustfmt.toml
+─────────┬──────</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T102828Z" creationid="jenya" creationdate="20240130T102828Z">
+        <seg>```nu
+&gt; open rustfmt.toml
+─────────┬──────</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+&gt; open rustfmt.toml | insert next_edition 2021
+──────────────┬──────</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T102840Z" creationid="jenya" creationdate="20240130T102840Z">
+        <seg>```nu
+&gt; open rustfmt.toml | insert next_edition 2021
+──────────────┬──────</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+&gt; open rustfmt.toml | insert next_edition 2021 | append {edition: 2021 next_edition: 2024}
+───┬─────────┬──────────────</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T103708Z" creationid="jenya" creationdate="20240130T103708Z">
+        <seg>```nu
+&gt; open rustfmt.toml | insert next_edition 2021 | append {edition: 2021 next_edition: 2024}
+───┬─────────┬──────────────</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+&gt; open rustfmt.toml | insert next_edition 2021 | save rustfmt2.toml
+&gt; open rustfmt2.toml
+──────────────┬──────</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T104116Z" creationid="jenya" creationdate="20240130T104116Z">
+        <seg>```nu
+&gt; open rustfmt.toml | insert next_edition 2021 | save rustfmt2.toml
+&gt; open rustfmt2.toml
+──────────────┬──────</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+&gt; open rustfmt.toml | update edition 2021
+─────────┬──────</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T104214Z" creationid="jenya" creationdate="20240130T104214Z">
+        <seg>```nu
+&gt; open rustfmt.toml | update edition 2021
+─────────┬──────</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+let first = [[a b]; [1 2]]
+let second = [[a b]; [3 4]]
+$first | append $second
+───┬───┬───</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T102345Z" creationid="jenya" creationdate="20240130T102345Z">
+        <seg>```nu
+let first = [[a b]; [1 2]]
+let second = [[a b]; [3 4]]
+$first | append $second
+───┬───┬───</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+let first = [[a b]; [1 2]]
+let second = [[a b]; [3 4]]
+let third = [[a c]; [3 4]]
+$first | append $second | append $third
+───┬───┬────┬────</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T102602Z" creationid="jenya" creationdate="20240130T102602Z">
+        <seg>```nu
+let first = [[a b]; [1 2]]
+let second = [[a b]; [3 4]]
+let third = [[a c]; [3 4]]
+$first | append $second | append $third
+───┬───┬────┬────</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+let first = [[a b]; [1 2]]
+let second = [[c d]; [3 4]]
+$first | merge $second
+───┬───┬───┬───┬───</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T102631Z" creationid="jenya" creationdate="20240130T102631Z">
+        <seg>```nu
+let first = [[a b]; [1 2]]
+let second = [[c d]; [3 4]]
+$first | merge $second
+───┬───┬───┬───┬───</seg>
       </tuv>
     </tu>
     <tu>
@@ -648,6 +2206,50 @@ $ winget install nushell
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240127T185117Z" creationid="jenya" creationdate="20240127T185117Z">
         <seg>details: Nu работает на Linux, macOS, BSD и Windows.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>edition      │ 2018</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T102841Z" creationid="jenya" creationdate="20240130T102841Z">
+        <seg>edition      │ 2018</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>edition │ 2018
+─────────┴──────
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T102832Z" creationid="jenya" creationdate="20240130T102832Z">
+        <seg>edition │ 2018
+─────────┴──────
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>edition │ 2021
+─────────┴──────
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T104214Z" creationid="jenya" creationdate="20240130T104214Z">
+        <seg>edition │ 2021
+─────────┴──────
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>next_edition │ 2021
+──────────────┴──────
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240130T102841Z" creationid="jenya" creationdate="20240130T102841Z">
+        <seg>next_edition │ 2021
+──────────────┴──────
+```</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->
