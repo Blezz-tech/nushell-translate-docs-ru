@@ -62,6 +62,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg># Working with strings</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T093724Z" creationid="jenya" creationdate="20240205T093724Z">
+        <seg># Работа со строками</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg># Working with tables</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240130T085302Z" creationid="jenya" creationdate="20240130T085302Z">
@@ -170,10 +178,42 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>## Appending and Prepending to strings</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T111313Z" creationid="jenya" creationdate="20240205T111151Z">
+        <seg>## Добавление в начало и конец строк</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>## Backtick-quoted strings</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T101135Z" creationid="jenya" creationdate="20240205T101135Z">
+        <seg>## Строки с обратными кавычками</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>## Bare strings</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T110313Z" creationid="jenya" creationdate="20240205T110313Z">
+        <seg>## Голые строки</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>## Changing data in a table</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240130T102052Z" creationid="jenya" creationdate="20240130T102052Z">
         <seg>## Изменение данных в таблице</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>## Coloring strings</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T131111Z" creationid="jenya" creationdate="20240205T131111Z">
+        <seg>## Раскраска строк</seg>
       </tuv>
     </tu>
     <tu>
@@ -190,6 +230,22 @@
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240127T194347Z" creationid="jenya" creationdate="20240127T194347Z">
         <seg>## Вклад</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>## Converting strings</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T130847Z" creationid="jenya" creationdate="20240205T130847Z">
+        <seg>## Преобразование строк</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>## Double-quoted Strings</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T101720Z" creationid="jenya" creationdate="20240205T101651Z">
+        <seg>## Строка с двойными кавычками</seg>
       </tuv>
     </tu>
     <tu>
@@ -218,6 +274,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>## Single-quoted strings</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T094012Z" creationid="jenya" creationdate="20240205T094012Z">
+        <seg>## Строки в одинарных кавычки</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>## Sorting the data</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240130T085706Z" creationid="jenya" creationdate="20240130T085706Z">
@@ -226,10 +290,66 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>## Splitting strings</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T124020Z" creationid="jenya" creationdate="20240205T124020Z">
+        <seg>## Разделение строк</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>## String comparison</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T130759Z" creationid="jenya" creationdate="20240205T130759Z">
+        <seg>## Сравнение строк</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>## String formats at a glance</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T093934Z" creationid="jenya" creationdate="20240205T093934Z">
+        <seg>## Форматы строк с первого взгляда</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>## String interpolation</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T112406Z" creationid="jenya" creationdate="20240205T112406Z">
+        <seg>## Интерполяция строк</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>## String parsing</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T130334Z" creationid="jenya" creationdate="20240205T130334Z">
+        <seg>## Синтаксический анализ строк</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>## Strings as external commands</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T110747Z" creationid="jenya" creationdate="20240205T110747Z">
+        <seg>## Строки как внешние команды</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>## The Many Parts of Nushell</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240127T193142Z" creationid="jenya" creationdate="20240127T193142Z">
         <seg>## Множество частей Nushell</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>## The [`str`](/commands/docs/str.md) command</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T124323Z" creationid="jenya" creationdate="20240205T124323Z">
+        <seg>## Команда [`str`](/commands/docs/str.md)</seg>
       </tuv>
     </tu>
     <tu>
@@ -254,6 +374,14 @@
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240130T102331Z" creationid="jenya" creationdate="20240130T102331Z">
         <seg>### Конкатенация таблиц</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>### From string</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T131041Z" creationid="jenya" creationdate="20240205T131041Z">
+        <seg>### Из строки</seg>
       </tuv>
     </tu>
     <tu>
@@ -306,6 +434,46 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>### Reversing strings</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T130148Z" creationid="jenya" creationdate="20240205T130148Z">
+        <seg>### Переворачивание строк</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>### String padding</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T130032Z" creationid="jenya" creationdate="20240205T130032Z">
+        <seg>### Заполнение строки</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>### Substrings</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T125915Z" creationid="jenya" creationdate="20240205T125915Z">
+        <seg>### Подстроки</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>### To string</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T130956Z" creationid="jenya" creationdate="20240205T130956Z">
+        <seg>### В строку</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>### Trimming strings</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T124633Z" creationid="jenya" creationdate="20240205T124633Z">
+        <seg>### Обрезка строк</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>### Updating a column</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240130T104122Z" creationid="jenya" creationdate="20240130T104122Z">
@@ -326,6 +494,30 @@
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240127T190426Z" creationid="jenya" creationdate="20240127T190426Z">
         <seg>#### macOS / Linux:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>(Tip: You should always end colored strings with `ansi reset`)</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T131133Z" creationid="jenya" creationdate="20240205T131133Z">
+        <seg>(Совет: Вы всегда должны завершать цветные строки командой `ansi reset`)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>(You might also prefer, for brevity, the `=~` operator (described below).)</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T124614Z" creationid="jenya" creationdate="20240205T124614Z">
+        <seg>(Для краткости вы также можете предпочесть оператор `=~` (описан ниже)).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>(`-r` and `-l` being the short-form options respectively)</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T125829Z" creationid="jenya" creationdate="20240205T125829Z">
+        <seg>(`-r` и `-l` - краткие варианты соответственно)</seg>
       </tuv>
     </tu>
     <tu>
@@ -456,6 +648,32 @@
       <tuv lang="ru-RU" changeid="jenya" changedate="20240130T101913Z" creationid="jenya" creationdate="20240130T101913Z">
         <seg>- [`select`](/commands/docs/select.md) - создает новую таблицу, включающую только указанные столбцы
 - [`get`](/commands/docs/get.md) - возвращает значения в указанном столбце в виде списка</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>- `\"` - double-quote character
+- `\'` - single-quote character
+- `\\` - backslash
+- `\/` - forward slash
+- `\b` - backspace
+- `\f` - formfeed
+- `\r` - carriage return
+- `\n` - newline (line feed)
+- `\t` - tab
+- `\u{X...}` - a single unicode character, where X... is 1-6 hex digits (0-9, A-F)</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T110238Z" creationid="jenya" creationdate="20240205T105653Z">
+        <seg>- `\"` - символ двойной кавычки
+- `\'` - символ одинарной кавычки
+- `\\` - обратная косая черта
+- `\/` - прямая косая черта
+- `\b` - возврат на шаг
+- `\f` - смена страницы
+- `\r` - Возврат каретки
+- `\n` - новая строка (перевод строки)
+- `\t` - горизонтальная табуляция
+- `\u{X...}` - один символ юникода, где X... - 1-6 шестнадцатеричных цифр (0-9, A-F)</seg>
       </tuv>
     </tu>
     <tu>
@@ -652,6 +870,14 @@ features:</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>1 │ hello</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T110523Z" creationid="jenya" creationdate="20240205T110523Z">
+        <seg>1 │ hello</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>1 │ lib.rs</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240130T101712Z" creationid="jenya" creationdate="20240130T101712Z">
@@ -688,6 +914,22 @@ features:</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240130T100949Z" creationid="jenya" creationdate="20240130T100949Z">
         <seg>1 │ signature.rs │ File │ 1.2 KB │ 5 days ago</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>1 │ trueX | describe</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T110653Z" creationid="jenya" creationdate="20240205T110653Z">
+        <seg>1 │ trueX | describe</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>1.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T130959Z" creationid="jenya" creationdate="20240205T130959Z">
+        <seg>1.</seg>
       </tuv>
     </tu>
     <tu>
@@ -984,6 +1226,18 @@ Nu will try to expands all table's structure by default.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>&gt; let foo = 'C:\Program Files\exiftool.exe'
+&gt; ^$foo
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T110820Z" creationid="jenya" creationdate="20240205T110820Z">
+        <seg>&gt; let foo = 'C:\Program Files\exiftool.exe'
+&gt; ^$foo
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>&gt; ls | sort-by name | select 5
 ───┬───────────────┬──────┬─────────┬────────────</seg>
       </tuv>
@@ -998,6 +1252,14 @@ Nu will try to expands all table's structure by default.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240127T190452Z" creationid="jenya" creationdate="20240127T190452Z">
         <seg>После установки запустите Nu, набрав `nu`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Also, many bare words have special meaning in nu, and so will not be interpreted as a string:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T110636Z" creationid="jenya" creationdate="20240205T110636Z">
+        <seg>Кроме того, многие "голые" слова имеют особое значение в языке nu, и поэтому не будут интерпретироваться как строки:</seg>
       </tuv>
     </tu>
     <tu>
@@ -1018,10 +1280,50 @@ Nu will try to expands all table's structure by default.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>As an alternative, backtick strings using the &lt;code&gt;`&lt;/code&gt; character also exist:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T101538Z" creationid="jenya" creationdate="20240205T101204Z">
+        <seg>В качестве альтернативы существуют строки с обратными кавычками, использующие символ &lt;code&gt;`&lt;/code&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>As of version 0.61, interpolated strings support escaping parentheses, so that the `(` and `)` characters may be used in a string without Nushell trying to evaluate what appears between them:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T124014Z" creationid="jenya" creationdate="20240205T124014Z">
+        <seg>Начиная с версии 0.61, интерполированные строки поддерживают экранирование круглых скобок, так что символы `(` и `)` могут использоваться в строке без того, чтобы Nushell пытался оценить то, что появляется между ними:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>But be careful - if you use a bare word plainly on the command line (that is, not inside a data structure or used as a command parameter) or inside round brackets `(` `)`, it will be interpreted as an external command:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T110503Z" creationid="jenya" creationdate="20240205T110503Z">
+        <seg>Но будьте осторожны - если вы используете голое слово просто в командной строке (то есть не внутри структуры данных или в качестве параметра команды) или внутри круглых скобок `(` `)`, оно будет интерпретировано как внешняя команда:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>But rather than trying to be a jack of all trades, Nu focuses its energy on doing a few things well:</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240127T191702Z" creationid="jenya" creationdate="20240127T191702Z">
         <seg>Но вместо того, чтобы пытаться быть универсальным специалистом, Nu сосредоточила свою энергию на том, чтобы делать несколько вещей хорошо:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>By default, the [`str trim`](/commands/docs/str_trim.md) commands trims whitespace from both sides of the string.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T125159Z" creationid="jenya" creationdate="20240205T125159Z">
+        <seg>По умолчанию команда [`str trim`](/commands/docs/str_trim.md) обрезает пробельные символы с обеих сторон строки.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>By wrapping expressions in `()`, we can run them to completion and use the results to help build the string.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T123854Z" creationid="jenya" creationdate="20240205T123854Z">
+        <seg>Обернув выражения в `()`, мы можем выполнить их до конца и использовать результаты для построения строки.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1050,6 +1352,30 @@ Nu will try to expands all table's structure by default.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Escape characters let you quickly add in a character that would otherwise be hard to type.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T104117Z" creationid="jenya" creationdate="20240205T103501Z">
+        <seg>Управляющие символы позволяют быстро добавить символ, который иначе было бы трудно набрать.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Finally you could also use string interpolation, but that is complex enough that it is covered in it's own subsection below.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T112143Z" creationid="jenya" creationdate="20240205T112143Z">
+        <seg>Наконец, можно также использовать интерполяцию строк, но это достаточно сложная задача, поэтому она рассматривается в отдельном подразделе ниже.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Finally, the [`split chars`](/commands/docs/split_chars.md) command will split a string into a list of characters.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T124129Z" creationid="jenya" creationdate="20240205T124129Z">
+        <seg>Наконец, команда [`split chars`](/commands/docs/split_chars.md) разделит строку на список символов.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Finally, you can use the GitHub discussions or file GitHub issues.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240127T195115Z" creationid="jenya" creationdate="20240127T195115Z">
@@ -1066,10 +1392,50 @@ Nu will try to expands all table's structure by default.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>For example, let's say we have a variable called `$name` and we want to greet the name of the person contained in this variable:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T113140Z" creationid="jenya" creationdate="20240205T113140Z">
+        <seg>Например, допустим, у нас есть переменная `$name`, и мы хотим поприветствовать имя человека, содержащееся в этой переменной:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>For example, we could also have sorted the above using the "name", "accessed", or "modified" columns.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240130T090036Z" creationid="jenya" creationdate="20240130T090031Z">
         <seg>Например, мы могли бы отсортировать все вышеперечисленное по столбцам  "name", "accessed" или "modified".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For example, we could write the text hello followed by a new line and then world, using escape characters and a double-quoted string:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T102144Z" creationid="jenya" creationdate="20240205T101840Z">
+        <seg>Например, мы можем написать текст "Привет", за которым следует новая строка, а затем "мир", используя при этом управляющие символы и двойные кавычки:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For example, you can look if a string contains a particular substring using [`str contains`](/commands/docs/str_contains.md):</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T124550Z" creationid="jenya" creationdate="20240205T124550Z">
+        <seg>Например, вы можете проверить, содержит ли строка определенную подстроку, используя [`str contains`](/commands/docs/str_contains.md):</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For example:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T125817Z" creationid="jenya" creationdate="20240205T125817Z">
+        <seg>Например:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For more complex strings, Nushell also offers double-quoted strings.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T101730Z" creationid="jenya" creationdate="20240205T101730Z">
+        <seg>Для более сложных строк Nushell также предлагает строки с двойными кавычками.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1106,10 +1472,42 @@ Nu will try to expands all table's structure by default.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Here's an example of all the options in action:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T125858Z" creationid="jenya" creationdate="20240205T125858Z">
+        <seg>Вот пример всех вариантов в действии:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Here's an example of using a substring:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T125930Z" creationid="jenya" creationdate="20240205T125930Z">
+        <seg>Вот пример использования подстроки:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Here's the text for hello world as a single-quoted string:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T100954Z" creationid="jenya" creationdate="20240205T100854Z">
+        <seg>Вот текст Привет мир! в виде строки с одинарными кавычками:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>However, you do not have to be a Rust programmer to help.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240127T194545Z" creationid="jenya" creationdate="20240127T194545Z">
         <seg>Однако вам не обязательно быть программистом Rust, чтобы помочь.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If a string is known to contain comma-separated, tab-separated or multi-space-separated data, you can use [`from csv`](/commands/docs/from_csv.md), [`from tsv`](/commands/docs/from_tsv.md) or [`from ssv`](/commands/docs/from_ssv.md):</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T130740Z" creationid="jenya" creationdate="20240205T130740Z">
+        <seg>Если известно, что строка содержит данные, разделенные запятыми, табуляцией или несколькими пробелами, вы можете использовать [`from csv`](/commands/docs/from_csv.md), [`from tsv`](/commands/docs/from_tsv.md) или [`from ssv`](/commands/docs/from_ssv.md):</seg>
       </tuv>
     </tu>
     <tu>
@@ -1154,6 +1552,22 @@ Nu will try to expands all table's structure by default.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If you want to add something to the beginning of each string closures are a good option:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T111443Z" creationid="jenya" creationdate="20240205T111443Z">
+        <seg>Если вы хотите добавить что-то в начало каждоой строки, то застежки - отличный вариант:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If you want to get one string out of the end then `str join` is your friend:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T111726Z" creationid="jenya" creationdate="20240205T111726Z">
+        <seg>Если вы хотите получить одну строку из конца, то `str join` - ваш друг:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If you wrote a cool script, plugin or integrated Nushell somewhere, we'd welcome your contribution to `nu_scripts` or Awesome Nu.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240127T194653Z" creationid="jenya" creationdate="20240127T194653Z">
@@ -1182,6 +1596,14 @@ Nu will try to expands all table's structure by default.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240130T102106Z" creationid="jenya" creationdate="20240130T102106Z">
         <seg>Помимо выборки данных из таблицы, мы также можем обновлять данные в таблице.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In addition to the standard `==` and `!=` operators, a few operators exist for specifically comparing strings to one another.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T130811Z" creationid="jenya" creationdate="20240205T130811Z">
+        <seg>Помимо стандартных операторов `==` и `!=`, существует несколько операторов, предназначенных специально для сравнения строк между собой.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1314,6 +1736,30 @@ Nu will try to expands all table's structure by default.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Like other shell languages (but unlike most other programming languages) strings consisting of a single 'word' can also be written without any quotes:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T110320Z" creationid="jenya" creationdate="20240205T110320Z">
+        <seg>Как и в других языках оболочки (но в отличие от большинства других языков программирования), строки, состоящие из одного "слова", могут быть записаны без кавычек:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Many string functions are subcommands of the [`str`](/commands/docs/str.md) command.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T124335Z" creationid="jenya" creationdate="20240205T124335Z">
+        <seg>Многие строковые функции являются подкомандами команды [`str`](/commands/docs/str.md).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>More complex string use cases also need a new form of string: string interpolation.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T112419Z" creationid="jenya" creationdate="20240205T112419Z">
+        <seg>Более сложные случаи использования строк также нуждаются в новой форме строк: интерполяции строк.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Most repositories contain `CONTRIBUTING.md` file with tips and details that should help you get started (if not, consider contributing a fix!).</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240127T194521Z" creationid="jenya" creationdate="20240127T194521Z">
@@ -1370,6 +1816,14 @@ Nu will try to expands all table's structure by default.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Nushell currently supports the following escape characters:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T104148Z" creationid="jenya" creationdate="20240205T104039Z">
+        <seg>В настоящее время Nushell поддерживает следующие управляющие символы:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Nushell is available as [downloadable binaries](https://github.com/nushell/nushell/releases), [via your favourite package manager](https://repology.org/project/nushell/versions), in [a GitHub Action](https://github.com/marketplace/actions/setup-nu), and as [source code](https://github.com/nushell/nushell).</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240130T085146Z" creationid="jenya" creationdate="20240127T190359Z">
@@ -1386,6 +1840,14 @@ Nu will try to expands all table's structure by default.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Of course, backtick strings cannot contain any backticks themselves.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T101636Z" creationid="jenya" creationdate="20240205T101500Z">
+        <seg>Разумеется, строки с обратными кавычками не могут содержать обратные кавычки.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>One of the common ways of seeing data in Nu is through a table.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240130T085309Z" creationid="jenya" creationdate="20240130T085309Z">
@@ -1398,6 +1860,22 @@ Nu will try to expands all table's structure by default.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240130T102657Z" creationid="jenya" creationdate="20240130T102657Z">
         <seg>Или мы можем использовать команду [`reduce`](/commands/docs/reduce.md) для динамического слияния всех таблиц:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Otherwise, they are identical to single-quoted strings.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T101644Z" creationid="jenya" creationdate="20240205T101644Z">
+        <seg>В остальном они идентичны строкам с одинарными кавычками.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Padding adds characters to string until it's a certain length.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T130050Z" creationid="jenya" creationdate="20240205T130050Z">
+        <seg>Вставка добавляет символы в строку до определенной длины.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1426,10 +1904,34 @@ Nu will try to expands all table's structure by default.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Single-quoted strings don't do anything to the text they're given, making them ideal for holding a wide range of text data.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T101129Z" creationid="jenya" creationdate="20240205T100945Z">
+        <seg>Строки с одинарными кавычками ничего не делают с текстом, который им передается, поэтому они идеально подходят для хранения широкого спектра текстовых данных.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Single-quoted strings, due to not supporting any escapes, cannot contain any single-quote characters themselves.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T102114Z" creationid="jenya" creationdate="20240205T101146Z">
+        <seg>Строки с одинарными кавычками, поскольку не поддерживают никаких управляющая последовательностей, сами не могут содержать символов одинарных кавычек.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>So far, we've worked with tables by trimming the table down to only what we need.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240130T101632Z" creationid="jenya" creationdate="20240130T101632Z">
         <seg>До сих пор мы работали с таблицами, обрезая их только до того, что нам нужно.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>So, while bare strings are useful for informal command line usage, when programming more formally in nu, you should generally use quotes.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T110734Z" creationid="jenya" creationdate="20240205T110734Z">
+        <seg>Поэтому, хотя голые строки полезны для неформального использования командной строки, при более формальном программировании на языке nu следует использовать кавычки.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1450,6 +1952,55 @@ Nu will try to expands all table's structure by default.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>String interpolation combines the results together, giving you a new string.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T113108Z" creationid="jenya" creationdate="20240205T113108Z">
+        <seg>Интерполяция строк объединяет результаты и дает новую строку.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>String interpolation has both a single-quoted, `$' '`, and a double-quoted, `$" "`, form.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T123942Z" creationid="jenya" creationdate="20240205T123942Z">
+        <seg>Интерполяция строк может быть как одинарной, `$' '`, так и двойной, `$"'`, в виде кавычек.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>String interpolation uses `$" "` and `$' '` as ways to wrap interpolated text.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T113126Z" creationid="jenya" creationdate="20240205T113126Z">
+        <seg>Интерполяция строк использует `$" "` и `$' '` как способы обернуть интерполируемый текст.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Strings are so common that Nushell offers a couple ways to work with them, letting you pick what best
+matches your needs.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T093923Z" creationid="jenya" creationdate="20240205T093923Z">
+        <seg>Строки настолько распространены, что Nushell предлагает несколько способов работы с ними, позволяя вам выбрать тот, который лучше всего соответствует вашим потребностям.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Strings in Nushell help to hold text data for later use.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T093738Z" creationid="jenya" creationdate="20240205T093738Z">
+        <seg>Строки в Nushell помогают хранить текстовые данные для последующего использования.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Substrings are slices of a string.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T125920Z" creationid="jenya" creationdate="20240205T125920Z">
+        <seg>Подстроки - это фрагменты строки.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The Nushell project consists of multiple different repositories and subprojects.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240127T193159Z" creationid="jenya" creationdate="20240127T193159Z">
@@ -1462,6 +2013,22 @@ Nu will try to expands all table's structure by default.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240130T101949Z" creationid="jenya" creationdate="20240130T101949Z">
         <seg>Команда [`get`](/commands/docs/get.md) может пойти на шаг дальше и проложить путь к данным, расположенным глубже в таблице.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The [`split column`](/commands/docs/split_column.md) command will create a table from a string based on a delimiter.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T124108Z" creationid="jenya" creationdate="20240205T124051Z">
+        <seg>Команда [`split column`](/commands/docs/split_column.md) создаст таблицу из строки на основе разделителя.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The [`split row`](/commands/docs/split_row.md) command creates a list from a string based on a delimiter.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T124034Z" creationid="jenya" creationdate="20240205T124032Z">
+        <seg>Команда [`split row`](/commands/docs/split_row.md) создает список из строки на основе разделителя.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1498,10 +2065,66 @@ Nu will try to expands all table's structure by default.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The simplest string in Nushell is the single-quoted string.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T100824Z" creationid="jenya" creationdate="20240205T100824Z">
+        <seg>Самая простая строка в Nushell - это строка с одинарной кавычкой.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>There are multiple ways to convert strings to and from other types.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T130853Z" creationid="jenya" creationdate="20240205T130853Z">
+        <seg>Существует множество способов преобразования строк в другие типы и обратно.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>There are various ways to pre, or append strings.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T111323Z" creationid="jenya" creationdate="20240205T111323Z">
+        <seg>Существуют различные способы предварительной обработки или добавления строк.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>These correspond to the single-quoted and double-quoted strings: single-quoted string interpolation doesn't support escape characters while double-quoted string interpolation does.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T123948Z" creationid="jenya" creationdate="20240205T123948Z">
+        <seg>Они соответствуют строкам с одинарными и двойными кавычками: интерполяция строк с одинарными кавычками не поддерживает управляющие символы, а интерполяция строк с двойными кавычками - поддерживает.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>These look very similar!</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240130T101850Z" creationid="jenya" creationdate="20240130T101850Z">
         <seg>Они очень похожи!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>These strings use the `"` character to surround text.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T101745Z" creationid="jenya" creationdate="20240205T101745Z">
+        <seg>В этих строках для окружения текста используется символ `"`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>They also support the ability escape characters inside the text using the `\` character.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T101758Z" creationid="jenya" creationdate="20240205T101758Z">
+        <seg>Они также поддерживают возможность экранирования символов внутри текста с помощью символа `\`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>They have a startpoint and an endpoint.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T125924Z" creationid="jenya" creationdate="20240205T125924Z">
+        <seg>У них есть начальная и конечная точки.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1514,10 +2137,44 @@ Nu will try to expands all table's structure by default.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This applies generic column names to the table.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T124117Z" creationid="jenya" creationdate="20240205T124052Z">
+        <seg>При этом к таблице применяются общие имена столбцов.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This can be done easily with the [`str reverse`](/commands/docs/str_reverse.md) command.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T130237Z" creationid="jenya" creationdate="20240205T130237Z">
+        <seg>Это можно легко сделать с помощью команды [`str reverse`](/commands/docs/str_reverse.md).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This can include file names, file paths, names of columns,
+and much more.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T093813Z" creationid="jenya" creationdate="20240205T093813Z">
+        <seg>Это могут быть имена файлов, пути к ним, имена столбцов,
+и многое другое.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This helps to create a table that's more focused on what we need.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240130T100933Z" creationid="jenya" creationdate="20240130T100933Z">
         <seg>Это помогает создать таблицу, которая в большей степени ориентирована на то, что нам нужно.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This is a way of building text from both raw text and the result of running expressions.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T112747Z" creationid="jenya" creationdate="20240205T112747Z">
+        <seg>Это способ создания текста как из исходного текста, так и из результатов выполнения выражений.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1546,10 +2203,34 @@ Nu will try to expands all table's structure by default.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This string uses the `'` character to surround some text.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T100839Z" creationid="jenya" creationdate="20240205T100839Z">
+        <seg>В этой строке используется символ `'` для окружения некоторого текста.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This visual may be slightly confusing, because it looks like what we've just done is add a row.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240130T102848Z" creationid="jenya" creationdate="20240130T102848Z">
         <seg>Это изображение может немного смутить, потому что кажется, что мы только что добавили строку.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Those familiar with Bash and Perl will recognise the regex comparison operators:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T130815Z" creationid="jenya" creationdate="20240205T130801Z">
+        <seg>Те, кто знаком с Bash и Perl, узнают операторы сравнения regex:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Though in the cases of strings, especially if you don't have to operate on the strings, it's usually easier and more correct (notice the extra + at the end in the example above) to use `str join`.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T112129Z" creationid="jenya" creationdate="20240205T112041Z">
+        <seg>Хотя в случае со строками, особенно если вам не нужно оперировать со строками, обычно проще и правильнее (обратите внимание на лишний + в конце в примере выше) использовать `str join`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1574,6 +2255,46 @@ Nu will try to expands all table's structure by default.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240130T085453Z" creationid="jenya" creationdate="20240130T085453Z">
         <seg>Для начала давайте создадим таблицу, которую мы сможем использовать:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>To trim a specific character, use `--char &lt;Character&gt;` or `-c &lt;Character&gt;` to specify the character to trim.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T125852Z" creationid="jenya" creationdate="20240205T125852Z">
+        <seg>Чтобы обрезать определенный символ, используйте `--char &lt;Символ&gt;` или `-c &lt;Символ&gt;`, чтобы указать символ для обрезки.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Two other operators exist for simpler comparisons:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T130829Z" creationid="jenya" creationdate="20240205T130829Z">
+        <seg>Для более простых сравнений существуют два других оператора:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Using [`into &lt;type&gt;`](/commands/docs/into.md).</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T131052Z" creationid="jenya" creationdate="20240205T131052Z">
+        <seg>Использование [`into &lt;type&gt;`](/commands/docs/into.md).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Using [`into string`](/commands/docs/into_string.md).</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T131004Z" creationid="jenya" creationdate="20240205T131004Z">
+        <seg>Использование [`into string`](/commands/docs/into_string.md).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Using string interpolation.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T131024Z" creationid="jenya" creationdate="20240205T131024Z">
+        <seg>Использование строчной интерполяции.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1674,6 +2395,22 @@ Nu will try to expands all table's structure by default.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>With the [`fill`](/commands/docs/fill.md) command you can add padding to a string.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T130037Z" creationid="jenya" creationdate="20240205T130037Z">
+        <seg>С помощью команды [`fill`](/commands/docs/fill.md) вы можете добавлять в строку вставку.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>With the [`parse`](/commands/docs/parse.md) command you can parse a string into columns.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T130725Z" creationid="jenya" creationdate="20240205T130725Z">
+        <seg>С помощью команды [`parse`](/commands/docs/parse.md) вы можете разобрать строку на столбцы.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You can also [`reject`](/commands/docs/reject.md) columns in a table by passing it through the reject command.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240130T104944Z" creationid="jenya" creationdate="20240130T104944Z">
@@ -1702,6 +2439,30 @@ Nu will try to expands all table's structure by default.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240127T195110Z" creationid="jenya" creationdate="20240127T195110Z">
         <seg>Вы также можете следить за нашими новостями и обновлениями в [Twitter](https://twitter.com/nu_shell).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can also use a regex to replace the beginning or end of a string:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T111517Z" creationid="jenya" creationdate="20240205T111517Z">
+        <seg>Вы также можете использовать регулярное выражение для замены начала или конца строки:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can also use reduce:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T112004Z" creationid="jenya" creationdate="20240205T111817Z">
+        <seg>Вы также можете использовать комманду reduce:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can also use the [`run-external`](/commands/docs/run-external.md) command for this purpose, which provides additional flags and options.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T110849Z" creationid="jenya" creationdate="20240205T110849Z">
+        <seg>Для этого также можно использовать команду [`run-external`](/commands/docs/run-external.md), которая предоставляет дополнительные флаги и опции.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1738,6 +2499,14 @@ Nu will try to expands all table's structure by default.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You can color strings with the [`ansi`](/commands/docs/ansi.md) command.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T131116Z" creationid="jenya" creationdate="20240205T131116Z">
+        <seg>Вы можете раскрасить строки с помощью команды [`ansi`](/commands/docs/ansi.md).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You can contribute to Nushell just by using Nushell!</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240127T194736Z" creationid="jenya" creationdate="20240127T194727Z">
@@ -1754,10 +2523,42 @@ Nu will try to expands all table's structure by default.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You can get a full list using `help str`.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T124400Z" creationid="jenya" creationdate="20240205T124400Z">
+        <seg>Полный список можно получить с помощью `help str`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You can help improve this site by [giving us feedback](https://github.com/nushell/nushell.github.io/issues) or [sending a PR](https://github.com/nushell/nushell.github.io/pulls).</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240127T190653Z" creationid="jenya" creationdate="20240127T190653Z">
         <seg>Вы можете помочь улучшить этот сайт, [оставив отзыв](https://github.com/nushell/nushell.github.io/issues) или [отправив PR](https://github.com/nushell/nushell.github.io/pulls).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can place the `^` sigil in front of any string (including a variable) to have Nushell execute the string as if it was an external command:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T110806Z" creationid="jenya" creationdate="20240205T110806Z">
+        <seg>Вы можете поставить знак `^` перед любой строкой (включая переменную), чтобы Nushell выполнил ее как внешнюю команду:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can specify on which side the trimming occurs with the `--right` and `--left` options.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T125823Z" creationid="jenya" creationdate="20240205T125823Z">
+        <seg>С помощью опций `--right` и `--left` можно указать, с какой стороны происходит обрезка.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can trim the sides of a string with the [`str trim`](/commands/docs/str_trim.md) command.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T125142Z" creationid="jenya" creationdate="20240205T125142Z">
+        <seg>Вы можете обрезать стороны строки с помощью команды [`str trim`](/commands/docs/str_trim.md).</seg>
       </tuv>
     </tu>
     <tu>
@@ -1811,6 +2612,16 @@ Nu will try to expands all table's structure by default.</seg>
     <tu>
       <tuv lang="en-US">
         <seg>```nu
+"hello" | append "world!" | str join " " # hello world!</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T111811Z" creationid="jenya" creationdate="20240205T111811Z">
+        <seg>```nu
+"hello" | append "world!" | str join " " # hello world!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
 $first ++ $second ++ $third
 ───┬───┬────┬────</seg>
       </tuv>
@@ -1818,6 +2629,166 @@ $first ++ $second ++ $third
         <seg>```nu
 $first ++ $second ++ $third
 ───┬───┬────┬────</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+1..10 | reduce -f "" {|it, acc| $acc + ($it | into string) + " + "} # 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 +
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T112040Z" creationid="jenya" creationdate="20240205T112040Z">
+        <seg>```nu
+1..10 | reduce -f "" {|it, acc| $acc + ($it | into string) + " + "} # 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 +
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+&gt; "acronym,long\nAPL,A Programming Language" | from csv
+╭───┬─────────┬────────────────────────╮
+│ # │ acronym │          long          │
+├───┼─────────┼────────────────────────┤
+│ 0 │ APL     │ A Programming Language │
+╰───┴─────────┴────────────────────────╯
+&gt; "name  duration\nonestop.mid  4:06" | from ssv
+╭───┬─────────────┬──────────╮
+│ # │    name     │ duration │
+├───┼─────────────┼──────────┤
+│ 0 │ onestop.mid │ 4:06     │
+╰───┴─────────────┴──────────╯
+&gt; "rank\tsuit\nJack\tSpades\nAce\tClubs" | from tsv
+╭───┬──────┬────────╮
+│ # │ rank │  suit  │
+├───┼──────┼────────┤
+│ 0 │ Jack │ Spades │
+│ 1 │ Ace  │ Clubs  │
+╰───┴──────┴────────╯
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T130754Z" creationid="jenya" creationdate="20240205T130754Z">
+        <seg>```nu
+&gt; "acronym,long\nAPL,A Programming Language" | from csv
+╭───┬─────────┬────────────────────────╮
+│ # │ acronym │          long          │
+├───┼─────────┼────────────────────────┤
+│ 0 │ APL     │ A Programming Language │
+╰───┴─────────┴────────────────────────╯
+&gt; "name  duration\nonestop.mid  4:06" | from ssv
+╭───┬─────────────┬──────────╮
+│ # │    name     │ duration │
+├───┼─────────────┼──────────┤
+│ 0 │ onestop.mid │ 4:06     │
+╰───┴─────────────┴──────────╯
+&gt; "rank\tsuit\nJack\tSpades\nAce\tClubs" | from tsv
+╭───┬──────┬────────╮
+│ # │ rank │  suit  │
+├───┼──────┼────────┤
+│ 0 │ Jack │ Spades │
+│ 1 │ Ace  │ Clubs  │
+╰───┴──────┴────────╯
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+&gt; "hello world" | str contains "o wo"
+true
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T124559Z" creationid="jenya" creationdate="20240205T124559Z">
+        <seg>```nu
+&gt; "hello world" | str contains "o wo"
+true
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+&gt; "hello\nworld"
+hello
+world
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T102201Z" creationid="jenya" creationdate="20240205T102120Z">
+        <seg>```nu
+&gt; "Привет\nмир"
+hello
+world
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+&gt; "red,green,blue" | split column ","
+╭───┬─────────┬─────────┬─────────╮
+│ # │ column1 │ column2 │ column3 │
+├───┼─────────┼─────────┼─────────┤
+│ 0 │ red     │ green   │ blue    │
+╰───┴─────────┴─────────┴─────────╯
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T124120Z" creationid="jenya" creationdate="20240205T124120Z">
+        <seg>```nu
+&gt; "red,green,blue" | split column ","
+╭───┬─────────┬─────────┬─────────╮
+│ # │ column1 │ column2 │ column3 │
+├───┼─────────┼─────────┼─────────┤
+│ 0 │ red     │ green   │ blue    │
+╰───┴─────────┴─────────┴─────────╯
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+&gt; "red,green,blue" | split row ","
+╭───┬───────╮
+│ 0 │ red   │
+│ 1 │ green │
+│ 2 │ blue  │
+╰───┴───────╯
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T124044Z" creationid="jenya" creationdate="20240205T124044Z">
+        <seg>```nu
+&gt; "red,green,blue" | split row ","
+╭───┬───────╮
+│ 0 │ red   │
+│ 1 │ green │
+│ 2 │ blue  │
+╰───┴───────╯
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+&gt; $"2 + 2 is (2 + 2) \(you guessed it!)"
+2 + 2 is 4 (you guessed it!)
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T124016Z" creationid="jenya" creationdate="20240205T124016Z">
+        <seg>```nu
+&gt; $"2 + 2 is (2 + 2) \(you guessed it!)"
+2 + 2 is 4 (you guessed it!)
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+&gt; $'(ansi purple_bold)This text is a bold purple!(ansi reset)'
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T131125Z" creationid="jenya" creationdate="20240205T131125Z">
+        <seg>```nu
+&gt; $'(ansi purple_bold)This text is a bold purple!(ansi reset)'
+```</seg>
       </tuv>
     </tu>
     <tu>
@@ -1835,6 +2806,218 @@ $first ++ $second ++ $third
     <tu>
       <tuv lang="en-US">
         <seg>```nu
+&gt; '       My   string   ' | str trim
+My   string
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T125817Z" creationid="jenya" creationdate="20240205T125817Z">
+        <seg>```nu
+&gt; '       My   string   ' | str trim
+My   string
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+&gt; '1234' | fill -a right -c '0' -w 10
+0000001234
+&gt; '1234' | fill -a left -c '0' -w 10 | str length
+10
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T130104Z" creationid="jenya" creationdate="20240205T130104Z">
+        <seg>```nu
+&gt; '1234' | fill -a right -c '0' -w 10
+0000001234
+&gt; '1234' | fill -a left -c '0' -w 10 | str length
+10
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+&gt; '=== Nu shell ===' | str trim -r -c '='
+=== Nu shell
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T125900Z" creationid="jenya" creationdate="20240205T125900Z">
+        <seg>```nu
+&gt; '=== Nu shell ===' | str trim -r -c '='
+=== Nu shell
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+&gt; 'APL' =~ '^\w{0,3}$'
+true
+&gt; 'FORTRAN' !~ '^\w{0,3}$'
+true
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T130818Z" creationid="jenya" creationdate="20240205T130818Z">
+        <seg>```nu
+&gt; 'APL' =~ '^\w{0,3}$'
+true
+&gt; 'FORTRAN' !~ '^\w{0,3}$'
+true
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+&gt; 'Hello World!' | str index-of 'o'
+4
+&gt; 'Hello World!' | str index-of 'r'
+8
+&gt; 'Hello World!' | str substring 4..8
+o Wo
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T125932Z" creationid="jenya" creationdate="20240205T125932Z">
+        <seg>```nu
+&gt; 'Hello World!' | str index-of 'o'
+4
+&gt; 'Hello World!' | str index-of 'r'
+8
+&gt; 'Hello World!' | str substring 4..8
+o Wo
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+&gt; 'JavaScript' starts-with 'Java'
+true
+&gt; 'OCaml' ends-with 'Caml'
+true
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T130839Z" creationid="jenya" creationdate="20240205T130839Z">
+        <seg>```nu
+&gt; 'JavaScript' starts-with 'Java'
+true
+&gt; 'OCaml' ends-with 'Caml'
+true
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+&gt; 'Nushell 0.80' | parse '{shell} {version}'
+╭───┬─────────┬─────────╮
+│ # │  shell  │ version │
+├───┼─────────┼─────────┤
+│ 0 │ Nushell │ 0.80    │
+╰───┴─────────┴─────────╯
+&gt; 'where all data is structured!' | parse --regex '(?P&lt;subject&gt;\w*\s?\w+) is (?P&lt;adjective&gt;\w+)'
+╭───┬──────────┬────────────╮
+│ # │ subject  │ adjective  │
+├───┼──────────┼────────────┤
+│ 0 │ all data │ structured │
+╰───┴──────────┴────────────╯
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T130728Z" creationid="jenya" creationdate="20240205T130728Z">
+        <seg>```nu
+&gt; 'Nushell 0.80' | parse '{shell} {version}'
+╭───┬─────────┬─────────╮
+│ # │  shell  │ version │
+├───┼─────────┼─────────┤
+│ 0 │ Nushell │ 0.80    │
+╰───┴─────────┴─────────╯
+&gt; 'where all data is structured!' | parse --regex '(?P&lt;subject&gt;\w*\s?\w+) is (?P&lt;adjective&gt;\w+)'
+╭───┬──────────┬────────────╮
+│ # │ subject  │ adjective  │
+├───┼──────────┼────────────┤
+│ 0 │ all data │ structured │
+╰───┴──────────┴────────────╯
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+&gt; 'Nushell' | str reverse
+llehsuN
+&gt; ['Nushell' 'is' 'cool'] | str reverse
+╭───┬─────────╮
+│ 0 │ llehsuN │
+│ 1 │ si      │
+│ 2 │ looc    │
+╰───┴─────────╯
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T130240Z" creationid="jenya" creationdate="20240205T130240Z">
+        <seg>```nu
+&gt; 'Nushell' | str reverse
+llehsuN
+&gt; ['Nushell' 'is' 'cool'] | str reverse
+╭───┬─────────╮
+│ 0 │ llehsuN │
+│ 1 │ si      │
+│ 2 │ looc    │
+╰───┴─────────╯
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+&gt; 'aeiou' | split chars
+╭───┬───╮
+│ 0 │ a │
+│ 1 │ e │
+│ 2 │ i │
+│ 3 │ o │
+│ 4 │ u │
+╰───┴───╯
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T124132Z" creationid="jenya" creationdate="20240205T124132Z">
+        <seg>```nu
+&gt; 'aeiou' | split chars
+╭───┬───╮
+│ 0 │ a │
+│ 1 │ e │
+│ 2 │ i │
+│ 3 │ o │
+│ 4 │ u │
+╰───┴───╯
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+&gt; 'hello world'
+hello world
+&gt; 'The
+end'
+The
+end
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T101034Z" creationid="jenya" creationdate="20240205T100856Z">
+        <seg>```nu
+&gt; 'Привет мир!'
+Привет мир!
+&gt; 'Привет
+мир!'
+Привет
+мир!
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
 &gt; [$first $second $third] | reduce {|it, acc| $acc | merge $it }
 ───┬───┬───┬───┬───┬───┬───</seg>
       </tuv>
@@ -1842,6 +3025,56 @@ $first ++ $second ++ $third
         <seg>```nu
 &gt; [$first $second $third] | reduce {|it, acc| $acc | merge $it }
 ───┬───┬───┬───┬───┬───┬───</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+&gt; `no man's land`
+no man's land
+&gt; `no man's
+land`
+no man's
+land
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T101226Z" creationid="jenya" creationdate="20240205T101226Z">
+        <seg>```nu
+&gt; `no man's land`
+no man's land
+&gt; `no man's
+land`
+no man's
+land
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+&gt; hello
+Error: nu::shell::external_command</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T110520Z" creationid="jenya" creationdate="20240205T110520Z">
+        <seg>```nu
+&gt; hello
+Error: nu::shell::external_command</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+&gt; let name = "Alice"
+&gt; $"greetings, ($name)"
+greetings, Alice
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T113250Z" creationid="jenya" creationdate="20240205T113223Z">
+        <seg>```nu
+&gt; let name = "Алиса"
+&gt; $"Привет, ($name)!"
+Привет, Алиса!
+```</seg>
       </tuv>
     </tu>
     <tu>
@@ -2113,6 +3346,86 @@ $first ++ $second ++ $third
     <tu>
       <tuv lang="en-US">
         <seg>```nu
+&gt; print hello
+hello
+&gt; [hello] | describe
+list&lt;string&gt;
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T110418Z" creationid="jenya" creationdate="20240205T110418Z">
+        <seg>```nu
+&gt; print Привет
+Привет
+&gt; [Привет] | describe
+list&lt;string&gt;
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+&gt; true | describe
+bool
+&gt; [true] | describe
+list&lt;bool&gt;
+&gt; [trueX] | describe
+list&lt;string&gt;
+&gt; trueX | describe
+Error: nu::shell::external_command</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T110651Z" creationid="jenya" creationdate="20240205T110651Z">
+        <seg>```nu
+&gt; true | describe
+bool
+&gt; [true] | describe
+list&lt;bool&gt;
+&gt; [trueX] | describe
+list&lt;string&gt;
+&gt; trueX | describe
+Error: nu::shell::external_command</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+['foo', 'bar'] | each {|s| '~/' ++ $s} # ~/foo, ~/bar
+['foo', 'bar'] | each {|s| '~/' + $s} # ~/foo, ~/bar
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T111746Z" creationid="jenya" creationdate="20240205T111445Z">
+        <seg>```nu
+['foo', 'bar'] | each {|s| '~/' ++ $s} # ~/foo, ~/bar
+['foo', 'bar'] | each {|s| '~/' + $s}  # ~/foo, ~/bar
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+['foo', 'bar'] | str replace -r '^' '~/'# ~/foo, ~/bar
+['foo', 'bar'] | str replace -r '$' '~/'# foo~/, bar~/
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T111732Z" creationid="jenya" creationdate="20240205T111523Z">
+        <seg>```nu
+['foo', 'bar'] | str replace -r '^' '~/' # ~/foo, ~/bar
+['foo', 'bar'] | str replace -r '$' '~/' # foo~/, bar~/
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+^'C:\Program Files\exiftool.exe'</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T110818Z" creationid="jenya" creationdate="20240205T110818Z">
+        <seg>```nu
+^'C:\Program Files\exiftool.exe'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
 let first = [[a b]; [1 2]]
 let second = [[a b]; [3 4]]
 $first | append $second
@@ -2186,6 +3499,16 @@ $ winget install nushell
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>`ansi purple_bold` makes the text a bold purple
+`ansi reset` resets the coloring to the default.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T131126Z" creationid="jenya" creationdate="20240205T131126Z">
+        <seg>`ansi purple_bold` makes the text a bold purple
+`ansi reset` resets the coloring to the default.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>details: It's easy to extend Nu using a powerful plugin system.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240127T185256Z" creationid="jenya" creationdate="20240127T185256Z">
@@ -2206,6 +3529,32 @@ $ winget install nushell
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240127T185117Z" creationid="jenya" creationdate="20240127T185117Z">
         <seg>details: Nu работает на Linux, macOS, BSD и Windows.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>e.g. `$'(123)'`</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T131034Z" creationid="jenya" creationdate="20240205T131027Z">
+        <seg>например. `$'(123)'`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>e.g. `'123' | into int`</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T131100Z" creationid="jenya" creationdate="20240205T131054Z">
+        <seg>например. `'123' | into int`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>e.g. `123 | into string`
+2.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T131018Z" creationid="jenya" creationdate="20240205T131018Z">
+        <seg>например. `123 | into string`
+2.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2242,6 +3591,16 @@ $ winget install nushell
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>help: program not found
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T110531Z" creationid="jenya" creationdate="20240205T110531Z">
+        <seg>help: program not found
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>next_edition │ 2021
 ──────────────┴──────
 ```</seg>
@@ -2250,6 +3609,68 @@ $ winget install nushell
         <seg>next_edition │ 2021
 ──────────────┴──────
 ```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>| Format of string            | Example                 | Escapes                   | Notes                                                                  |
+| --------------------------- | ----------------------- | ------------------------- | ---------------------------------------------------------------------- |
+| Single-quoted string        | `'[^\n]+'`              | None                      | Cannot contain any `'`                                                 |
+| Backtick string             | &lt;code&gt;\`[^\n]+\`&lt;/code&gt; | None                      | Cannot contain any backticks `                                         |
+| Double-quoted string        | `"The\nEnd"`            | C-style backslash escapes | All backslashes must be escaped                                        |
+| Bare string                 | `ozymandias`            | None                      | Can only contain "word" characters; Cannot be used in command position |
+| Single-quoted interpolation | `$'Captain ($name)'`    | None                      | Cannot contain any `'` or unmatched `()`                               |
+| Double-quoted interpolation | `$"Captain ($name)"`    | C-style backslash escapes | All backslashes and `()` must be escaped                               |</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T102103Z" creationid="jenya" creationdate="20240205T094535Z">
+        <seg>| Формат строки                       | Пример                  | Управляющая последовательность | Примечания                                                                              |
+| ----------------------------------- | ----------------------- | ------------------------------ | --------------------------------------------------------------------------------------- |
+| Строка с одинарными кавычками       | `'[^\n]+'`              | Нет                            | Не может содержать ни одной `'`                                                         |
+| Строка с обратными кавычками        | &lt;code&gt;\`[^\n]+\`&lt;/code&gt; | Нет                            | Не может содержать ни одной обратной кавычки `                                          |
+| Строка с двойными кавычками         | `"The\nEnd"`            | Обратные косые черты в стиле C | Все обратные косые черты должны быть экранированы                                       |
+| Голая строка                        | `ozymandias`            | Нет                            | Может содержать только символы типа "word"; Не может использоваться в командной позиции |
+| Интерполяция с одинарными кавычками | `$'Captain ($name)'`    | Нет                            | Не может содержать ни одной `'` или несопоставимый с обзацом `()`                       |
+| Интерполяция с двойными кавычками   | `$"Captain ($name)"`    | Обратные косые черты в стиле C | Все обратные косые черты и `()` должны быть экранированы                                |</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>·   ╰── executable was not found</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T110525Z" creationid="jenya" creationdate="20240205T110525Z">
+        <seg>·   ╰── executable was not found</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>· ──┬──</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T110524Z" creationid="jenya" creationdate="20240205T110524Z">
+        <seg>· ──┬──</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>× External command failed</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T110521Z" creationid="jenya" creationdate="20240205T110521Z">
+        <seg>× External command failed</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>╭─[entry #5:1:1]</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T110522Z" creationid="jenya" creationdate="20240205T110522Z">
+        <seg>╭─[entry #5:1:1]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>╰────</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240205T110526Z" creationid="jenya" creationdate="20240205T110526Z">
+        <seg>╰────</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->
