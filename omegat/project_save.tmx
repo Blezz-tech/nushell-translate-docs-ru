@@ -6,6 +6,22 @@
 <!-- Default translations -->
     <tu>
       <tuv lang="en-US">
+        <seg># Are all scores even?</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T202520Z" creationid="jenya" creationdate="20240221T202520Z">
+        <seg># Все ли баллы равны?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg># Are any scores odd?</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T202418Z" creationid="jenya" creationdate="20240221T202418Z">
+        <seg># Есть ли нечетные оценки?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg># Custom completions</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240130T102259Z" creationid="jenya" creationdate="20240130T102259Z">
@@ -54,10 +70,54 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg># Is the length of all color names greater than or equal to 3?</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T202451Z" creationid="jenya" creationdate="20240221T202451Z">
+        <seg># Длина всех названий цветов больше или равна 3?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg># Is the length of any color name less than 3?</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T202301Z" creationid="jenya" creationdate="20240221T202301Z">
+        <seg># Длина любого имени цвета меньше 3?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg># Show world clock for selected time zones
+$zones | wrap 'Zone' | upsert Time {|it| (date now | date to-timezone $it.Zone | format date '%Y.%m.%d %H:%M')}
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T202718Z" creationid="jenya" creationdate="20240221T202718Z">
+        <seg># Показать мировые часы для выбранных часовых поясов
+$zones | wrap 'Zone' | upsert Time {|it| (date now | date to-timezone $it.Zone | format date '%Y.%m.%d %H:%M')}
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg># This outputs the list [orange blue purple].</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T201628Z" creationid="jenya" creationdate="20240221T201628Z">
+        <seg># Это выводит список [оранжевый синий фиолетовый].</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg># Variables and Subexpressions</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T203036Z" creationid="jenya" creationdate="20240221T202729Z">
+        <seg># Переменные и подвыражения</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg># Working with lists</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240127T191350Z" creationid="jenya" creationdate="20240127T191350Z">
-        <seg># Working with lists</seg>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T200608Z" creationid="jenya" creationdate="20240127T191350Z">
+        <seg># Работа со списками</seg>
       </tuv>
     </tu>
     <tu>
@@ -74,6 +134,16 @@
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240130T085302Z" creationid="jenya" creationdate="20240130T085302Z">
         <seg># Работа с таблицами</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg># │    name    │ type │   size   │   modified
+───┼────────────┼──────┼──────────┼──────────────</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T210430Z" creationid="jenya" creationdate="20240221T210430Z">
+        <seg># │    name    │ type │   size   │   modified
+───┼────────────┼──────┼──────────┼──────────────</seg>
       </tuv>
     </tu>
     <tu>
@@ -178,6 +248,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>## Accessing the list</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T201744Z" creationid="jenya" creationdate="20240221T201744Z">
+        <seg>## Доступ к списку</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>## Appending and Prepending to strings</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240205T111313Z" creationid="jenya" creationdate="20240205T111151Z">
@@ -242,6 +320,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>## Converting the list</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T202524Z" creationid="jenya" creationdate="20240221T202524Z">
+        <seg>## Преобразование списка</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>## Creating lists</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T200618Z" creationid="jenya" creationdate="20240221T200618Z">
+        <seg>## Создание списков</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>## Double-quoted Strings</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240205T101720Z" creationid="jenya" creationdate="20240205T101651Z">
@@ -266,10 +360,34 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>## Iterating over lists</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T201241Z" creationid="jenya" creationdate="20240221T201241Z">
+        <seg>## Итерация по спискам</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>## Removing or adding items from list</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T201022Z" creationid="jenya" creationdate="20240221T201022Z">
+        <seg>## Удаление или добавление элементов спаска</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>## Selecting the data you want</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240130T090052Z" creationid="jenya" creationdate="20240130T090052Z">
         <seg>## Выборка нужных данных</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>## Short-hand subexpressions (row conditions)</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T210539Z" creationid="jenya" creationdate="20240221T210539Z">
+        <seg>## Краткие подвыражения (условия строки)</seg>
       </tuv>
     </tu>
     <tu>
@@ -338,6 +456,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>## Subexpressions</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T210239Z" creationid="jenya" creationdate="20240221T210239Z">
+        <seg>## Подвыражения</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>## Subexpressions and paths</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T210437Z" creationid="jenya" creationdate="20240221T210437Z">
+        <seg>## Подвыражения и пути</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>## The Many Parts of Nushell</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240127T193142Z" creationid="jenya" creationdate="20240127T193142Z">
@@ -358,6 +492,22 @@
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240127T191740Z" creationid="jenya" creationdate="20240127T191740Z">
         <seg>## Эта книга</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>## Updating lists</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T200715Z" creationid="jenya" creationdate="20240221T200715Z">
+        <seg>## Обновление списков</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>## Variables</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T203545Z" creationid="jenya" creationdate="20240221T203537Z">
+        <seg>## Переменные</seg>
       </tuv>
     </tu>
     <tu>
@@ -474,10 +624,58 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>### Types of Variables</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T203611Z" creationid="jenya" creationdate="20240221T203611Z">
+        <seg>### Типы переменных</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>### Updating a column</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240130T104122Z" creationid="jenya" creationdate="20240130T104122Z">
         <seg>### Обновление столбца</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>### Variable Names</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T204850Z" creationid="jenya" creationdate="20240221T204850Z">
+        <seg>### Имена переменных</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>### Variable Paths</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T210030Z" creationid="jenya" creationdate="20240221T210030Z">
+        <seg>### Переменные пути</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>#### Constant Variables</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T204750Z" creationid="jenya" creationdate="20240221T204737Z">
+        <seg>#### Константные переменные</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>#### Immutable Variables</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T203614Z" creationid="jenya" creationdate="20240221T203614Z">
+        <seg>#### Неизменяемые переменные</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>#### Mutable Variables</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T203809Z" creationid="jenya" creationdate="20240221T203809Z">
+        <seg>#### Изменяемые переменные</seg>
       </tuv>
     </tu>
     <tu>
@@ -494,6 +692,120 @@
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240127T190426Z" creationid="jenya" creationdate="20240127T190426Z">
         <seg>#### macOS / Linux:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>##### More on Mutability</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T204555Z" creationid="jenya" creationdate="20240221T204555Z">
+        <seg>##### Подробнее о Изменяемости</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>$"product = ($scores | reduce --fold 1 { |it, acc| $acc * $it })" # product = 96</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T201738Z" creationid="jenya" creationdate="20240221T201738Z">
+        <seg>$"product = ($scores | reduce --fold 1 { |it, acc| $acc * $it })" # product = 96</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>$"total = ($scores | math sum)" # easier approach, same result</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T201734Z" creationid="jenya" creationdate="20240221T201734Z">
+        <seg>$"total = ($scores | math sum)" # easier approach, same result</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>$colors | all {|it| $it | str ends-with "e" } # false</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T202443Z" creationid="jenya" creationdate="20240221T202443Z">
+        <seg>$colors | all {|it| $it | str ends-with "e" } # false</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>$colors | all {|it| ($it | str length) &gt;= 3 } # true</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T202452Z" creationid="jenya" creationdate="20240221T202452Z">
+        <seg>$colors | all {|it| ($it | str length) &gt;= 3 } # true</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>$colors | any {|it| $it | str ends-with "e" } # true</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T202238Z" creationid="jenya" creationdate="20240221T202238Z">
+        <seg>$colors | any {|it| $it | str ends-with "e" } # true</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>$colors | any {|it| ($it | str length) &lt; 3 } # false</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T202304Z" creationid="jenya" creationdate="20240221T202304Z">
+        <seg>$colors | any {|it| ($it | str length) &lt; 3 } # false</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>$names | enumerate | each { |it| $"($it.index + 1) - ($it.item)" }
+# Outputs "1 - Mark", "2 - Tami", etc.
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T201454Z" creationid="jenya" creationdate="20240221T201454Z">
+        <seg>$names | enumerate | each { |it| $"($it.index + 1) - ($it.item)" }
+# Outputs "1 - Mark", "2 - Tami", etc.
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>$scores | all {|it| $it &gt; 7 } # false</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T202506Z" creationid="jenya" creationdate="20240221T202506Z">
+        <seg>$scores | all {|it| $it &gt; 7 } # false</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>$scores | all {|it| $it mod 2 == 0 } # false
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T202521Z" creationid="jenya" creationdate="20240221T202521Z">
+        <seg>$scores | all {|it| $it mod 2 == 0 } # false
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>$scores | any {|it| $it &gt; 7 } # true</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T202414Z" creationid="jenya" creationdate="20240221T202414Z">
+        <seg>$scores | any {|it| $it &gt; 7 } # true</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>$scores | any {|it| $it mod 2 == 1 } # true
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T202419Z" creationid="jenya" creationdate="20240221T202419Z">
+        <seg>$scores | any {|it| $it mod 2 == 1 } # true
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>$scores | enumerate | reduce --fold 0 { |it, acc| $acc + $it.index * $it.item } # 0*3 + 1*8 + 2*4 = 16
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T201736Z" creationid="jenya" creationdate="20240221T201736Z">
+        <seg>$scores | enumerate | reduce --fold 0 { |it, acc| $acc + $it.index * $it.item } # 0*3 + 1*8 + 2*4 = 16
+```</seg>
       </tuv>
     </tu>
     <tu>
@@ -772,6 +1084,14 @@ features:</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>0 │ Cargo.lock │ File │ 155.3 KB │ 17 hours ago</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T210431Z" creationid="jenya" creationdate="20240221T210431Z">
+        <seg>0 │ Cargo.lock │ File │ 155.3 KB │ 17 hours ago</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>0 │ files.rs</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240130T101712Z" creationid="jenya" creationdate="20240130T101712Z">
@@ -857,6 +1177,18 @@ features:</seg>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240130T102347Z" creationid="jenya" creationdate="20240130T102347Z">
         <seg>1 │ 3 │ 4
 ───┴───┴───
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>1 │ README.md  │ File │  15.9 KB │ 17 hours ago
+───┴────────────┴──────┴──────────┴──────────────
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T210432Z" creationid="jenya" creationdate="20240221T210432Z">
+        <seg>1 │ README.md  │ File │  15.9 KB │ 17 hours ago
+───┴────────────┴──────┴──────────┴──────────────
 ```</seg>
       </tuv>
     </tu>
@@ -1202,6 +1534,16 @@ Nu will try to expands all table's structure by default.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>&lt;  &gt;  &amp;  |
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T204912Z" creationid="jenya" creationdate="20240221T204912Z">
+        <seg>&lt;  &gt;  &amp;  |
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>&lt;img src="https://www.nushell.sh/frontpage/fetch-example.png" alt="Screenshot showing fetch with a web API" class="hero"/&gt;</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240127T185552Z" creationid="jenya" creationdate="20240127T185552Z">
@@ -1222,6 +1564,18 @@ Nu will try to expands all table's structure by default.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240127T190046Z" creationid="jenya" creationdate="20240127T190046Z">
         <seg>&lt;img src="https://www.nushell.sh/frontpage/miette-example.png" alt="Снимок экрана, показывающий, как Nu ловит ошибку типа" class="hero"/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>&gt; **Note**
+&gt;
+&gt; 1.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T204146Z" creationid="jenya" creationdate="20240221T204146Z">
+        <seg>&gt; **Примечание**
+&gt;
+&gt; 1.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1248,6 +1602,54 @@ Nu will try to expands all table's structure by default.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>A constant variable is an immutable variable that can be fully evaluated at parse-time.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T204743Z" creationid="jenya" creationdate="20240221T204743Z">
+        <seg>Константная переменная - это неизменяемая переменная, которая может быть полностью оценена во время разбора.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>A list is an ordered collection of values.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T200625Z" creationid="jenya" creationdate="20240221T200609Z">
+        <seg>Список - это упорядоченная коллекция значений.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>A mutable variable is allowed to change its value by assignment.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T203824Z" creationid="jenya" creationdate="20240221T203824Z">
+        <seg>Изменяемая переменная может изменять свое значение путем присваивания.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>A variable path works by reaching inside of the contents of a variable, navigating columns inside of it, to reach a final value.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T210059Z" creationid="jenya" creationdate="20240221T210059Z">
+        <seg>Путь к переменной работает путем перемещения по столбцам внутри содержимого переменной, чтобы достичь конечного значения.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Accessing values as shown above can result in errors if the path used does not exist.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T210134Z" creationid="jenya" creationdate="20240221T210134Z">
+        <seg>Доступ к значениям, как показано выше, может привести к ошибкам, если используемый путь не существует.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>After creating a variable, we can refer to it using `$` followed by its name.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T203608Z" creationid="jenya" creationdate="20240221T203608Z">
+        <seg>После создания переменной мы можем ссылаться на нее, используя `$`, за которым следует ее имя.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>After installing, launch Nu by typing `nu`.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240127T190452Z" creationid="jenya" creationdate="20240127T190452Z">
@@ -1260,6 +1662,22 @@ Nu will try to expands all table's structure by default.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240205T110636Z" creationid="jenya" creationdate="20240205T110636Z">
         <seg>Кроме того, многие "голые" слова имеют особое значение в языке nu, и поэтому не будут интерпретироваться как строки:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>An immutable variable cannot change its value after declaration.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T203622Z" creationid="jenya" creationdate="20240221T203622Z">
+        <seg>Неизменяемая переменная не может изменить свое значение после объявления.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>And from the beginning of a list,</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T201233Z" creationid="jenya" creationdate="20240221T201233Z">
+        <seg>И с самого начала списка, </seg>
       </tuv>
     </tu>
     <tu>
@@ -1292,6 +1710,14 @@ Nu will try to expands all table's structure by default.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240205T124014Z" creationid="jenya" creationdate="20240205T124014Z">
         <seg>Начиная с версии 0.61, интерполированные строки поддерживают экранирование круглых скобок, так что символы `(` и `)` могут использоваться в строке без того, чтобы Nushell пытался оценить то, что появляется между ними:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Both evaluation expression forms support a simple form and a 'path' form for working with more complex data.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T203540Z" creationid="jenya" creationdate="20240221T203533Z">
+        <seg>Обе формы выражения оценки поддерживают простую форму и форму "path" для работы с более сложными данными.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1336,6 +1762,14 @@ Nu will try to expands all table's structure by default.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Closures and nested `def`s cannot capture mutable variables from their environment.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T204633Z" creationid="jenya" creationdate="20240221T204633Z">
+        <seg>Закрытые и вложенные `def` не могут захватывать изменяемые переменные из своего окружения.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Contributing to this book does not require any special skills aside from a basic familiarity with Markdown.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240127T194801Z" creationid="jenya" creationdate="20240127T194801Z">
@@ -1348,6 +1782,24 @@ Nu will try to expands all table's structure by default.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240127T202555Z" creationid="jenya" creationdate="20240127T194720Z">
         <seg>Обнаружение ошибок с помощью шагов воспроизведения и создание запросов в GitHub об этих ошибках является ценной помощью!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>During evaluation, a variable is replaced by its value.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T203559Z" creationid="jenya" creationdate="20240221T203559Z">
+        <seg>Во время оценки переменная заменяется ее значением.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Each list value will
+be converted to a separate row with a single column:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T202620Z" creationid="jenya" creationdate="20240221T202620Z">
+        <seg>Каждое значение списка будет
+будет преобразовано в отдельную строку с одним столбцом:</seg>
       </tuv>
     </tu>
     <tu>
@@ -1384,6 +1836,58 @@ Nu will try to expands all table's structure by default.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>For example</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T204601Z" creationid="jenya" creationdate="20240221T204601Z">
+        <seg>Например</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For example, `(ls)` would run the [`ls`](/commands/docs/ls.md) command and give back the resulting table and `(git branch --show-current)` runs the external git command and returns a string with the name of the current branch.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T210326Z" creationid="jenya" creationdate="20240221T210326Z">
+        <seg>Например, `(ls)` запустит команду [`ls`](/commands/docs/ls.md) и выдаст результирующую таблицу, а `(git branch --show-current)` запустит внешнюю команду git и вернет строку с именем текущей ветки.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For example, `+=` uses addition, so it can not be used for contexts
+&gt;    where addition would normally fail
+&gt; 2.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T204305Z" creationid="jenya" creationdate="20240221T204305Z">
+        <seg>Например, `+=` использует сложение, поэтому его нельзя использовать для контекстов
+&gt;    где сложение обычно не работает.
+&gt; 2.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For example, `[foo bar baz]` or `[foo, bar, baz]`.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T200711Z" creationid="jenya" creationdate="20240221T200711Z">
+        <seg>Например, `[foo bar baz]` или `[foo, bar, baz]`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For example, `[red green blue] | length` outputs `3`.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T201842Z" creationid="jenya" creationdate="20240221T201842Z">
+        <seg>Например, `[red green blue] | length` выводит `3`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For example, here, if row `0` does not exist on `name`, then `null` is returned.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T210211Z" creationid="jenya" creationdate="20240221T210211Z">
+        <seg>Например, здесь, если строка `0` не существует на `name`, то возвращается `null`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>For example, if we wanted to move the "name" column from [`ls`](/commands/docs/ls.md) after the "size" column, we could do:</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240130T104853Z" creationid="jenya" creationdate="20240130T104848Z">
@@ -1396,6 +1900,22 @@ Nu will try to expands all table's structure by default.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240205T113140Z" creationid="jenya" creationdate="20240205T113140Z">
         <seg>Например, допустим, у нас есть переменная `$name`, и мы хотим поприветствовать имя человека, содержащееся в этой переменной:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For example, let's say we wanted to get a list of the filenames in the current directory.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T210453Z" creationid="jenya" creationdate="20240221T210453Z">
+        <seg>Например, допустим, мы хотим получить список имен файлов в текущем каталоге.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For example, the second element in the list below can be accessed with `$names.1`.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T201804Z" creationid="jenya" creationdate="20240221T201804Z">
+        <seg>Например, ко второму элементу в списке ниже можно обратиться с помощью `$names.1`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1436,6 +1956,15 @@ Nu will try to expands all table's structure by default.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240205T101730Z" creationid="jenya" creationdate="20240205T101730Z">
         <seg>Для более сложных строк Nushell также предлагает строки с двойными кавычками.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For the short-hand syntax to work, the column name must appear on the left-hand side of the operation (like `size` in `size &gt; 10kb`).</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T210713Z" creationid="jenya" creationdate="20240221T210713Z">
+        <seg>Чтобы этот синтаксис работал, имя столбца должно находиться в левой части операции (например, `size` в `size &gt; 10kb`).
+</seg>
       </tuv>
     </tu>
     <tu>
@@ -1496,6 +2025,14 @@ Nu will try to expands all table's structure by default.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>However, they can be 'shadowed'.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T203632Z" creationid="jenya" creationdate="20240221T203632Z">
+        <seg>Однако их можно "затенять".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>However, you do not have to be a Rust programmer to help.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240127T194545Z" creationid="jenya" creationdate="20240127T194545Z">
@@ -1524,6 +2061,22 @@ Nu will try to expands all table's structure by default.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240130T102353Z" creationid="jenya" creationdate="20240130T102353Z">
         <seg>Если имена столбцов не совпадают, то при необходимости будут созданы дополнительные столбцы и значения:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If the index is in some variable `$index` we can use the `get` command to extract the item from the list.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T201813Z" creationid="jenya" creationdate="20240221T201813Z">
+        <seg>Если индекс находится в некоторой переменной `$index`, мы можем использовать команду `get` для извлечения элемента из списка.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If we wanted to get a table of files larger than ten kilobytes, we could use a subexpression to run a pipeline and assign its result to a variable:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T210420Z" creationid="jenya" creationdate="20240221T210420Z">
+        <seg>Если бы мы хотели получить таблицу файлов размером более десяти килобайт, мы могли бы использовать подвыражение для запуска конвейера и присвоения его результата переменной:</seg>
       </tuv>
     </tu>
     <tu>
@@ -1576,6 +2129,14 @@ Nu will try to expands all table's structure by default.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If, for example, we wanted to only see rows from [`ls`](/commands/docs/ls.md) where the entry is at least ten kilobytes we could write:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T210605Z" creationid="jenya" creationdate="20240221T210605Z">
+        <seg>Если, например, мы хотим видеть только строки из [`ls`](/commands/docs/ls.md), где запись занимает не менее десяти килобайт, мы можем написать:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In Nu, rather than editing in place, each of the commands in the section will return a new table in the pipeline.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240130T102121Z" creationid="jenya" creationdate="20240130T102121Z">
@@ -1588,6 +2149,14 @@ Nu will try to expands all table's structure by default.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240130T104130Z" creationid="jenya" creationdate="20240130T104130Z">
         <seg>Аналогично команде [`insert`](/commands/docs/insert.md), мы также можем использовать команду [`update`](/commands/docs/update.md), чтобы изменить содержимое столбца на новое значение.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In addition to [`insert`](/commands/docs/insert.md) and [`update`](/commands/docs/update.md), we also have [`prepend`](/commands/docs/prepend.md) and [`append`](/commands/docs/append.md).</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T201059Z" creationid="jenya" creationdate="20240221T201059Z">
+        <seg>Помимо [`insert`](/commands/docs/insert.md) и [`update`](/commands/docs/update.md), у нас также есть комманды [`prepend`](/commands/docs/prepend.md) и [`append`](/commands/docs/append.md).</seg>
       </tuv>
     </tu>
     <tu>
@@ -1608,10 +2177,34 @@ Nu will try to expands all table's structure by default.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In case you want to remove items from list, there are many ways.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T201117Z" creationid="jenya" creationdate="20240221T201117Z">
+        <seg>Если вы хотите удалить элементы из списка, есть много способов.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In particular, they cannot contain these characters:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T204908Z" creationid="jenya" creationdate="20240221T204908Z">
+        <seg>В частности, они не могут содержать эти символы:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In this case, remember: rows have numbers, columns have names.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240130T103454Z" creationid="jenya" creationdate="20240130T103454Z">
         <seg>В этом случае помните: строки имеют номера, столбцы - имена.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In this example, we keep only values higher than `7`.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T201552Z" creationid="jenya" creationdate="20240221T201552Z">
+        <seg>В этом примере мы сохраняем только значения выше `7`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1624,10 +2217,44 @@ Nu will try to expands all table's structure by default.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>It can be used with lists as follows:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T201952Z" creationid="jenya" creationdate="20240221T201952Z">
+        <seg>Его можно использовать со списками следующим образом:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It depends on the needs of the code and your particular style which form works best for you.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T210534Z" creationid="jenya" creationdate="20240221T210534Z">
+        <seg>Какая форма вам больше подходит, зависит от потребностей кода и вашего стиля.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>It is broken into multiple crates that can be used as independent libraries in your own project, if you wish so.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240127T193412Z" creationid="jenya" creationdate="20240127T193412Z">
         <seg>Он разбит на несколько ящиков, которые при желании можно использовать в качестве независимых библиотек в собственном проекте.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It is common for some scripts to declare variables that start with `$`.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T210014Z" creationid="jenya" creationdate="20240221T210014Z">
+        <seg>В некоторых сценариях принято объявлять переменные, начинающиеся с `$`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It uses a block which takes 2 parameters: the current item (conventionally named `it`) and an accumulator
+(conventionally named `acc`).</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T201708Z" creationid="jenya" creationdate="20240221T201708Z">
+        <seg>Он использует блок, который принимает 2 параметра: текущий элемент (условно названный `it`) и аккумулятор
+(условно названный `acc`).</seg>
       </tuv>
     </tu>
     <tu>
@@ -1692,6 +2319,14 @@ Nu will try to expands all table's structure by default.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240130T102822Z" creationid="jenya" creationdate="20240130T102822Z">
         <seg>Давайте рассмотрим пример:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Let's say instead of `4`, we had assigned a table value:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T210037Z" creationid="jenya" creationdate="20240221T210037Z">
+        <seg>Допустим, вместо `4` мы присвоили табличное значение:</seg>
       </tuv>
     </tu>
     <tu>
@@ -1776,6 +2411,14 @@ Nu will try to expands all table's structure by default.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Note that previous versions of Nushell (prior to 0.32) used `$()`.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T210305Z" creationid="jenya" creationdate="20240221T210305Z">
+        <seg>Обратите внимание, что в предыдущих версиях Nushell (до 0.32) использовалось `$()`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Notice that if we open the original file, the contents have stayed the same:</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240130T103717Z" creationid="jenya" creationdate="20240130T103717Z">
@@ -1840,6 +2483,14 @@ Nu will try to expands all table's structure by default.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Nushell supports accessing columns in a subexpression using a simple short-hand.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T210548Z" creationid="jenya" creationdate="20240221T210548Z">
+        <seg>Nushell поддерживает доступ к столбцам в подвыражении с помощью простого сокращения.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Of course, backtick strings cannot contain any backticks themselves.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240205T101636Z" creationid="jenya" creationdate="20240205T101500Z">
@@ -1852,6 +2503,14 @@ Nu will try to expands all table's structure by default.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240130T085309Z" creationid="jenya" creationdate="20240130T085309Z">
         <seg>Один из распространенных способов представления данных в Nu - это таблица.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>One way to do this is to use a pipeline:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T210515Z" creationid="jenya" creationdate="20240221T210458Z">
+        <seg>Один из способов сделать это - использовать конвейер:</seg>
       </tuv>
     </tu>
     <tu>
@@ -1892,6 +2551,22 @@ Nu will try to expands all table's structure by default.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240130T085657Z" creationid="jenya" creationdate="20240130T085645Z">
         <seg>Дополнительные сведения см. в разделе [хуки](/book/hooks.md#changing-how-output-is-displayed).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>See [how nushell code gets run](how_nushell_code_gets_run.md) for a deeper explanation.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T204837Z" creationid="jenya" creationdate="20240221T204837Z">
+        <seg>Более подробное объяснение смотрите в разделе [как выполняется код nushell] (how_nushell_code_gets_run.md).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Shadowing means that they are redeclared and their initial value cannot be used anymore within the same scope.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T203642Z" creationid="jenya" creationdate="20240221T203642Z">
+        <seg>Затенение означает, что они повторно объявляются и их начальное значение больше не может быть использовано в той же области видимости.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1940,6 +2615,14 @@ Nu will try to expands all table's structure by default.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240130T101648Z" creationid="jenya" creationdate="20240130T101648Z">
         <seg>Иногда мы можем захотеть пойти дальше и просмотреть только значения в самих ячейках, а не брать весь столбец.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sometimes, we don't really know the contents of a variable.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T210128Z" creationid="jenya" creationdate="20240221T210128Z">
+        <seg>Иногда мы не знаем содержимого переменной.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1993,6 +2676,22 @@ matches your needs.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Subexpressions also support paths.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T210440Z" creationid="jenya" creationdate="20240221T210440Z">
+        <seg>Подвыражения также поддерживают пути.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Subexpressions can also be pipelines and not just single commands.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T210348Z" creationid="jenya" creationdate="20240221T210348Z">
+        <seg>Подвыражения могут быть не только отдельными командами, но и цепочками.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Substrings are slices of a string.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240205T125920Z" creationid="jenya" creationdate="20240205T125920Z">
@@ -2009,10 +2708,64 @@ matches your needs.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The [`all`](/commands/docs/all.md) command determines if every item in a list
+matches a given condition.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T202428Z" creationid="jenya" creationdate="20240221T202428Z">
+        <seg>Команда [`all`](/commands/docs/all.md) определяет, соответствует ли каждый элемент списка
+соответствует заданному условию.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The [`any`](/commands/docs/any.md) command determines if any item in a list
+matches a given condition.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T202016Z" creationid="jenya" creationdate="20240221T202016Z">
+        <seg>Команда [`any`](/commands/docs/any.md) определяет, соответствует ли любой элемент в списке
+соответствует заданному условию.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The [`flatten`](/commands/docs/flatten.md) command creates a new list from an existing list
+by adding items in nested lists to the top-level list.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T202541Z" creationid="jenya" creationdate="20240221T202541Z">
+        <seg>Команда [`flatten`](/commands/docs/flatten.md) создает новый список из существующего списка
+добавляя элементы вложенных списков к списку верхнего уровня.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The [`get`](/commands/docs/get.md) command can go one step further and take a path to data deeper in the table.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240130T101949Z" creationid="jenya" creationdate="20240130T101949Z">
         <seg>Команда [`get`](/commands/docs/get.md) может пойти на шаг дальше и проложить путь к данным, расположенным глубже в таблице.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The [`is-empty`](/commands/docs/is-empty.md) command determines whether a string, list, or table is empty.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T201853Z" creationid="jenya" creationdate="20240221T201853Z">
+        <seg>Команда [`is-empty`](/commands/docs/is-empty.md) определяет, является ли строка, список или таблица пустой.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The [`length`](/commands/docs/length.md) command returns the number of items in a list.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T201834Z" creationid="jenya" creationdate="20240221T201834Z">
+        <seg>Команда [`length`](/commands/docs/length.md) возвращает количество элементов в списке.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The [`reduce`](/commands/docs/reduce.md) command computes a single value from a list.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T201650Z" creationid="jenya" creationdate="20240221T201650Z">
+        <seg>Команда [`reduce`](/commands/docs/reduce.md)вычисляет одно значение из списка.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2033,10 +2786,60 @@ matches your needs.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The [`where`](/commands/docs/where.md) command can be used to create a subset of a list, effectively filtering the list based on a condition.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T201516Z" creationid="jenya" creationdate="20240221T201516Z">
+        <seg>Команда [`where`](/commands/docs/where.md) может быть использована для создания подмножества списка, эффективно фильтруя список на основе условия.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The [`wrap`](/commands/docs/wrap.md) command converts a list to a table.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T202600Z" creationid="jenya" creationdate="20240221T202600Z">
+        <seg>Команда [`wrap`](/commands/docs/wrap.md) преобразует список в таблицу.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The `in` and `not-in` operators are used to test whether a value is in a list.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T202003Z" creationid="jenya" creationdate="20240221T202003Z">
+        <seg>Операторы `in` и `not-in` используются для проверки того, находится ли значение в списке.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The `where size &gt; 10kb` is a command with two parts: the command name [`where`](/commands/docs/where.md) and the short-hand expression `size &gt; 10kb`.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T210617Z" creationid="jenya" creationdate="20240221T210617Z">
+        <seg>Команда `where size &gt; 10kb` состоит из двух частей: названия команды [`where`](/commands/docs/where.md) и краткого выражения `size &gt; 10kb`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The block parameter (e.g. `|it|` in `{ |it| print $it }`) is the current list
+item, but the [`enumerate`](/commands/docs/enumerate.md) filter can be used to provide `index` and `item` values if needed.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T201447Z" creationid="jenya" creationdate="20240221T201447Z">
+        <seg>Параметром блока (например `|it|` in `{ |it| print $it }`) является текущий элемент списка
+но фильтр [`enumerate`](/commands/docs/enumerate.md) может быть использован для предоставления значений `index` и `item`, если это необходимо.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The book is split into chapters which are further broken down into sections.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240127T191750Z" creationid="jenya" creationdate="20240127T191750Z">
         <seg>Книга разделена на главы, которые далее разбиты на разделы.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The following example gets all the colors whose names end in "e".</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T201534Z" creationid="jenya" creationdate="20240221T201534Z">
+        <seg>Следующий пример позволяет получить все цвета, названия которых заканчиваются на "e".</seg>
       </tuv>
     </tu>
     <tu>
@@ -2065,10 +2868,42 @@ matches your needs.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The parentheses contain a pipeline that will run to completion, and the resulting value will then be used.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T210315Z" creationid="jenya" creationdate="20240221T210315Z">
+        <seg>В круглых скобках содержится конвейер, который будет запущен до завершения, после чего будет использовано полученное значение.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The question mark operator can be used to 'guard' any path</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T210229Z" creationid="jenya" creationdate="20240221T210219Z">
+        <seg>Оператор вопросительного знака можно использовать для "охраны" любого пути</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The simpler of the two evaluation expressions is the variable.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T203552Z" creationid="jenya" creationdate="20240221T203552Z">
+        <seg>Более простое из двух оценочных выражений является переменной.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The simplest string in Nushell is the single-quoted string.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240205T100824Z" creationid="jenya" creationdate="20240205T100824Z">
         <seg>Самая простая строка в Nushell - это строка с одинарной кавычкой.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>There are a couple of assignment operators used with mutable variables</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T203838Z" creationid="jenya" creationdate="20240221T203838Z">
+        <seg>Существует несколько операторов присваивания, используемых с изменяемыми переменными</seg>
       </tuv>
     </tu>
     <tu>
@@ -2081,6 +2916,14 @@ matches your needs.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>There are two types of evaluation expressions in Nushell: variables and subexpressions.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T203356Z" creationid="jenya" creationdate="20240221T203356Z">
+        <seg>В Nushell существует два типа оценочных выражений: переменные и подвыражения.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>There are various ways to pre, or append strings.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240205T111323Z" creationid="jenya" creationdate="20240205T111323Z">
@@ -2089,10 +2932,34 @@ matches your needs.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>These are declared using the `mut` keyword.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T203830Z" creationid="jenya" creationdate="20240221T203830Z">
+        <seg>Они объявляются с помощью ключевого слова `mut`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>These are useful with commands that need to know the value of an argument at parse time, like [`source`](/commands/docs/source.md), [`use`](/commands/docs/use.md) and [`register`](/commands/docs/register.md).</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T204821Z" creationid="jenya" creationdate="20240221T204801Z">
+        <seg>Они полезны для команд, которым необходимо знать значение аргумента во время разбора, например [`source`](/commands/docs/source.md), [`use`](/commands/docs/use.md) и [`register`](/commands/docs/register.md).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>These correspond to the single-quoted and double-quoted strings: single-quoted string interpolation doesn't support escape characters while double-quoted string interpolation does.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240205T123948Z" creationid="jenya" creationdate="20240205T123948Z">
         <seg>Они соответствуют строкам с одинарными и двойными кавычками: интерполяция строк с одинарными кавычками не поддерживает управляющие символы, а интерполяция строк с двойными кавычками - поддерживает.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>These let you insert to the beginning of a list or at the end of the list, respectively.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T201106Z" creationid="jenya" creationdate="20240221T201106Z">
+        <seg>Они позволяют вставить в начало списка или в его конец, соответственно.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2121,6 +2988,22 @@ matches your needs.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>They are declared using the `const` keyword</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T204846Z" creationid="jenya" creationdate="20240221T204846Z">
+        <seg>Они объявляются с помощью ключевого слова `const`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>They are declared using the `let` keyword,</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T203627Z" creationid="jenya" creationdate="20240221T203627Z">
+        <seg>Они объявляются с помощью ключевого слова `let`,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>They have a startpoint and an endpoint.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240205T125924Z" creationid="jenya" creationdate="20240205T125924Z">
@@ -2145,6 +3028,14 @@ matches your needs.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This can be called multiple times to flatten lists nested at any depth.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T202551Z" creationid="jenya" creationdate="20240221T202551Z">
+        <seg>Эту функцию можно вызывать несколько раз, чтобы сгладить списки, вложенные на любую глубину.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This can be done easily with the [`str reverse`](/commands/docs/str_reverse.md) command.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240205T130237Z" creationid="jenya" creationdate="20240205T130237Z">
@@ -2163,6 +3054,14 @@ and much more.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This could also be written in any of the following ways:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T210634Z" creationid="jenya" creationdate="20240221T210634Z">
+        <seg>Это также может быть написано одним из следующих способов:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This helps to create a table that's more focused on what we need.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240130T100933Z" creationid="jenya" creationdate="20240130T100933Z">
@@ -2171,10 +3070,26 @@ and much more.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This indicates that when Nushell gets the value in this position, it will need to run an evaluation step to process the expression and then use the resulting value.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T203521Z" creationid="jenya" creationdate="20240221T203521Z">
+        <seg>Это указывает на то, что когда Nushell получит значение в этой позиции, ему нужно будет выполнить шаг оценки, чтобы обработать выражение и затем использовать полученное значение.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This is a way of building text from both raw text and the result of running expressions.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240205T112747Z" creationid="jenya" creationdate="20240205T112747Z">
         <seg>Это способ создания текста как из исходного текста, так и из результатов выполнения выражений.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This is allowed, and it is equivalent to the `$` not being there at all.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T210024Z" creationid="jenya" creationdate="20240221T210024Z">
+        <seg>Это разрешено, и это эквивалентно тому, что `$` вообще отсутствует.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2243,10 +3158,52 @@ and much more.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>To access a list item at a given index, use the `$name.index` form where `$name` is a variable that holds a list.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T201756Z" creationid="jenya" creationdate="20240221T201756Z">
+        <seg>Чтобы получить доступ к элементу списка по заданному индексу, используйте форму `$name.index`, где `$name` - переменная, содержащая список.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>To change `it` to have `index` and `item` values, use the [`enumerate`](/commands/docs/enumerate.md) filter.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T201724Z" creationid="jenya" creationdate="20240221T201724Z">
+        <seg>Чтобы изменить `it` на значения `index` и `item`, используйте фильтр [`enumerate`](/commands/docs/enumerate.md).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>To iterate over the items in a list, use the [`each`](/commands/docs/each.md) command with a [block](types_of_data.html#blocks)
+of Nu code that specifies what to do to each item.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T201329Z" creationid="jenya" creationdate="20240221T201329Z">
+        <seg>Чтобы перебирать элементы в списке, используйте команду [`each`](/commands/docs/each.md) с [блоком](types_of_data.html#blocks)
+кода Nu, определяющего, что делать с каждым элементом.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>To more robustly handle this, we can use the question mark operator to return `null` in case the path does not exist, instead of an error, then we would write custom logic to handle the `null`.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T210147Z" creationid="jenya" creationdate="20240221T210147Z">
+        <seg>Чтобы более надежно справиться с этим, мы можем использовать оператор вопросительного знака для возврата `null` в случае, если путь не существует, вместо ошибки, тогда мы напишем пользовательскую логику для обработки `null`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>To see it in action let's open the same file:</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240130T104137Z" creationid="jenya" creationdate="20240130T104137Z">
         <seg>Чтобы увидеть его в действии, откроем тот же файл:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>To specify an initial value for the accumulator, use the `--fold` (`-f`) flag.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T201715Z" creationid="jenya" creationdate="20240221T201715Z">
+        <seg>Чтобы задать начальное значение для аккумулятора, используйте флаг `--fold` (`-f`).</seg>
       </tuv>
     </tu>
     <tu>
@@ -2263,6 +3220,14 @@ and much more.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240205T125852Z" creationid="jenya" creationdate="20240205T125852Z">
         <seg>Чтобы обрезать определенный символ, используйте `--char &lt;Символ&gt;` или `-c &lt;Символ&gt;`, чтобы указать символ для обрезки.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>To use mutable variables for such behaviour, you are encouraged to use the loops</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T204732Z" creationid="jenya" creationdate="20240221T204732Z">
+        <seg>Чтобы использовать изменяемые переменные для такого поведения, рекомендуется использовать циклы</seg>
       </tuv>
     </tu>
     <tu>
@@ -2299,10 +3264,42 @@ and much more.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Variable names in Nushell come with a few restrictions as to what characters they can contain.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T204858Z" creationid="jenya" creationdate="20240221T204858Z">
+        <seg>Имена переменных в Nushell имеют несколько ограничений на то, какие символы они могут содержать.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>We also have [`last`](/commands/docs/last.md) and [`first`](/commands/docs/first.md) which allow you to [`take`](/commands/docs/take.md) from the end or beginning of the list, respectively.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T201223Z" creationid="jenya" creationdate="20240221T201223Z">
+        <seg>У нас также есть [`last`](/commands/docs/last.md) и [`first`](/commands/docs/first.md), которые позволяют вам брать ([`take`](/commands/docs/take.md)) из конца или начала списка, соответственно.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>We can also use [`update`](/commands/docs/update.md) to replace the 2nd element with the value `10`.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T200829Z" creationid="jenya" creationdate="20240221T200829Z">
+        <seg>Мы также можем использовать [`update`](/commands/docs/update.md) для замены 2-го элемента на значение `10`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>We can concatenate tables using [`append`](/commands/docs/append.md):</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240130T102343Z" creationid="jenya" creationdate="20240130T102343Z">
         <seg>Мы можем объединить таблицы с помощью комманды [`append`](/commands/docs/append.md):</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>We can do a very similar action in a single step using a subexpression path:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T210525Z" creationid="jenya" creationdate="20240221T210525Z">
+        <seg>Мы можем выполнить очень похожее действие за один шаг, используя путь к подвыражению:</seg>
       </tuv>
     </tu>
     <tu>
@@ -2327,6 +3324,14 @@ and much more.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240130T085742Z" creationid="jenya" creationdate="20240130T085742Z">
         <seg>Мы можем отсортировать таблицу, вызвав команду [`sort-by`](/commands/docs/sort-by.md) и указав ей, какие столбцы мы хотим использовать при сортировке.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>We can use a variable path to evaluate the variable `$my_value` and get the value from the `name` column in a single step:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T210109Z" creationid="jenya" creationdate="20240221T210109Z">
+        <seg>Мы можем использовать путь к переменной, чтобы оценить переменную `$my_value` и получить значение из столбца `name` за один шаг:</seg>
       </tuv>
     </tu>
     <tu>
@@ -2371,6 +3376,14 @@ and much more.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>We say short-hand because `size` here is the shortened version of writing `$it.size`.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T210628Z" creationid="jenya" creationdate="20240221T210628Z">
+        <seg>Мы говорим "короткий", потому что `size` здесь - это сокращенный вариант написания `$it.size`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>We welcome contributions!</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240127T194434Z" creationid="jenya" creationdate="20240127T194434Z">
@@ -2407,6 +3420,22 @@ and much more.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240205T130725Z" creationid="jenya" creationdate="20240205T130725Z">
         <seg>С помощью команды [`parse`](/commands/docs/parse.md) вы можете разобрать строку на столбцы.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Without the question mark operator, an error would have been raised instead</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T210216Z" creationid="jenya" creationdate="20240221T210216Z">
+        <seg>Если бы не было оператора вопросительного знака, вместо него была бы выдана ошибка</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can [`update`](/commands/docs/update.md) and [`insert`](/commands/docs/insert.md) values into lists as they flow through the pipeline, for example let's insert the value `10` into the middle of a list:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T200756Z" creationid="jenya" creationdate="20240221T200756Z">
+        <seg>Вы можете обновлять ([`update`](/commands/docs/update.md)) и вставлять ([`insert`](/commands/docs/insert.md)) значения в списки по мере их прохождения через конвейер, например, давайте вставим значение `10` в середину списка:</seg>
       </tuv>
     </tu>
     <tu>
@@ -2451,6 +3480,14 @@ and much more.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You can also use parentheses to run math expressions like `(2 + 3)`.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T210338Z" creationid="jenya" creationdate="20240221T210338Z">
+        <seg>Вы также можете использовать круглые скобки для выполнения математических выражений, таких как `(2 + 3)`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You can also use reduce:</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240205T112004Z" creationid="jenya" creationdate="20240205T111817Z">
@@ -2483,6 +3520,14 @@ and much more.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You can always evaluate a subexpression and use its result by wrapping the expression with parentheses `()`.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T210250Z" creationid="jenya" creationdate="20240221T210250Z">
+        <seg>Вы всегда можете оценить подвыражение и использовать его результат, обернув выражение круглыми скобками `()`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You can change this behavior by changing the `display_output` hook.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240130T085617Z" creationid="jenya" creationdate="20240130T085617Z">
@@ -2511,6 +3556,14 @@ and much more.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240127T194736Z" creationid="jenya" creationdate="20240127T194727Z">
         <seg>Вы можете внести свой вклад в развитие Nushell, просто используя Nushell!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can create a `list` with square brackets, surrounded values separated by spaces and/or commas (for readability).</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T200656Z" creationid="jenya" creationdate="20240221T200656Z">
+        <seg>Вы можете создать список (`list`) с квадратными скобками, окруженными значениями, разделенными пробелами и/или запятыми (для удобства чтения).</seg>
       </tuv>
     </tu>
     <tu>
@@ -2571,6 +3624,22 @@ and much more.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You know that you're looking at an evaluation expression because it begins with a dollar sign (`$`).</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T203404Z" creationid="jenya" creationdate="20240221T203404Z">
+        <seg>Вы знаете, что перед вами оценочное выражение, потому что оно начинается со знака доллара (`$`).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You may have already used this functionality before.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T210555Z" creationid="jenya" creationdate="20240221T210555Z">
+        <seg>Возможно, вы уже использовали эту функциональность ранее.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You may have wondered why the rows of the table are numbers.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240130T101210Z" creationid="jenya" creationdate="20240130T101210Z">
@@ -2583,6 +3652,24 @@ and much more.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240130T101023Z" creationid="jenya" creationdate="20240130T101023Z">
         <seg>Вы заметите, что сначала мы сортируем таблицу по размеру, чтобы найти самый маленький файл, а затем используем `first 5`, чтобы вернуть первые 5 строк таблицы.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>[  (  {  +  -  *  ^  /  =  !</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T204911Z" creationid="jenya" creationdate="20240221T204911Z">
+        <seg>[  (  {  +  -  *  ^  /  =  !</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>[1 2 3] | each { $x += 1 }   # error: $x is captured in a closure
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T204724Z" creationid="jenya" creationdate="20240221T204724Z">
+        <seg>[1 2 3] | each { $x += 1 }   # ошибка: $x захвачен в закрытии
+```</seg>
       </tuv>
     </tu>
     <tu>
@@ -2603,10 +3690,72 @@ and much more.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>[[1 2] [3 [4 5 [6 7 8]]]] | flatten | flatten | flatten # [1 2 3 4 5 6 7 8]
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T202555Z" creationid="jenya" creationdate="20240221T202555Z">
+        <seg>[[1 2] [3 [4 5 [6 7 8]]]] | flatten | flatten | flatten # [1 2 3 4 5 6 7 8]
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>[`skip`](/commands/docs/skip.md) allows you skip first rows from input, while [`drop`](/commands/docs/drop.md) allows you to skip specific numbered rows from end of list.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T201137Z" creationid="jenya" creationdate="20240221T201137Z">
+        <seg>[`skip`](/commands/docs/skip.md) позволяет пропускать первые строки, а [`drop`](/commands/docs/drop.md) позволяет пропускать определенные пронумерованные строки из конца списка.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>`++=` requires that either the variable **or** the argument is a
+&gt;    list.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T204540Z" creationid="jenya" creationdate="20240221T204540Z">
+        <seg>`++=` требует, чтобы либо переменная, либо аргумент были
+&gt;     списком.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>`+=`, `-=`, `*=` and `/=` are only valid in the contexts where their root operations
+&gt;    are expected to work.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T204236Z" creationid="jenya" creationdate="20240221T204236Z">
+        <seg>`+=`, `-=`, `*=` и `/=` действительны только в тех контекстах, где ожидается работа
+&gt; их корневых операций.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>```</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240130T103710Z" creationid="jenya" creationdate="20240130T103710Z">
         <seg>```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```
+.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T204910Z" creationid="jenya" creationdate="20240221T204910Z">
+        <seg>```
+.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```
+const plugin = 'path/to/plugin'
+register $plugin
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T204847Z" creationid="jenya" creationdate="20240221T204847Z">
+        <seg>```
+const plugin = 'path/to/plugin'
+register $plugin
+```</seg>
       </tuv>
     </tu>
     <tu>
@@ -2617,6 +3766,18 @@ and much more.</seg>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240205T111811Z" creationid="jenya" creationdate="20240205T111811Z">
         <seg>```nu
 "hello" | append "world!" | str join " " # hello world!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+# naive method to count number of elements in a list
+mut x = 0</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T204646Z" creationid="jenya" creationdate="20240221T204646Z">
+        <seg>```nu
+# наивный метод подсчета количества элементов в списке
+mut x = 0</seg>
       </tuv>
     </tu>
     <tu>
@@ -2801,6 +3962,20 @@ world
         <seg>```nu
 &gt; $first | merge $second  | merge $third
 ───┬───┬───┬───┬───┬───┬───</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+&gt; $my_value.name.0
+testuser
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T210111Z" creationid="jenya" creationdate="20240221T210111Z">
+        <seg>```nu
+&gt; $my_value.name.0
+testuser
+```</seg>
       </tuv>
     </tu>
     <tu>
@@ -3018,6 +4193,18 @@ end
     <tu>
       <tuv lang="en-US">
         <seg>```nu
+&gt; (ls).name
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T210526Z" creationid="jenya" creationdate="20240221T210526Z">
+        <seg>```nu
+&gt; (ls).name
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
 &gt; [$first $second $third] | reduce {|it, acc| $acc | merge $it }
 ───┬───┬───┬───┬───┬───┬───</seg>
       </tuv>
@@ -3025,6 +4212,34 @@ end
         <seg>```nu
 &gt; [$first $second $third] | reduce {|it, acc| $acc | merge $it }
 ───┬───┬───┬───┬───┬───┬───</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+&gt; [1, 2, 3, 4] | insert 2 10
+# [1, 2, 10, 3, 4]
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T200811Z" creationid="jenya" creationdate="20240221T200811Z">
+        <seg>```nu
+&gt; [1, 2, 3, 4] | insert 2 10
+# [1, 2, 10, 3, 4]
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+&gt; [1, 2, 3, 4] | update 1 10
+# [1, 10, 3, 4]
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T200848Z" creationid="jenya" creationdate="20240221T200848Z">
+        <seg>```nu
+&gt; [1, 2, 3, 4] | update 1 10
+# [1, 10, 3, 4]
+```</seg>
       </tuv>
     </tu>
     <tu>
@@ -3064,6 +4279,70 @@ Error: nu::shell::external_command</seg>
     <tu>
       <tuv lang="en-US">
         <seg>```nu
+&gt; let $var = 42
+# identical to `let var = 42`
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T210025Z" creationid="jenya" creationdate="20240221T210025Z">
+        <seg>```nu
+&gt; let $var = 42
+# identical to `let var = 42`
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+&gt; let big_files = (ls | where size &gt; 10kb)
+&gt; $big_files
+───┬────────────┬──────┬──────────┬──────────────</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T210429Z" creationid="jenya" creationdate="20240221T210429Z">
+        <seg>```nu
+&gt; let big_files = (ls | where size &gt; 10kb)
+&gt; $big_files
+───┬────────────┬──────┬──────────┬──────────────</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+&gt; let files = (ls)
+&gt; $files.name.0?</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T210220Z" creationid="jenya" creationdate="20240221T210220Z">
+        <seg>```nu
+&gt; let files = (ls)
+&gt; $files.name.0?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+&gt; let files = (ls)
+&gt; $files.name?.0?</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T210230Z" creationid="jenya" creationdate="20240221T210230Z">
+        <seg>```nu
+&gt; let files = (ls)
+&gt; $files.name?.0?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+&gt; let my_value = [[name]; [testuser]]
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T210101Z" creationid="jenya" creationdate="20240221T210101Z">
+        <seg>```nu
+&gt; let my_value = [[name]; [testuser]]
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
 &gt; let name = "Alice"
 &gt; $"greetings, ($name)"
 greetings, Alice
@@ -3086,6 +4365,42 @@ greetings, Alice
       <tuv lang="ru-RU" changeid="jenya" changedate="20240130T102637Z" creationid="jenya" creationdate="20240130T102637Z">
         <seg>```nu
 &gt; let third = [[e f]; [5 6]]
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+&gt; let val = 42
+&gt; print $val
+42
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T203628Z" creationid="jenya" creationdate="20240221T203628Z">
+        <seg>```nu
+&gt; let val = 42
+&gt; print $val
+42
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+&gt; let val = 42                   # declare a variable
+&gt; do { let val = 101;  $val }    # in an inner scope, shadow the variable
+101
+&gt; $val                           # in the outer scope the variable remains unchanged
+42
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T203751Z" creationid="jenya" creationdate="20240221T203751Z">
+        <seg>```nu
+&gt; let val = 42                   # объявите переменну.
+&gt; do { let val = 101;  $val }    # во внутренней области видимости, затените переменную
+101
+&gt; $val                           # во внешней области видимости переменная остается неизменной
+42
 ```</seg>
       </tuv>
     </tu>
@@ -3134,6 +4449,18 @@ greetings, Alice
 │  6 │ /lib64 │ symlink │ usr/lib │ rwxrwxrwx │ root │ root  │    7 B │
 │  7 │ /mnt   │ dir     │         │ rwxr-xr-x │ root │ root  │    0 B │
 ...
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+&gt; ls | get name
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T210500Z" creationid="jenya" creationdate="20240221T210500Z">
+        <seg>```nu
+&gt; ls | get name
 ```</seg>
       </tuv>
     </tu>
@@ -3284,6 +4611,52 @@ greetings, Alice
     <tu>
       <tuv lang="en-US">
         <seg>```nu
+&gt; ls | where $it.size &gt; 10kb
+&gt; ls | where ($it.size &gt; 10kb)
+&gt; ls | where {|$x| $x.size &gt; 10kb }
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T210635Z" creationid="jenya" creationdate="20240221T210635Z">
+        <seg>```nu
+&gt; ls | where $it.size &gt; 10kb
+&gt; ls | where ($it.size &gt; 10kb)
+&gt; ls | where {|$x| $x.size &gt; 10kb }
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+&gt; ls | where size &gt; 10kb
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T210606Z" creationid="jenya" creationdate="20240221T210606Z">
+        <seg>```nu
+&gt; ls | where size &gt; 10kb
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+&gt; mut val = 42
+&gt; $val += 27
+&gt; $val
+69
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T203831Z" creationid="jenya" creationdate="20240221T203831Z">
+        <seg>```nu
+&gt; mut val = 42
+&gt; $val += 27
+&gt; $val
+69
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
 &gt; open rustfmt.toml
 ─────────┬──────</seg>
       </tuv>
@@ -3416,11 +4789,161 @@ Error: nu::shell::external_command</seg>
     <tu>
       <tuv lang="en-US">
         <seg>```nu
+[1 [2 3] 4 [5 6]] | flatten # [1 2 3 4 5 6]</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T202553Z" creationid="jenya" creationdate="20240221T202553Z">
+        <seg>```nu
+[1 [2 3] 4 [5 6]] | flatten # [1 2 3 4 5 6]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
 ^'C:\Program Files\exiftool.exe'</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240205T110818Z" creationid="jenya" creationdate="20240205T110818Z">
         <seg>```nu
 ^'C:\Program Files\exiftool.exe'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+let colors = [red green blue]
+# Do all color names end with "e"?</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T202442Z" creationid="jenya" creationdate="20240221T202442Z">
+        <seg>```nu
+let colors = [red green blue]
+# Все ли названия цветов заканчиваются на "е"?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+let colors = [red green blue]
+# Do any color names end with "e"?</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T202352Z" creationid="jenya" creationdate="20240221T202018Z">
+        <seg>```nu
+let colors = [red green blue]
+# Названия цветов заканчиваются на "е"?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+let colors = [red green blue]
+$colors | is-empty # false</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T201953Z" creationid="jenya" creationdate="20240221T201953Z">
+        <seg>```nu
+let colors = [red green blue]
+$colors | is-empty # false</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+let colors = [red green blue]
+'blue' in $colors # true
+'yellow' in $colors # false
+'gold' not-in $colors # true
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T202007Z" creationid="jenya" creationdate="20240221T202007Z">
+        <seg>```nu
+let colors = [red green blue]
+'blue' in $colors # true
+'yellow' in $colors # false
+'gold' not-in $colors # true
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+let colors = [red orange yellow green blue purple]
+$colors | where ($it | str ends-with 'e')
+# The block passed to `where` must evaluate to a boolean.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T201607Z" creationid="jenya" creationdate="20240221T201537Z">
+        <seg>```nu
+let colors = [red orange yellow green blue purple]
+$colors | where ($it | str ends-with 'e')
+# Блок, переданный в `where`, должен иметь значение boolean.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+let colors = [red yellow green purple black magenta]
+let colors = ($colors | last 3)
+$colors # [purple black magenta]
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T201226Z" creationid="jenya" creationdate="20240221T201226Z">
+        <seg>```nu
+let colors = [red yellow green purple black magenta]
+let colors = ($colors | last 3)
+$colors # [purple black magenta]
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+let colors = [red yellow green purple]
+let colors = ($colors | skip 1)
+let colors = ($colors | drop 2)
+$colors # [yellow]
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T201138Z" creationid="jenya" creationdate="20240221T201138Z">
+        <seg>```nu
+let colors = [red yellow green purple]
+let colors = ($colors | skip 1)
+let colors = ($colors | drop 2)
+$colors # [yellow]
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+let colors = [yellow green purple]
+let colors = ($colors | first 2)
+$colors # [yellow green]
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T201234Z" creationid="jenya" creationdate="20240221T201234Z">
+        <seg>```nu
+let colors = [yellow green purple]
+let colors = ($colors | first 2)
+$colors # [yellow green]
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+let colors = [yellow green]
+let colors = ($colors | prepend red)
+let colors = ($colors | append purple)
+let colors = ($colors ++ "blue")
+let colors = ("black" ++ $colors)
+$colors # [black red yellow green purple blue]
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T201108Z" creationid="jenya" creationdate="20240221T201108Z">
+        <seg>```nu
+let colors = [yellow green]
+let colors = ($colors | prepend red)
+let colors = ($colors | append purple)
+let colors = ($colors ++ "blue")
+let colors = ("black" ++ $colors)
+$colors # [black red yellow green purple blue]
+```</seg>
       </tuv>
     </tu>
     <tu>
@@ -3471,6 +4994,86 @@ let first = [[a b]; [1 2]]
 let second = [[c d]; [3 4]]
 $first | merge $second
 ───┬───┬───┬───┬───</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+let names = [Mark Tami Amanda Jeremy]
+$names | each { |it| $"Hello, ($it)!" }
+# Outputs "Hello, Mark!" and three more similar lines.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T201452Z" creationid="jenya" creationdate="20240221T201452Z">
+        <seg>```nu
+let names = [Mark Tami Amanda Jeremy]
+$names | each { |it| $"Hello, ($it)!" }
+# Outputs "Hello, Mark!" and three more similar lines.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+let names = [Mark Tami Amanda Jeremy]
+$names.1 # gives Tami
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T201805Z" creationid="jenya" creationdate="20240221T201805Z">
+        <seg>```nu
+let names = [Mark Tami Amanda Jeremy]
+$names.1 # gives Tami
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+let names = [Mark Tami Amanda Jeremy]
+let index = 1
+$names | get $index # gives Tami
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T201815Z" creationid="jenya" creationdate="20240221T201815Z">
+        <seg>```nu
+let names = [Mark Tami Amanda Jeremy]
+let index = 1
+$names | get $index # gives Tami
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+let scores = [3 8 4]
+$"total = ($scores | reduce { |it, acc| $acc + $it })" # total = 15</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T201732Z" creationid="jenya" creationdate="20240221T201732Z">
+        <seg>```nu
+let scores = [3 8 4]
+$"total = ($scores | reduce { |it, acc| $acc + $it })" # total = 15</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+let scores = [7 10 8 6 7]
+$scores | where $it &gt; 7 # [10 8]
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T201634Z" creationid="jenya" creationdate="20240221T201634Z">
+        <seg>```nu
+let scores = [7 10 8 6 7]
+$scores | where $it &gt; 7 # [10 8]
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+let zones = [UTC CET Europe/Moscow Asia/Yekaterinburg]</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T202706Z" creationid="jenya" creationdate="20240221T202706Z">
+        <seg>```nu
+let zones = [UTC CET Europe/Moscow Asia/Yekaterinburg]</seg>
       </tuv>
     </tu>
     <tu>
@@ -3601,6 +5204,38 @@ $ winget install nushell
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>let colors = []
+$colors | is-empty # true
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T201955Z" creationid="jenya" creationdate="20240221T201955Z">
+        <seg>let colors = []
+$colors | is-empty # true
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>let scores = [3 8 4]
+# Are all scores greater than 7?</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T202505Z" creationid="jenya" creationdate="20240221T202505Z">
+        <seg>let scores = [3 8 4]
+# Все ли баллы больше 7?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>let scores = [3 8 4]
+# Are any scores greater than 7?</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T202413Z" creationid="jenya" creationdate="20240221T202340Z">
+        <seg>let scores = [3 8 4]
+# Есть ли оценки, превышающие 7 баллов?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>next_edition │ 2021
 ──────────────┴──────
 ```</seg>
@@ -3631,6 +5266,28 @@ $ winget install nushell
 | Голая строка                        | `ozymandias`            | Нет                            | Может содержать только символы типа "word"; Не может использоваться в командной позиции |
 | Интерполяция с одинарными кавычками | `$'Captain ($name)'`    | Нет                            | Не может содержать ни одной `'` или несопоставимый с обзацом `()`                       |
 | Интерполяция с двойными кавычками   | `$"Captain ($name)"`    | Обратные косые черты в стиле C | Все обратные косые черты и `()` должны быть экранированы                                |</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>| Operator | Description                                                                |
+| -------- | -------------------------------------------------------------------------- |
+| `=`      | Assigns a new value to the variable                                        |
+| `+=`     | Adds a value to the variable and makes the sum its new value               |
+| `-=`     | Subtracts a value from the variable and makes the difference its new value |
+| `*=`     | Multiplies the variable by a value and makes the product its new value     |
+| `/=`     | Divides the variable by a value and makes the quotient its new value       |
+| `++=`    | Appends a list or a value to a variable                                    |</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T204136Z" creationid="jenya" creationdate="20240221T204136Z">
+        <seg>| Оператор | Описание                                                                   |
+| -------- | -------------------------------------------------------------------------- |
+| `=`      | Присваивает переменной новое значение                                      |
+| `+=`     | Добавляет значение к переменной, сумма становаться новым значением         |
+| `-=`     | Вычитает значение из переменной, разность становиться новым значением      |
+| `*=`     | Умножение переменной на значение, произведение становиться новым значением |
+| `/=`     | Делит переменную на значение, частное становаться новым значением          |
+| `++=`    | Добавляет список или значение в переменную                                 |</seg>
       </tuv>
     </tu>
     <tu>
