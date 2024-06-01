@@ -106,6 +106,14 @@ $zones | wrap 'Zone' | upsert Time {|it| (date now | date to-timezone $it.Zone |
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg># Variables</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="user" changedate="20240601T082733Z" creationid="user" creationdate="20240601T082733Z">
+        <seg># Переменные</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg># Variables and Subexpressions</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240221T203036Z" creationid="jenya" creationdate="20240221T202729Z">
@@ -134,6 +142,16 @@ $zones | wrap 'Zone' | upsert Time {|it| (date now | date to-timezone $it.Zone |
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240130T085302Z" creationid="jenya" creationdate="20240130T085302Z">
         <seg># Работа с таблицами</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg># this won't be run
+}</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="user" changedate="20240601T085505Z" creationid="user" creationdate="20240601T085505Z">
+        <seg># this won't be run
+}</seg>
       </tuv>
     </tu>
     <tu>
@@ -496,10 +514,26 @@ $zones | wrap 'Zone' | upsert Time {|it| (date now | date to-timezone $it.Zone |
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>## Types of Variables</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="user" changedate="20240601T082755Z" creationid="user" creationdate="20240601T082755Z">
+        <seg>## Типы переменных</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>## Updating lists</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240221T200715Z" creationid="jenya" creationdate="20240221T200715Z">
         <seg>## Обновление списков</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>## Variable Names</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="user" changedate="20240601T083905Z" creationid="user" creationdate="20240601T083905Z">
+        <seg>## Имена переменных</seg>
       </tuv>
     </tu>
     <tu>
@@ -528,10 +562,26 @@ $zones | wrap 'Zone' | upsert Time {|it| (date now | date to-timezone $it.Zone |
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>### Constant Variables</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="user" changedate="20240601T083013Z" creationid="user" creationdate="20240601T083013Z">
+        <seg>### Постоянные переменные</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>### From string</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240205T131041Z" creationid="jenya" creationdate="20240205T131041Z">
         <seg>### Из строки</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>### Immutable Variables</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="user" changedate="20240601T082807Z" creationid="user" creationdate="20240601T082807Z">
+        <seg>### Неизменяемые переменные</seg>
       </tuv>
     </tu>
     <tu>
@@ -548,6 +598,14 @@ $zones | wrap 'Zone' | upsert Time {|it| (date now | date to-timezone $it.Zone |
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240130T104829Z" creationid="jenya" creationdate="20240130T104829Z">
         <seg>### Перемещение столбцов</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>### Mutable Variables</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="user" changedate="20240601T082817Z" creationid="user" creationdate="20240601T082817Z">
+        <seg>### Переменные с возможностью изменения</seg>
       </tuv>
     </tu>
     <tu>
@@ -672,6 +730,14 @@ $zones | wrap 'Zone' | upsert Time {|it| (date now | date to-timezone $it.Zone |
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>#### More on Mutability</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="user" changedate="20240601T082827Z" creationid="user" creationdate="20240601T082827Z">
+        <seg>#### Подробнее о мутабельности</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>#### Mutable Variables</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240221T203809Z" creationid="jenya" creationdate="20240221T203809Z">
@@ -700,6 +766,18 @@ $zones | wrap 'Zone' | upsert Time {|it| (date now | date to-timezone $it.Zone |
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240221T204555Z" creationid="jenya" creationdate="20240221T204555Z">
         <seg>##### Подробнее о Изменяемости</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>#[test]
+#[ignore]
+def test_skip [] {</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="user" changedate="20240601T085502Z" creationid="user" creationdate="20240601T085502Z">
+        <seg>#[test]
+#[ignore]
+def test_skip [] {</seg>
       </tuv>
     </tu>
     <tu>
@@ -990,6 +1068,18 @@ $zones | wrap 'Zone' | upsert Time {|it| (date now | date to-timezone $it.Zone |
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>- test - test case to be executed during test run
+- test-skip - test case to be skipped during test run
+- before-all - function to run at the beginning of test run.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="user" changedate="20240601T085647Z" creationid="user" creationdate="20240601T085647Z">
+        <seg>- test - тестовый пример, который должен быть выполнен во время выполнения теста
+- test-skip - тестовый пример, который будет пропущен во время выполнения теста
+- before-all - функция для запуска в начале выполнения теста.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>- title: Everything is data</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240127T185140Z" creationid="jenya" creationdate="20240127T185140Z">
@@ -1250,6 +1340,14 @@ features:</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>1 │ std assert (1 == 2)</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="user" changedate="20240601T085608Z" creationid="user" creationdate="20240601T085608Z">
+        <seg>1 │ std assert (1 == 2)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>1 │ trueX | describe</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240205T110653Z" creationid="jenya" creationdate="20240205T110653Z">
@@ -1262,6 +1360,30 @@ features:</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240205T130959Z" creationid="jenya" creationdate="20240205T130959Z">
         <seg>1.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>13 │ def test_failing [] {</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="user" changedate="20240601T085520Z" creationid="user" creationdate="20240601T085520Z">
+        <seg>13 │ def test_failing [] {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>14 │     assert false "This is just for testing"</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="user" changedate="20240601T085522Z" creationid="user" creationdate="20240601T085522Z">
+        <seg>14 │     assert false "This is just for testing"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>15 │ }</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="user" changedate="20240601T085530Z" creationid="user" creationdate="20240601T085530Z">
+        <seg>15 │ }</seg>
       </tuv>
     </tu>
     <tu>
@@ -1534,6 +1656,16 @@ Nu will try to expands all table's structure by default.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>:::tip
+The arguments provided to `select` and `get` are [cell paths](/book/types_of_data.html#cell-paths), a fundamental part of Nu's query language.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="user" changedate="20240601T081928Z" creationid="user" creationdate="20240601T081928Z">
+        <seg>:::tip
+Аргументы, предоставляемые `select` и `get` - это [пути к ячейкам](/book/types_of_data.html#cell-paths), фундаментальная часть языка запросов Nu.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>&lt;  &gt;  &amp;  |
 ```</seg>
       </tuv>
@@ -1604,8 +1736,8 @@ Nu will try to expands all table's structure by default.</seg>
       <tuv lang="en-US">
         <seg>A constant variable is an immutable variable that can be fully evaluated at parse-time.</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T204743Z" creationid="jenya" creationdate="20240221T204743Z">
-        <seg>Константная переменная - это неизменяемая переменная, которая может быть полностью оценена во время разбора.</seg>
+      <tuv lang="ru-RU" changeid="user" changedate="20240601T083826Z" creationid="jenya" creationdate="20240221T204743Z">
+        <seg>Константная переменная - это неизменяемая переменная, которая может быть полностью оценена во время парсинга.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1786,6 +1918,14 @@ Nu will try to expands all table's structure by default.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Download the [testing module](https://raw.githubusercontent.com/nushell/nushell/main/crates/nu-std/testing.nu) and save it as `testing.nu` in the folder with your project.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="user" changedate="20240601T085500Z" creationid="user" creationdate="20240601T085500Z">
+        <seg>Скачайте [модуль тестирования](https://raw.githubusercontent.com/nushell/nushell/main/crates/nu-std/testing.nu) и сохраните его под именем `testing.nu` в папке с вашим проектом.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>During evaluation, a variable is replaced by its value.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240221T203559Z" creationid="jenya" creationdate="20240221T203559Z">
@@ -1820,10 +1960,26 @@ be converted to a separate row with a single column:</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Finally you could also use string interpolation, but that is complex enough that it is covered in its own subsection below.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="user" changedate="20240601T082320Z" creationid="user" creationdate="20240601T082300Z">
+        <seg>Наконец, можно также использовать интерполяцию строк, но это достаточно сложная задача, поэтому она рассматривается в отдельном подразделе ниже.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Finally, the [`split chars`](/commands/docs/split_chars.md) command will split a string into a list of characters.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240205T124129Z" creationid="jenya" creationdate="20240205T124129Z">
         <seg>Наконец, команда [`split chars`](/commands/docs/split_chars.md) разделит строку на список символов.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Finally, there is `null` which is the language's "nothing" value, similar to JSON's "null".</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="user" changedate="20240601T085003Z" creationid="user" creationdate="20240601T085003Z">
+        <seg>Наконец, есть `null` - это значение "ничего" в языке, аналогичное значению "null" в JSON.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2025,6 +2181,15 @@ be converted to a separate row with a single column:</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>However, if `my_path` is a [constant](/book/variables#constant-variables), then this
+would work, since the string can be evaluated at compile-time:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="user" changedate="20240601T085108Z" creationid="user" creationdate="20240601T085108Z">
+        <seg>Однако если `my_path` является [константой](/book/variables#constant-variables), то это сработает, поскольку строка может быть оценена во время компиляции:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>However, they can be 'shadowed'.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240221T203632Z" creationid="jenya" creationdate="20240221T203632Z">
@@ -2169,6 +2334,14 @@ be converted to a separate row with a single column:</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In addition to simple queries like `get name`, you can also do things like `get name?` (will replace missing values with `null` instead of returning an error) or `get some.deeply.nested.column` for nested data.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="user" changedate="20240601T082003Z" creationid="user" creationdate="20240601T082003Z">
+        <seg>Помимо простых запросов типа `get name`, вы также можете делать такие вещи, как `get name?` (заменит отсутствующие значения на `null`, а не вернет ошибку) или `get some.deeply.nested.column` для вложенных данных.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In addition to the standard `==` and `!=` operators, a few operators exist for specifically comparing strings to one another.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240205T130811Z" creationid="jenya" creationdate="20240205T130811Z">
@@ -2205,6 +2378,15 @@ be converted to a separate row with a single column:</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240221T201552Z" creationid="jenya" creationdate="20240221T201552Z">
         <seg>В этом примере мы сохраняем только значения выше `7`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Interpolated strings can be evaluated at parse time, but if they include values whose formatting depends
+on your configuration and your `config.nu` hasn't been loaded yet, they will use the default configuration.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="user" changedate="20240601T082531Z" creationid="user" creationdate="20240601T082531Z">
+        <seg>Интерполированные строки могут быть оценены во время парсинга, но если они содержат значения, форматирование которых зависит от вашей конфигурации, а ваш `config.nu` еще не загружен, они будут использовать конфигурацию по умолчанию.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2491,6 +2673,14 @@ be converted to a separate row with a single column:</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Nushell values can be assigned to named variables using the `let`, `const`, or `mut` keywords.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="user" changedate="20240601T082750Z" creationid="user" creationdate="20240601T082750Z">
+        <seg>Значения Nushell могут быть присвоены именованным переменным с помощью ключевых слов `let`, `const` или `mut`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Of course, backtick strings cannot contain any backticks themselves.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240205T101636Z" creationid="jenya" creationdate="20240205T101500Z">
@@ -2547,6 +2737,36 @@ be converted to a separate row with a single column:</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Receives the context record just like the test cases
+- after-all - function to run after all test cases have been executed.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="user" changedate="20240601T085739Z" creationid="user" creationdate="20240601T085739Z">
+        <seg>Получает запись контекста, как и тестовые случаи
+- after-all - функция для запуска после выполнения всех тестовых примеров.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Returns a global context record that is piped into every test function
+- before-each - function to run before every test case.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="user" changedate="20240601T085700Z" creationid="user" creationdate="20240601T085700Z">
+        <seg>Возвращает глобальную запись контекста, которая передается в каждую тестовую функцию
+- before-each - функция для запуска перед каждым тестовым случаем.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Returns a per-test context record that is merged with global context and piped into test functions
+- after-each - function to run after every test case.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="user" changedate="20240601T085723Z" creationid="user" creationdate="20240601T085723Z">
+        <seg>Возвращает запись контекста для каждого теста, которая объединяется с глобальным контекстом и передается в тестовые функции
+- after-each - функция для запуска после каждого тестового случая.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>See [hooks](/book/hooks.md#changing-how-output-is-displayed) for more information.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240130T085657Z" creationid="jenya" creationdate="20240130T085645Z">
@@ -2599,6 +2819,16 @@ be converted to a separate row with a single column:</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240130T101632Z" creationid="jenya" creationdate="20240130T101632Z">
         <seg>До сих пор мы работали с таблицами, обрезая их только до того, что нам нужно.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>So if you have something like this in your `config.nu`, `x` will be `"2.0 KB"` even if your config says to use
+`MB` for all file sizes (datetimes will similarly use the default config).</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="user" changedate="20240601T082626Z" creationid="user" creationdate="20240601T082543Z">
+        <seg>Так что если в вашем `config.nu` есть что-то вроде этого, `x` будет `"2.0 KB"`, даже если в вашем конфиге указано использовать
+`MB` для всех размеров файлов (datetimes аналогично будет использовать конфигурацию по умолчанию).</seg>
       </tuv>
     </tu>
     <tu>
@@ -2810,6 +3040,14 @@ by adding items in nested lists to the top-level list.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The `testing.nu` module uses the `log` commands from the standard library to display information, so you can set `NU_LOG_LEVEL` if you want more or less details:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="user" changedate="20240601T085805Z" creationid="user" creationdate="20240601T085805Z">
+        <seg>Модуль `testing.nu` использует команды `log` из стандартной библиотеки для отображения информации, поэтому вы можете установить `NU_LOG_LEVEL`, если хотите получить больше или меньше деталей:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The `where size &gt; 10kb` is a command with two parts: the command name [`where`](/commands/docs/where.md) and the short-hand expression `size &gt; 10kb`.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240221T210617Z" creationid="jenya" creationdate="20240221T210617Z">
@@ -2940,10 +3178,18 @@ item, but the [`enumerate`](/commands/docs/enumerate.md) filter can be used to p
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>These are useful with commands that need to know the value of an argument at parse time, like [`source`](/commands/docs/source.md), [`use`](/commands/docs/use.md) and [`plugin use`](/commands/docs/plugin_use.md).</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="user" changedate="20240601T083843Z" creationid="user" creationdate="20240601T083220Z">
+        <seg>Они полезны для команд, которым необходимо знать значение аргумента во время парсинга, например [`source`](/commands/docs/source.md), [`use`](/commands/docs/use.md) и [`plugin use`](/commands/docs/plugin_use.md).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>These are useful with commands that need to know the value of an argument at parse time, like [`source`](/commands/docs/source.md), [`use`](/commands/docs/use.md) and [`register`](/commands/docs/register.md).</seg>
       </tuv>
-      <tuv lang="ru-RU" changeid="jenya" changedate="20240221T204821Z" creationid="jenya" creationdate="20240221T204801Z">
-        <seg>Они полезны для команд, которым необходимо знать значение аргумента во время разбора, например [`source`](/commands/docs/source.md), [`use`](/commands/docs/use.md) и [`register`](/commands/docs/register.md).</seg>
+      <tuv lang="ru-RU" changeid="user" changedate="20240601T083832Z" creationid="jenya" creationdate="20240221T204801Z">
+        <seg>Они полезны для команд, которым необходимо знать значение аргумента во время парсинга, например [`source`](/commands/docs/source.md), [`use`](/commands/docs/use.md) и [`register`](/commands/docs/register.md).</seg>
       </tuv>
     </tu>
     <tu>
@@ -3062,6 +3308,14 @@ and much more.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This doesn't work if `my_path` is a regular runtime variable declared with `let`.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="user" changedate="20240601T085028Z" creationid="user" creationdate="20240601T085028Z">
+        <seg>Это не работает, если `my_path` - обычная переменная времени выполнения, объявленная с помощью `let`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This helps to create a table that's more focused on what we need.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240130T100933Z" creationid="jenya" creationdate="20240130T100933Z">
@@ -3134,6 +3388,15 @@ and much more.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This would require the
+evaluator to run and evaluate the string, but unfortunately Nushell needs this information at compile-time.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="user" changedate="20240601T085052Z" creationid="user" creationdate="20240601T085052Z">
+        <seg>Это потребовало бы от оценщика запускать и оценивать строку, но, к сожалению, Nushell нуждается в этой информации во время компиляции.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Those familiar with Bash and Perl will recognise the regex comparison operators:</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240205T130815Z" creationid="jenya" creationdate="20240205T130801Z">
@@ -3170,6 +3433,30 @@ and much more.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240221T201724Z" creationid="jenya" creationdate="20240221T201724Z">
         <seg>Чтобы изменить `it` на значения `index` и `item`, используйте фильтр [`enumerate`](/commands/docs/enumerate.md).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>To choose columns from a table while leaving it as a table, you'll commonly use the [`select`](/commands/docs/select.md) command with column names:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="user" changedate="20240601T084339Z" creationid="user" creationdate="20240601T084339Z">
+        <seg>Чтобы выбрать столбцы из таблицы, оставив ее в виде таблицы, обычно используется команда [`select`](/commands/docs/select.md) с именами столбцов:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>To ensure that your code works as expected, you can use the [testing module](https://github.com/nushell/nushell/blob/main/crates/nu-std/testing.nu).</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="user" changedate="20240601T085302Z" creationid="user" creationdate="20240601T085302Z">
+        <seg>Чтобы убедиться, что ваш код работает так, как ожидалось, вы можете использовать [модуль тестирования](https://github.com/nushell/nushell/blob/main/crates/nu-std/testing.nu).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>To get specific rows from a table, you'll commonly use the [`select`](/commands/docs/select.md) command with row numbers, as you would with a list:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="user" changedate="20240601T084934Z" creationid="user" creationdate="20240601T084934Z">
+        <seg>Чтобы получить определенные строки из таблицы, обычно используется команда [`select`](/commands/docs/select.md) с номерами строк, как и в случае со списком:</seg>
       </tuv>
     </tu>
     <tu>
@@ -3268,6 +3555,16 @@ of Nu code that specifies what to do to each item.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240221T204858Z" creationid="jenya" creationdate="20240221T204858Z">
         <seg>Имена переменных в Nushell имеют несколько ограничений на то, какие символы они могут содержать.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>WRN|2023-04-12T10:42:31.086|Test case test_skip is skipped
+Error:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="user" changedate="20240601T085540Z" creationid="user" creationdate="20240601T085540Z">
+        <seg>WRN|2023-04-12T10:42:31.086|Test case test_skip is skipped
+Error:</seg>
       </tuv>
     </tu>
     <tu>
@@ -4267,6 +4564,32 @@ land
     <tu>
       <tuv lang="en-US">
         <seg>```nu
+&gt; const my_path = ([$nu.home-path nushell] | path join)
+&gt; source $"($my_path)/common.nu" # sources /home/user/nushell/common.nu
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="user" changedate="20240601T085112Z" creationid="user" creationdate="20240601T085112Z">
+        <seg>```nu
+&gt; const my_path = ([$nu.home-path nushell] | path join)
+&gt; source $"($my_path)/common.nu" # sources /home/user/nushell/common.nu
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+&gt; const x = $"(2kb)"
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="user" changedate="20240601T082630Z" creationid="user" creationdate="20240601T082630Z">
+        <seg>```nu
+&gt; const x = $"(2kb)"
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
 &gt; hello
 Error: nu::shell::external_command</seg>
       </tuv>
@@ -4414,6 +4737,42 @@ greetings, Alice
         <seg>```nu
 &gt; ls
 ───┬───────────────┬──────┬─────────┬────────────</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+&gt; ls -l / | reject readonly num_links inode created accessed modified
+╭────┬────────┬─────────┬─────────┬───────────┬──────┬───────┬────────╮
+│  # │  name  │  type   │ target  │   mode    │ uid  │ group │  size  │
+├────┼────────┼─────────┼─────────┼───────────┼──────┼───────┼────────┤
+│  0 │ /bin   │ symlink │ usr/bin │ rwxrwxrwx │ root │ root  │    7 B │
+│  1 │ /boot  │ dir     │         │ rwxr-xr-x │ root │ root  │ 1.0 KB │
+│  2 │ /dev   │ dir     │         │ rwxr-xr-x │ root │ root  │ 4.1 KB │
+│  3 │ /etc   │ dir     │         │ rwxr-xr-x │ root │ root  │ 3.6 KB │
+│  4 │ /home  │ dir     │         │ rwxr-xr-x │ root │ root  │   12 B │
+│  5 │ /lib   │ symlink │ usr/lib │ rwxrwxrwx │ root │ root  │    7 B │
+│  6 │ /lib64 │ symlink │ usr/lib │ rwxrwxrwx │ root │ root  │    7 B │
+│  7 │ /mnt   │ dir     │         │ rwxr-xr-x │ root │ root  │    0 B │
+...
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="user" changedate="20240601T082131Z" creationid="user" creationdate="20240601T082131Z">
+        <seg>```nu
+&gt; ls -l / | reject readonly num_links inode created accessed modified
+╭────┬────────┬─────────┬─────────┬───────────┬──────┬───────┬────────╮
+│  # │  name  │  type   │ target  │   mode    │ uid  │ group │  size  │
+├────┼────────┼─────────┼─────────┼───────────┼──────┼───────┼────────┤
+│  0 │ /bin   │ symlink │ usr/bin │ rwxrwxrwx │ root │ root  │    7 B │
+│  1 │ /boot  │ dir     │         │ rwxr-xr-x │ root │ root  │ 1.0 KB │
+│  2 │ /dev   │ dir     │         │ rwxr-xr-x │ root │ root  │ 4.1 KB │
+│  3 │ /etc   │ dir     │         │ rwxr-xr-x │ root │ root  │ 3.6 KB │
+│  4 │ /home  │ dir     │         │ rwxr-xr-x │ root │ root  │   12 B │
+│  5 │ /lib   │ symlink │ usr/lib │ rwxrwxrwx │ root │ root  │    7 B │
+│  6 │ /lib64 │ symlink │ usr/lib │ rwxrwxrwx │ root │ root  │    7 B │
+│  7 │ /mnt   │ dir     │         │ rwxr-xr-x │ root │ root  │    0 B │
+...
+```</seg>
       </tuv>
     </tu>
     <tu>
@@ -4809,6 +5168,20 @@ Error: nu::shell::external_command</seg>
     <tu>
       <tuv lang="en-US">
         <seg>```nu
+const script_file = 'path/to/script.nu'
+source $script_file
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="user" changedate="20240601T083846Z" creationid="user" creationdate="20240601T083846Z">
+        <seg>```nu
+const script_file = 'path/to/script.nu'
+source $script_file
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
 let colors = [red green blue]
 # Do all color names end with "e"?</seg>
       </tuv>
@@ -5078,6 +5451,52 @@ let zones = [UTC CET Europe/Moscow Asia/Yekaterinburg]</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>```nu
+❯ use std assert
+❯ std assert (1 == 2)
+Error:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="user" changedate="20240601T085556Z" creationid="user" creationdate="20240601T085556Z">
+        <seg>```nu
+❯ use std assert
+❯ std assert (1 == 2)
+Error:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+❯ use testing.nu run-tests
+❯ NU_LOG_LEVEL=DEBUG run-tests
+❯ NU_LOG_LEVEL=WARNING run-tests
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="user" changedate="20240601T085806Z" creationid="user" creationdate="20240601T085806Z">
+        <seg>```nu
+❯ use testing.nu run-tests
+❯ NU_LOG_LEVEL=DEBUG run-tests
+❯ NU_LOG_LEVEL=WARNING run-tests
+```</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>```nu
+❯ use testing.nu run-tests
+❯ run-tests
+INF|2023-04-12T10:42:29.099|Running tests in test_math
+Error:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="user" changedate="20240601T085509Z" creationid="user" creationdate="20240601T085509Z">
+        <seg>```nu
+❯ use testing.nu run-tests
+❯ run-tests
+INF|2023-04-12T10:42:29.099|Running tests in test_math
+Error:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>```shell
 $ brew install nushell
 ```</seg>
@@ -5292,6 +5711,38 @@ $colors | is-empty # true
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>·                ╰── It is not true.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="user" changedate="20240601T085613Z" creationid="user" creationdate="20240601T085613Z">
+        <seg>·                ╰── It is not true.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>·              ╰── It is not true.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="user" changedate="20240601T085527Z" creationid="user" creationdate="20240601T085527Z">
+        <seg>·              ╰── It is not true.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>·             ───┬──</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="user" changedate="20240601T085611Z" creationid="user" creationdate="20240601T085611Z">
+        <seg>·             ───┬──</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>·            ──┬──</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="user" changedate="20240601T085525Z" creationid="user" creationdate="20240601T085525Z">
+        <seg>·            ──┬──</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>·   ╰── executable was not found</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240205T110525Z" creationid="jenya" creationdate="20240205T110525Z">
@@ -5308,10 +5759,74 @@ $colors | is-empty # true
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>× Assertion failed.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="user" changedate="20240601T085603Z" creationid="user" creationdate="20240601T085603Z">
+        <seg>× Assertion failed.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>× External command failed</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240205T110521Z" creationid="jenya" creationdate="20240205T110521Z">
         <seg>× External command failed</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>× This is just for testing</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="user" changedate="20240601T085533Z" creationid="user" creationdate="20240601T085533Z">
+        <seg>× This is just for testing</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>× some tests did not pass (see complete errors above):</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="user" changedate="20240601T085543Z" creationid="user" creationdate="20240601T085543Z">
+        <seg>× some tests did not pass (see complete errors above):</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>│       test_math test_addition</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="user" changedate="20240601T085546Z" creationid="user" creationdate="20240601T085546Z">
+        <seg>│       test_math test_addition</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>│     s test_math test_skip</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="user" changedate="20240601T085551Z" creationid="user" creationdate="20240601T085551Z">
+        <seg>│     s test_math test_skip</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>│     ⨯ test_math test_failing</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="user" changedate="20240601T085548Z" creationid="user" creationdate="20240601T085548Z">
+        <seg>│     ⨯ test_math test_failing</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>╭─[C:\wip\test_math.nu:13:1]</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="user" changedate="20240601T085516Z" creationid="user" creationdate="20240601T085516Z">
+        <seg>╭─[C:\wip\test_math.nu:13:1]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>╭─[entry #13:1:1]</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="user" changedate="20240601T085606Z" creationid="user" creationdate="20240601T085606Z">
+        <seg>╭─[entry #13:1:1]</seg>
       </tuv>
     </tu>
     <tu>
@@ -5328,6 +5843,16 @@ $colors | is-empty # true
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240205T110526Z" creationid="jenya" creationdate="20240205T110526Z">
         <seg>╰────</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>╰────
+```</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="user" changedate="20240601T085615Z" creationid="user" creationdate="20240601T085615Z">
+        <seg>╰────
+```</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->
