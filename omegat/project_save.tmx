@@ -922,6 +922,14 @@ def test_skip [] {</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>(Not so) Advanced</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20241229T095303Z" creationid="jenya" creationdate="20241229T095303Z">
+        <seg>(Не очень) Продвинутый</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>(Tip: You should always end colored strings with `ansi reset`)</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240205T131133Z" creationid="jenya" creationdate="20240205T131133Z">
@@ -1962,6 +1970,14 @@ The arguments provided to `select` and `get` are [cell paths](/book/types_of_dat
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>&lt;g1&gt;Creating Modules&lt;/g1&gt;</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20241229T101446Z" creationid="jenya" creationdate="20241229T101446Z">
+        <seg>&lt;g1&gt;Создание модулей&lt;/g1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>&lt;g1&gt;Creating your own errors&lt;/g1&gt; - Creating your own error messages</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20241229T094456Z" creationid="jenya" creationdate="20241229T094437Z">
@@ -2170,6 +2186,14 @@ The arguments provided to `select` and `get` are [cell paths](/book/types_of_dat
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>&lt;g1&gt;Using Modules&lt;/g1&gt;</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20241229T101441Z" creationid="jenya" creationdate="20241229T101441Z">
+        <seg>&lt;g1&gt;Использование модулей&lt;/g1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>&lt;g1&gt;Variables&lt;/g1&gt; - Working with variables</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20241229T094240Z" creationid="jenya" creationdate="20241229T094240Z">
@@ -2332,6 +2356,14 @@ The arguments provided to `select` and `get` are [cell paths](/book/types_of_dat
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Additional custom commands</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20241229T101333Z" creationid="jenya" creationdate="20241229T101333Z">
+        <seg>Дополнительные пользовательские команды</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>After creating a variable, we can refer to it using `$` followed by its name.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240221T203608Z" creationid="jenya" creationdate="20240221T203608Z">
@@ -2344,6 +2376,22 @@ The arguments provided to `select` and `get` are [cell paths](/book/types_of_dat
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240127T190452Z" creationid="jenya" creationdate="20240127T190452Z">
         <seg>После установки запустите Nu, набрав `nu`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Aliases</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20241229T101340Z" creationid="jenya" creationdate="20241229T101340Z">
+        <seg>Псевдонимы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Almost anything can be a plugin as long as it communicates with Nushell in a protocol that Nushell understands.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20241229T095923Z" creationid="jenya" creationdate="20241229T095923Z">
+        <seg>Почти все может быть плагином, если оно взаимодействует с Nushell по протоколу, который понимает Nushell.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2376,6 +2424,14 @@ cat unknown.txt o+e&gt; (std null-device)
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240221T203622Z" creationid="jenya" creationdate="20240221T203622Z">
         <seg>Неизменяемая переменная не может изменить свое значение после объявления.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>And even other modules (a.k.a., submodules)</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20241229T101415Z" creationid="jenya" creationdate="20241229T101415Z">
+        <seg>И даже другие модули (они же подмодули).</seg>
       </tuv>
     </tu>
     <tu>
@@ -2424,6 +2480,14 @@ cat unknown.txt o+e&gt; (std null-device)
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240205T124014Z" creationid="jenya" creationdate="20240205T124014Z">
         <seg>Начиная с версии 0.61, интерполированные строки поддерживают экранирование круглых скобок, так что символы `(` и `)` могут использоваться в строке без того, чтобы Nushell пытался оценить то, что появляется между ними:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Besides the built-in commands, Nushell has a &lt;g1&gt;standard library&lt;/g1&gt;.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20241229T095415Z" creationid="jenya" creationdate="20241229T095415Z">
+        <seg>Помимо встроенных команд, в Nushell есть &lt;g1&gt;стандартная библиотека&lt;/g1&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2508,6 +2572,14 @@ cat unknown.txt o+e&gt; (std null-device)
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Constants</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20241229T101344Z" creationid="jenya" creationdate="20241229T101344Z">
+        <seg>Константы</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Contributing to this book does not require any special skills aside from a basic familiarity with Markdown.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240127T194801Z" creationid="jenya" creationdate="20240127T194801Z">
@@ -2558,6 +2630,14 @@ be converted to a separate row with a single column:</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Environment variables</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20241229T101406Z" creationid="jenya" creationdate="20241229T101406Z">
+        <seg>Переменные среды</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Escape characters let you quickly add in a character that would otherwise be hard to type.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240205T104117Z" creationid="jenya" creationdate="20240205T103501Z">
@@ -2594,6 +2674,14 @@ be converted to a separate row with a single column:</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="user" changedate="20240601T085003Z" creationid="user" creationdate="20240601T085003Z">
         <seg>Наконец, есть `null` - это значение "ничего" в языке, аналогичное значению "null" в JSON.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Finally, you can extend Nushell's functionality with &lt;g1&gt;plugins&lt;/g1&gt;.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20241229T095911Z" creationid="jenya" creationdate="20241229T095911Z">
+        <seg>Наконец, вы можете расширить функциональность Nushell с помощью &lt;g1&gt;плагинов&lt;/g1&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3298,10 +3386,26 @@ on your configuration and your `config.nu` hasn't been loaded yet, they will use
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Like many programming languages, Nushell supports writing and using &lt;g1&gt;modules&lt;/g1&gt; as a way to organize code more efficiently.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20241229T095947Z" creationid="jenya" creationdate="20241229T095947Z">
+        <seg>Как и многие другие языки программирования, Nushell поддерживает написание и использование &lt;g1&gt;модулей&lt;/g1&gt; как способ более эффективной организации кода.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Like other shell languages (but unlike most other programming languages) strings consisting of a single 'word' can also be written without any quotes:</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240205T110320Z" creationid="jenya" creationdate="20240205T110320Z">
         <seg>Как и в других языках оболочки (но в отличие от большинства других языков программирования), строки, состоящие из одного "слова", могут быть записаны без кавычек:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Make sure to check the &lt;g3&gt;Dataframes documentation&lt;/g3&gt; if you want to process large data efficiently directly in your shell.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20241229T095639Z" creationid="jenya" creationdate="20241229T095639Z">
+        <seg>Обязательно ознакомьтесь с документацией &lt;g3&gt;Dataframes&lt;/g3&gt;, если вы хотите эффективно обрабатывать большие данные прямо в оболочке.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3314,10 +3418,26 @@ on your configuration and your `config.nu` hasn't been loaded yet, they will use
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Many users will start off using modules written by others, then progress to writing their own.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20241229T101425Z" creationid="jenya" creationdate="20241229T101425Z">
+        <seg>Многие пользователи начинают с использования модулей, написанных другими, а затем переходят к написанию своих собственных.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Modules</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20241229T093331Z" creationid="jenya" creationdate="20241229T093331Z">
         <seg>Модули</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Modules can be thought of a "containers" that hold various definitions, including:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20241229T101313Z" creationid="jenya" creationdate="20241229T101259Z">
+        <seg>Модули можно рассматривать как «контейнеры», в которых хранятся различные определения, в том числе:</seg>
       </tuv>
     </tu>
     <tu>
@@ -3454,6 +3574,14 @@ on your configuration and your `config.nu` hasn't been loaded yet, they will use
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240127T194535Z" creationid="jenya" creationdate="20240127T194535Z">
         <seg>Сам Nushell написан на языке [Rust](https://www.rust-lang.org).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Nushell operates on &lt;g1&gt;structured data&lt;/g1&gt;.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20241229T095423Z" creationid="jenya" creationdate="20241229T095423Z">
+        <seg>Nushell работает с &lt;g1&gt;структурированными данными&lt;/g1&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3597,6 +3725,14 @@ on your configuration and your `config.nu` hasn't been loaded yet, they will use
       <tuv lang="ru-RU" changeid="user" changedate="20240601T085723Z" creationid="user" creationdate="20240601T085723Z">
         <seg>Возвращает запись контекста для каждого теста, которая объединяется с глобальным контекстом и передается в тестовые функции
 - after-each - функция для запуска после каждого тестового случая.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Running System (External) Commands</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20241229T101504Z" creationid="jenya" creationdate="20241229T101504Z">
+        <seg>Выполнение системных (внешних) команд</seg>
       </tuv>
     </tu>
     <tu>
@@ -3820,6 +3956,14 @@ matches your needs.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20241229T090854Z" creationid="jenya" creationdate="20241229T090854Z">
         <seg># Содержание</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Thanks to Nushell's strict scoping rules, it is very easy to &lt;g1&gt;iterate over collections in parallel&lt;/g1&gt; which can help you speed up long-running scripts by just typing a few characters.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20241229T095837Z" creationid="jenya" creationdate="20241229T095837Z">
+        <seg>Благодаря строгим правилам определения объемов в Nushell очень легко &lt;g1&gt;параллельно выполнять итерацию над коллекциями&lt;/g1&gt;, что может помочь вам ускорить долго выполняющиеся скрипты, просто набрав несколько символов.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4242,6 +4386,14 @@ and much more.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This chapter covers those two topics:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20241229T101432Z" creationid="jenya" creationdate="20241229T101432Z">
+        <seg>Эта глава посвящена этим двум темам:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This chapter intends to give more in-depth overview of certain aspects of Nushell's design.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20241229T092923Z" creationid="jenya" creationdate="20241229T092923Z">
@@ -4302,6 +4454,14 @@ and much more.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240130T103954Z" creationid="jenya" creationdate="20240130T103954Z">
         <seg>Это позволяет нам выполнять множество различных видов работ в нашем конвейере до тех пор, пока мы не будем готовы написать результат с любыми изменениями, которые мы захотим, если захотим.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This metadata can be used, for example, to &lt;g2&gt;create custom errors&lt;/g2&gt;.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20241229T095805Z" creationid="jenya" creationdate="20241229T095805Z">
+        <seg>Эти метаданные можно использовать, например, для &lt;g2&gt;создания пользовательских ошибок&lt;/g2&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4399,6 +4559,14 @@ evaluator to run and evaluate the string, but unfortunately Nushell needs this i
       </tuv>
       <tuv lang="ru-RU" changeid="user" changedate="20240601T085302Z" creationid="user" creationdate="20240601T085302Z">
         <seg>Чтобы убедиться, что ваш код работает так, как ожидалось, вы можете использовать [модуль тестирования](https://github.com/nushell/nushell/blob/main/crates/nu-std/testing.nu).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>To further explore the data-centric direction, Nushell includes a full-featured dataframe processing engine using &lt;g2&gt;Polars&lt;/g2&gt; as the backend.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20241229T095610Z" creationid="jenya" creationdate="20241229T095610Z">
+        <seg>Для дальнейшего развития направления, ориентированного на данные, Nushell включает в себя полнофункциональный механизм обработки фреймов данных, использующий &lt;g2&gt;Polars&lt;/g2&gt; в качестве бэкенда.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4521,6 +4689,14 @@ of Nu code that specifies what to do to each item.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240205T131024Z" creationid="jenya" creationdate="20240205T131024Z">
         <seg>Использование строчной интерполяции.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Values in Nushell contain some extra &lt;g1&gt;metadata&lt;/g1&gt;.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20241229T095751Z" creationid="jenya" creationdate="20241229T095751Z">
+        <seg>Значения в Nushell содержат некоторые дополнительные &lt;g1&gt;метаданные&lt;/g1&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4703,6 +4879,14 @@ Error:</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>While the "Advanced" title might sound daunting and you might be tempted to skip this chapter, in fact, some of the most interesting and powerful features can be found here.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20241229T095359Z" creationid="jenya" creationdate="20241229T095359Z">
+        <seg>Хотя название «Продвинутый» может показаться пугающим, и у вас может возникнуть соблазн пропустить эту главу, на самом деле здесь можно найти некоторые из самых интересных и мощных функций.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>With the [`fill`](/commands/docs/fill.md) command you can add padding to a string.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240205T130037Z" creationid="jenya" creationdate="20240205T130037Z">
@@ -4723,6 +4907,14 @@ Error:</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240221T210216Z" creationid="jenya" creationdate="20240221T210216Z">
         <seg>Если бы не было оператора вопросительного знака, вместо него была бы выдана ошибка</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can &lt;g1&gt;interactively explore data&lt;/g1&gt; with the &lt;g2&gt;&lt;g3&gt;explore&lt;/g3&gt;&lt;/g2&gt; command.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20241229T095844Z" creationid="jenya" creationdate="20241229T095844Z">
+        <seg>Вы можете &lt;g1&gt;интерактивно исследовать данные&lt;/g1&gt; с помощью команды &lt;g2&gt;&lt;g3&gt;explore&lt;/g3&gt;&lt;/g2&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4931,6 +5123,14 @@ Error:</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240130T104835Z" creationid="jenya" creationdate="20240130T104835Z">
         <seg>Вы можете использовать [`move`](/commands/docs/move.md) для перемещения столбцов в таблице.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You could say that Nushell is a "data-first" shell and a programming language.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20241229T095527Z" creationid="jenya" creationdate="20241229T095527Z">
+        <seg>Можно сказать, что Nushell - это "ориентированная на данные" оболочка и язык программирования.</seg>
       </tuv>
     </tu>
     <tu>
