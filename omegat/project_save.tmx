@@ -1868,6 +1868,16 @@ features:</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>::: note
+On Windows, &lt;g1&gt;ls&lt;/g1&gt; is a PowerShell &lt;g2&gt;alias&lt;/g2&gt; by default, so &lt;g3&gt;^ls&lt;/g3&gt; will not find a matching system &lt;g4&gt;command&lt;/g4&gt;.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20241229T102326Z" creationid="jenya" creationdate="20241229T102326Z">
+        <seg>::: note
+В Windows &lt;g1&gt;ls&lt;/g1&gt; по умолчанию является PowerShell &lt;g2&gt;alias&lt;/g2&gt;, поэтому &lt;g3&gt;^ls&lt;/g3&gt; не найдет подходящей системной &lt;g4&gt;команды&lt;/g4&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>::: tip Changing how tables are displayed
 Nu will try to expands all table's structure by default.</seg>
       </tuv>
@@ -2218,6 +2228,14 @@ The arguments provided to `select` and `get` are [cell paths](/book/types_of_dat
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>&lt;g2&gt;Coming from CMD.EXE&lt;/g2&gt; contains a list of these commands and describes the behavior in more detail.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20241229T102451Z" creationid="jenya" creationdate="20241229T102451Z">
+        <seg>&lt;g2&gt;Входящие из CMD.EXE&lt;/g2&gt; содержит список этих команд и более подробно описывает их поведение.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>&lt;img src="https://www.nushell.sh/frontpage/fetch-example.png" alt="Screenshot showing fetch with a web API" class="hero"/&gt;</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240127T185552Z" creationid="jenya" creationdate="20240127T185552Z">
@@ -2352,6 +2370,14 @@ The arguments provided to `select` and `get` are [cell paths](/book/types_of_dat
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240221T210134Z" creationid="jenya" creationdate="20240221T210134Z">
         <seg>Доступ к значениям, как показано выше, может привести к ошибкам, если используемый путь не существует.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Additional Windows Notes</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20241229T102349Z" creationid="jenya" creationdate="20241229T102349Z">
+        <seg>Дополнительные заметки о Windows</seg>
       </tuv>
     </tu>
     <tu>
@@ -2642,6 +2668,14 @@ be converted to a separate row with a single column:</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240205T104117Z" creationid="jenya" creationdate="20240205T103501Z">
         <seg>Управляющие символы позволяют быстро добавить символ, который иначе было бы трудно набрать.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>External command (typically &lt;g1&gt;/usr/bin/ls&lt;/g1&gt;):</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20241229T102301Z" creationid="jenya" creationdate="20241229T102301Z">
+        <seg>Внешняя команда (обычно &lt;g1&gt;/usr/bin/ls&lt;/g1&gt;):</seg>
       </tuv>
     </tu>
     <tu>
@@ -3506,10 +3540,26 @@ on your configuration and your `config.nu` hasn't been loaded yet, they will use
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Nu Fundamentals</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20241229T102501Z" creationid="jenya" creationdate="20241229T102501Z">
+        <seg>Основы Nu</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Nu comes with a number of commands for working with tables to make it convenient to find what you're looking for, and for narrowing down the data to just what you need.</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240130T085441Z" creationid="jenya" creationdate="20240130T085441Z">
         <seg>В Nu входит ряд команд для работы с таблицами, позволяющих легко найти то, что вы ищете, и сузить круг данных до нужных вам.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Nu internal command:</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20241229T102225Z" creationid="jenya" creationdate="20241229T102225Z">
+        <seg>Внутренняя команда Nu:</seg>
       </tuv>
     </tu>
     <tu>
@@ -3526,6 +3576,14 @@ on your configuration and your `config.nu` hasn't been loaded yet, they will use
       </tuv>
       <tuv lang="ru-RU" changeid="user" changedate="20240601T105312Z" creationid="user" creationdate="20240601T105312Z">
         <seg>Плагины Nu являются исполняемыми файлами; Nu запускает их по мере необходимости и взаимодействует с ними через [stdin и stdout](https://en.wikipedia.org/wiki/Standard_streams) или [локальные сокеты](https://en.wikipedia.org/wiki/Inter-process_communication).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Nu provides a set of commands that you can use across different operating systems ("internal" commands) and having this consistency is helpful when creating cross-platform code.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20241229T102007Z" creationid="jenya" creationdate="20241229T102007Z">
+        <seg>Nu предоставляет набор команд, которые вы можете использовать в разных операционных системах («внутренние» команды), и такая согласованность полезна при создании кроссплатформенного кода.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3654,6 +3712,14 @@ on your configuration and your `config.nu` hasn't been loaded yet, they will use
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240205T130050Z" creationid="jenya" creationdate="20240205T130050Z">
         <seg>Вставка добавляет символы в строку до определенной длины.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Prefacing with the caret calls the external command found in the user's &lt;g5&gt;PATH&lt;/g5&gt; (e.g. &lt;g6&gt;/bin/ls&lt;/g6&gt;) instead of Nu's internal &lt;g7&gt;&lt;g8&gt;ls&lt;/g8&gt;&lt;/g7&gt; command).</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20241229T102219Z" creationid="jenya" creationdate="20241229T102219Z">
+        <seg>Префикс с каретой вызывает внешнюю команду, найденную в &lt;g5&gt;PATH&lt;/g5&gt; пользователя (например, &lt;g6&gt;/bin/ls&lt;/g6&gt;), вместо внутренней команды Nu &lt;g7&gt;&lt;g8&gt;ls&lt;/g8&gt;&lt;/g7&gt;).</seg>
       </tuv>
     </tu>
     <tu>
@@ -3867,6 +3933,14 @@ cat unknown.txt o&gt; out.log e&gt; err.log</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240130T101648Z" creationid="jenya" creationdate="20240130T101648Z">
         <seg>Иногда мы можем захотеть пойти дальше и просмотреть только значения в самих ячейках, а не брать весь столбец.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sometimes, though, you want to run an external command that has the same name as an internal Nu command.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20241229T102015Z" creationid="jenya" creationdate="20241229T102015Z">
+        <seg>Однако иногда требуется запустить внешнюю команду, которая имеет то же имя, что и внутренняя команда Nu.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4605,6 +4679,14 @@ of Nu code that specifies what to do to each item.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>To run the external &lt;g1&gt;&lt;g2&gt;ls&lt;/g2&gt;&lt;/g1&gt; or &lt;g3&gt;&lt;g4&gt;date&lt;/g4&gt;&lt;/g3&gt; command, for example, preface it with the caret (^) sigil.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20241229T102156Z" creationid="jenya" creationdate="20241229T102156Z">
+        <seg>Чтобы запустить внешнюю команду &lt;g1&gt;&lt;g2&gt;ls&lt;/g2&gt;&lt;/g1&gt; или &lt;g3&gt;&lt;g4&gt;date&lt;/g4&gt;&lt;/g3&gt;, например, предварите ее сигилом каретки (^).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>To see it in action let's open the same file:</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240130T104137Z" creationid="jenya" creationdate="20240130T104137Z">
@@ -4867,6 +4949,16 @@ Error:</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240130T101136Z" creationid="jenya" creationdate="20240130T101136Z">
         <seg>Мы сузили круг до трех рядов, которые нас волнуют.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>When running an external command on Windows,
+Nushell forwards some &lt;g1&gt;CMD.EXE&lt;/g1&gt; internal commands to cmd instead of attempting to run external commands.</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20241229T102442Z" creationid="jenya" creationdate="20241229T102442Z">
+        <seg>При выполнении внешней команды в Windows,
+Nushell пересылает некоторые внутренние команды &lt;g1&gt;CMD.EXE&lt;/g1&gt; в cmd вместо того, чтобы пытаться запустить внешние команды.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5215,6 +5307,14 @@ Error:</seg>
       </tuv>
       <tuv lang="ru-RU" changeid="jenya" changedate="20240221T201137Z" creationid="jenya" creationdate="20240221T201137Z">
         <seg>[`skip`](/commands/docs/skip.md) позволяет пропускать первые строки, а [`drop`](/commands/docs/drop.md) позволяет пропускать определенные пронумерованные строки из конца списка.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>^ls</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20241229T102303Z" creationid="jenya" creationdate="20241229T102303Z">
+        <seg>^ls</seg>
       </tuv>
     </tu>
     <tu>
@@ -6979,6 +7079,14 @@ $colors | is-empty # true
       <tuv lang="ru-RU" changeid="jenya" changedate="20240221T202413Z" creationid="jenya" creationdate="20240221T202340Z">
         <seg>let scores = [3 8 4]
 # Есть ли оценки, превышающие 7 баллов?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ls</seg>
+      </tuv>
+      <tuv lang="ru-RU" changeid="jenya" changedate="20241229T102227Z" creationid="jenya" creationdate="20241229T102227Z">
+        <seg>ls</seg>
       </tuv>
     </tu>
     <tu>
